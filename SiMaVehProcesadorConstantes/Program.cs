@@ -10,14 +10,15 @@ namespace SiMaVehProcesadorConstantes
         {
             //Config
 
-            int startId = 217;
-            string nombreClaseConstante = "PartidoCorientes";
+            int startId = 497;
+            string nombreClaseConstante = "PartidoTucuman";
+            string baseDirectory = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "SmvConstantesProcesadas"); ;
 
             //End config
 
             var infoLineas = new List<InfoLinea>();
 
-            string inputPath = @"C:\Users\Alex Humar\Desktop\SMVCONSTANTES\Input.txt";
+            string inputPath = Path.Combine(baseDirectory, "Input.txt");
             // Open the file to read from.
             using (StreamReader sr = File.OpenText(inputPath))
             {
@@ -32,7 +33,7 @@ namespace SiMaVehProcesadorConstantes
                 }
             }
 
-            string outputConstantesPath = @"C:\Users\Alex Humar\Desktop\SMVCONSTANTES\Output_Constantes.txt";
+            string outputConstantesPath = Path.Combine(baseDirectory, "Output_Constantes.txt");
             if (!File.Exists(outputConstantesPath))
             {
                 // Create a file to write to.
@@ -49,7 +50,7 @@ namespace SiMaVehProcesadorConstantes
                 }
             }
 
-            string outputDictionaryPath = @"C:\Users\Alex Humar\Desktop\SMVCONSTANTES\Output_Dictionary.txt";
+            string outputDictionaryPath = Path.Combine(baseDirectory, "Output_Dictionary.txt");
             if (!File.Exists(outputDictionaryPath))
             {
                 // Create a file to write to.
@@ -81,8 +82,30 @@ namespace SiMaVehProcesadorConstantes
 
         private static string ProcesarPalabra(string palabra)
         {
-            return palabra.Replace('á', 'a').Replace('é', 'e').Replace('í', 'i')
-                .Replace('ó', 'o').Replace('ú', 'u').Replace('ñ', 'n');
+            return palabra
+                .Replace('á', 'a')
+                .Replace('é', 'e')
+                .Replace('í', 'i')
+                .Replace('ó', 'o')
+                .Replace('ú', 'u')
+                .Replace('ä', 'a')
+                .Replace('ë', 'e')
+                .Replace('ï', 'i')
+                .Replace('ö', 'o')
+                .Replace('ü', 'u')
+                .Replace('Á', 'A')
+                .Replace('É', 'E')
+                .Replace('Í', 'I')
+                .Replace('Ó', 'O')
+                .Replace('Ú', 'U')
+                .Replace('Ä', 'A')
+                .Replace('Ë', 'E')
+                .Replace('Ï', 'I')
+                .Replace('Ö', 'O')
+                .Replace('Ü', 'U')
+                .Replace('ñ', 'n')
+                .Replace('Ñ', 'N')
+                .Replace(".", "");
         }
     }
 }

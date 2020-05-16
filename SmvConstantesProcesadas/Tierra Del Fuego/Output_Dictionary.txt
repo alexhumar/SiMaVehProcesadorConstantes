@@ -1,0 +1,5 @@
+{ 492, PartidoTierraDelFuego.AntartidaArgentina },
+{ 493, PartidoTierraDelFuego.IslasDelAtlanticoSur },
+{ 494, PartidoTierraDelFuego.RioGrande },
+{ 495, PartidoTierraDelFuego.Tolhuin },
+{ 496, PartidoTierraDelFuego.Ushuaia },
