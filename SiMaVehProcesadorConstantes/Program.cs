@@ -10,8 +10,8 @@ namespace SiMaVehProcesadorConstantes
         {
             //Config
 
-            int startId = 497;
-            string nombreClaseConstante = "PartidoTucuman";
+            int startId = 1;
+            string nombreClaseConstante = "PartidoBuenosAires";
             string baseDirectory = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "SmvConstantesProcesadas"); ;
 
             //End config
@@ -105,7 +105,9 @@ namespace SiMaVehProcesadorConstantes
                 .Replace('Ü', 'U')
                 .Replace('ñ', 'n')
                 .Replace('Ñ', 'N')
-                .Replace(".", "");
+                .Replace(".", "")
+                .Replace("'", "")
+                .Replace("º", "");
         }
     }
 }
