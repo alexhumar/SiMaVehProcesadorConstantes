@@ -1,2 +1,98 @@
-
--FIN PARTIDO 
+Bella Vista
+Tres de Abril
+-FIN PARTIDO Bella Vista
+Berón de Astrada
+-FIN PARTIDO Berón de Astrada
+Corrientes
+Riachuelo
+-FIN PARTIDO Capital
+Concepción
+Santa Rosa
+Tabay
+Tatacuá
+-FIN PARTIDO Concepción
+Curuzú Cuatiá
+Perugorría
+Cazadores Correntinos
+-FIN PARTIDO Curuzú Cuatiá
+Empedrado
+El Sombrero
+-FIN PARTIDO Empedrado
+Esquina
+Pueblo Libertador
+-FIN PARTIDO Esquina
+Alvear
+Estación Torrent
+-FIN PARTIDO General Alvear
+Itá Ibaté
+Lomas de Vallejos
+Nuestra Señora del Rosario de Caá Catí
+Palmar Grande
+-FIN PARTIDO General Paz
+Goya
+Colonia Carolina
+San Isidro
+-FIN PARTIDO Goya
+Itatí
+Ramada Paso
+-FIN PARTIDO Itatí
+Colonia Liebig's
+Ituzaingó
+San Antonio
+San Carlos
+Villa Olivari
+-FIN PARTIDO Ituzaingó
+Cruz de los Milagros
+Gobernador Juan E. Martínez
+Lavalle
+Santa Lucía
+Yataytí Calle
+Cecilio Echeverría
+-FIN PARTIDO Lavalle
+Mburucuyá
+-FIN PARTIDO Mburucuyá
+Felipe Yofre
+Mariano I. Loza
+Mercedes
+-FIN PARTIDO Mercedes
+Colonia Libertad
+Juan Pujol
+Mocoretá
+Monte Caseros
+-FIN PARTIDO Monte Caseros
+Parada Pucheta
+Paso de los Libres
+Tapebicuá
+-FIN PARTIDO Paso de los Libres
+Saladas
+San Lorenzo
+Pago de los Deseos
+-FIN PARTIDO Saladas
+Paso de la Patria
+San Cosme
+Santa Ana de los Guácaras
+-FIN PARTIDO San Cosme
+Herlitzka
+San Luis del Palmar
+-FIN PARTIDO San Luis del Palmar
+Colonia Carlos Pellegrini
+Guaviraví
+La Cruz
+Yapeyú
+-FIN PARTIDO San Martín
+Loreto
+San Miguel
+-FIN PARTIDO San Miguel
+Chavarría
+Colonia Pando1​
+Nueve de Julio
+Pedro R. Fernández
+San Roque
+-FIN PARTIDO San Roque
+Garruchos
+Gobernador Virasoro
+Garavi
+Santo Tomé
+-FIN PARTIDO Santo Tomé
+Sauce
+-FIN PARTIDO Sauce
