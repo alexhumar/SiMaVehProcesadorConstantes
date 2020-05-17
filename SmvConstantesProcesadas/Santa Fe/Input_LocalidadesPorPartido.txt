@@ -1,0 +1,345 @@
+Rosario
+Villa Gobernador Gálvez
+Granadero Baigorria
+Pérez
+Funes
+Arroyo Seco
+Pueblo Esther
+Álvarez
+Acebal
+Zavalla
+Fighiera
+Alvear
+Ibarlucea
+General Lagos
+Soldini
+Coronel Bogado
+Piñero
+Villa Amelia
+Coronel Domínguez
+Pueblo Uranga
+Carmen del Sauce
+Pueblo Muñoz
+Albarellos
+Arminda
+-FIN PARTIDO Rosario
+Santa Fe
+Arroyo Aguiar
+Arroyo Leyes
+Cabal
+Campo Andino
+Candioti
+Emilia
+Laguna Paiva
+Llambi Campbell
+Monte Vera
+Nelson
+Recreo
+San José del Rincón
+Santo Tomé
+Sauce Viejo
+-FIN PARTIDO La Capital
+Venado Tuerto
+Firmat
+Rufino
+Wheelwright
+Villa Cañás
+Teodelina
+Elortondo
+Hughes
+San Gregorio
+Santa Isabel
+María Teresa
+Murphy
+Sancti Spíritu
+Chovet
+Melincué
+Maggiolo
+Diego de Alvear
+Carreras
+Carmen
+Cafferata
+Amenábar
+San Eduardo
+Labordeboy
+Cañada del Ucle
+Christophersen
+Chapuy
+Lazzarino
+La Chispa
+Miguel Torres
+San Francisco de Sta Fe
+Aarón Castellanos
+-FIN PARTIDO General López
+Rafaela
+Sunchales
+Frontera
+San Vicente
+Humberto Primo
+María Juana
+Lehmann
+Josefina
+Santa Clara de Saguier
+Ataliva
+-FIN PARTIDO Castellanos
+Avellaneda
+Las Toscas
+Malabrigo
+Reconquista
+Villa Ocampo
+Arroyo Ceibal
+Berna
+El Arazá
+El Rabón
+El Sombrerito
+Florencia
+Guadalupe Norte
+Ingeniero Chanourdie
+La Sarita
+Lanteri
+Las Garzas
+Los Laureles
+Nicanor Molinas
+San Antonio de Obligado
+Tacuarendí
+Villa Ana
+Villa Guillermina
+-FIN PARTIDO General Obligado
+Aldao
+Coronel Arnold
+Fuentes
+Pujato
+Ricardone
+San Jerónimo Sud
+Timbúes
+Villa Mugueta
+Luis Palacios
+Capitán Bermúdez
+Carcarañá
+Fray Luis Beltrán
+Puerto General San Martín
+Roldán
+San Lorenzo
+-FIN PARTIDO San Lorenzo
+Esperanza
+San Carlos Centro
+Colonia Cavour
+Colonia San José
+Cululú
+Elisa
+Empalme San Carlos
+Felicia
+Franck
+Grutly
+Hipatía
+Humboldt
+Ituzaingó
+Jacinto L. Aráuz
+La Pelada
+Las Tunas
+María Luisa
+Matilde
+Nuevo Torino
+Pilar
+Progreso
+Providencia
+Pujato Norte
+Rivadavia
+Sa Pereira
+San Agustín
+San Carlos Norte
+San Carlos Sud
+San Jerónimo del Sauce
+San Jerónimo Norte
+San Mariano
+Santa Clara de Buena Vista
+Santa María Centro
+Santa María Norte
+Santo Domingo
+Sarmiento
+Soutomayor
+-FIN PARTIDO Las Colonias
+Villa Constitución
+Alcorta
+Bombal
+Cañada Rica
+Cepeda
+Empalme Villa Constitución
+General Gelly
+Godoy
+Juan Bernabé Molina
+Juncal
+La Vanguardia
+Máximo Paz
+Pavón
+Pavón Arriba
+Peyrano
+Rueda
+Santa Teresa
+Sargento Cabral
+Theobald
+-FIN PARTIDO Constitución
+Casilda
+Arequito
+Arteaga
+Berabevú
+Bigand
+Chabás
+Chañar Ladeado
+Gödeken
+Los Molinos
+Los Nogales
+Los Quirquinchos
+San José de la Esquina
+Sanford
+Villada
+-FIN PARTIDO Caseros
+Coronda
+Gálvez
+San Genaro
+Arocena
+Barrancas
+Bernardo de Irigoyen
+Campo Piaggio
+Casalegno
+Centeno
+Desvío Arijón
+Díaz
+Gaboto
+Gessler
+Larrechea
+Loma Alta
+López
+Maciel
+Monje
+Pueblo Irigoyen
+San Eugenio
+San Fabián
+-FIN PARTIDO San Jerónimo
+Ceres
+San Cristóbal
+Aguará Grande
+Ambrosetti
+Arrufó
+Capivara
+Colonia Ana
+Colonia Bossi
+Colonia Clara
+Colonia Dos Rosas y La Legua
+Colonia Rosa
+Constanza
+Curupaity
+Hersilia
+Huanqueros
+La Cabral
+La Lucila
+La Rubia
+Las Avispas
+Las Palmeras
+Moisés Ville
+Monigotes
+Monte Oscuridad
+Ñanducita
+Palacios
+Portugalete
+San Guillermo
+Santurce
+Soledad
+Suardi
+Villa Saralegui
+Villa Trinidad
+-FIN PARTIDO San Cristóbal
+Cañada de Gómez
+Totoras
+Bustinza
+Clarke
+Clason
+Correa
+Lucio V. López
+Oliveros
+Pueblo Andino
+Salto Grande
+Serodino
+Villa Eloísa
+-FIN PARTIDO Iriondo
+El Trébol
+San Jorge
+Sastre
+Cañada Rosquín
+Carlos Pellegrini
+Casas
+Castelar
+Colonia Belgrano
+Crispi
+Landeta
+Las Bandurrias
+Las Petacas
+Los Cardos
+María Susana
+Piamonte
+San Martín de las Escobas
+Traill
+-FIN PARTIDO San Martín
+Calchaquí
+Vera
+Cañada Ombú
+Fortín Olmos
+Garabato
+Golondrina
+Intiyaco
+La Gallareta
+Los Amores
+Margarita
+Tartagal
+Toba
+-FIN PARTIDO Vera
+Armstrong
+Las Parejas
+Las Rosas
+Bouquet
+Montes de Oca
+Tortugas
+-FIN PARTIDO Belgrano
+San Justo
+Angeloni
+Cayastacito
+Colonia Dolores
+Esther
+Gobernador Crespo
+La Camila
+La Criolla
+La Penca y Caraguatá
+Marcelino Escalada
+Naré
+Pedro Gómez Cello
+Ramayón
+San Bernardo
+San Martín Norte
+Silva
+Videla
+-FIN PARTIDO San Justo
+San Javier
+Romang
+Alejandra
+Cacique Ariacaiquín
+Colonia Durán
+La Brava
+-FIN PARTIDO San Javier
+Tostado
+Esteban Rams
+Gato Colorado
+Gregoria Pérez de Denis
+Juan de Garay
+Logroño
+Montefiore
+Pozo Borrado
+San Bernardo
+Santa Margarita
+Villa Minetti
+-FIN PARTIDO Nueve de Julio
+Cayastá
+Colonia Mascías
+Helvecia
+Saladero Mariano Cabal
+Santa Rosa de Calchines
+-FIN PARTIDO Garay

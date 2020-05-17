@@ -1,0 +1,381 @@
+Casares
+Pinto
+Malbrán
+-FIN PARTIDO Aguirre
+Campo Gallo
+Donadeu
+Huachana
+Sacháyoj
+Santos Lugares
+Agustina Libarona
+Coronel Manuel Leoncio Rico
+El Setenta
+Las Carpas
+San Gregorio
+Villa Palmar
+Las Parvas
+Esperanza
+Overa
+Ranchitos
+-FIN PARTIDO Alberdi
+Villa Atamisqui
+Estación Atamisqui
+Ancocha
+Bajadita
+Boquerón
+Brea Loma
+Burro Pozo
+Chilca La Loma
+Codo Viejo
+Collera Huarcuna
+Guanaco Sombriana
+Hoyón
+San Isidro
+Huíñaj Atun
+Juanillo
+Lomitas
+Los Sauces
+Los Tolozas
+Medellín
+Mochimo
+Mollares
+Puerta Grande
+Puesto de Díaz
+Puesto del Rosario
+San Dionisio
+Santa Isabel
+Simbol Pozo
+Soconcho
+Tasigasta
+Ventura Pampa
+Yacu Chiri
+-FIN PARTIDO Atamisqui
+Colonia Dora
+Herrera
+Icaño
+Lugones
+Punta Pozo
+Real Sayana
+Villa Mailín
+Caloj
+Percas
+Punta Corral
+Cejas
+Gramilla
+Banda
+Mancapa
+Puyana
+Taco Atun
+San José
+Blanca Pozo
+Cáloj
+Campo Alegre
+Colonia Alcira
+Colonia Isla
+Colonia Libanesa
+El Bracho
+Puente Negro
+San Antonio de Copo
+San Pedro
+San Roque
+Santo Domingo
+Tala Pozo
+Vacasníoj
+Yacasníoj
+-FIN PARTIDO Avellaneda
+La Banda
+Clodomira
+Abra Grande
+Antajé
+Ardiles
+Cañada Escobar
+Chaupi Pozo
+El Aibe
+Estación Simbolar
+Los Quiroga
+La Aurora
+La Dársena
+Negra Muerta
+Tramo 16
+-FIN PARTIDO Banda
+Bandera
+Cuatro Bocas
+Fortín Inca
+Guardia Escolta
+-FIN PARTIDO Belgrano
+Santiago del Estero
+El Deán
+Remes
+San Benito
+San Pedro
+Santa María
+Sol de Mayo
+Villa Zanjón
+Vuelta de la Barranca
+Maco
+Mal Paso
+Tipiro
+Antilo
+Sauzal
+Tunas Puncu
+Santa Rosa
+Cardosos
+Yanda
+Tronco Yuraj
+Rosario
+Blanco Corral
+-FIN PARTIDO Capital
+Choya
+Frías
+Laprida
+Tapso
+Villa La Punta
+Ancaján
+Chañar Pozo
+El Mojoncito
+El Rodeo
+El Tasial
+Kilómetro 55
+Los Ralos
+Maquijata
+Monte Redondo
+Pocito de la Loma
+Pozo de la Puerta
+Pozo del Simbol
+Puerta de Chávez
+San Juan
+San Justo
+San Rafael
+Santa Cruz
+Sinchi Caña
+Veinticinco de Mayo de Banegas
+Veinticinco de Mayo Sud
+Villa Elvira
+Villa Mercedes
+Sol de Mayo
+-FIN PARTIDO Choya
+Monte Quemado
+Pampa de los Guanacos
+Ahí Veremos
+El Caburé
+Los Pirpintos
+San José del Boquerón
+Villa Matoque
+-FIN PARTIDO Copo
+Bandera Bajada
+Caspi Corral
+Colonia San Juan
+La Cañada
+La Invernada
+Vaca Huañuna
+Villa Figueroa
+-FIN PARTIDO Figueroa
+Añatuya
+Los Juríes
+Averías
+Estación Tacañitas
+La Simona
+La Nena
+Tomás Young
+-FIN PARTIDO General Taboada
+San Pedro de Guasayán
+Doña Luisa
+Guampacha
+Lavalle
+Santa Catalina
+Villa Guasayán
+-FIN PARTIDO Guasayán
+Pozo Hondo
+El Arenal
+El Bobadal
+El Charco
+Gramilla
+Tres Cruces
+-FIN PARTIDO Jiménez
+Suncho Corral
+El Colorado
+El Cuadrado
+Matará
+Melero
+Pozo del Toba
+San Antonio - Roldán
+Vilelas
+Yuchán
+-FIN PARTIDO Juan Felipe Ibarra
+Ayuncha
+Beltrán
+Chuña Albardón
+Diente del Arado
+Jumi Pozo
+La Dormida
+La Noria
+La Revancha
+Monte Redondo
+Puesto de Juanes
+Puesto de Suárez
+Punua
+San Gerónimo
+San Vicente
+Santa Bárbara
+Sauce Solo
+Taquetúyoj
+Tío Pozo
+Villa Vieja
+-FIN PARTIDO Loreto
+Fuerte Esperanza
+Abras
+Villa Unión
+Captaros
+Porongos
+-FIN PARTIDO Mitre
+Alhuampa
+Tintina
+Aerolito
+Otumpa
+Cejolao
+Quimilí
+Puna
+San Cristóbal
+La Fortuna
+Simbolar
+El Pértigo
+Mistol Pampa
+San Antonio
+Milagros
+Amamá
+Weisburd
+Las Tinajas
+Lilo Viejo
+Hasse
+Patay
+Roversi
+Hernán Mejía Miraval
+Libertad
+-FIN PARTIDO Moreno
+Villa Ojo de Agua
+Sol de Julio
+El 49
+-FIN PARTIDO Ojo de Agua
+Nueva Esperanza
+Ahí Veremos
+Campo Grande
+El Mojón
+Las Delicias
+Pozo Betbeder
+Quebracho Coto
+Rapelli
+Santo Domingo
+Villa Mercedes
+Villa Nueva
+El Saladillo
+El Remate
+La Fragua
+San Ramón
+-FIN PARTIDO Pellegrini
+Ramírez de Velazco
+Sumampa
+Belgrano
+Sumampa Viejo
+Villa Quebrachos
+San Francisco
+Taco Pozo
+Campo del Cisne
+Horco Tucucuna
+-FIN PARTIDO Quebrachos
+Chauchillas
+Colonia Tinco
+Los Núñez
+Pozuelos
+Termas de Río Hondo
+Villa Río Hondo
+Vinará
+-FIN PARTIDO Río Hondo
+Selva
+Colonia Alpina
+Palo Negro
+Argentina
+Malbrán
+-FIN PARTIDO Rivadavia
+Beltrán
+Colonia El Simbolar
+Fernández
+Ingeniero Forres
+Villa Robles
+Vilmer
+Los Banegas
+-FIN PARTIDO Robles
+Carreta Paso
+Chilca Juliana
+Chinuna
+Los Telares
+Sabagasta
+Villa Salavina
+Anga
+Barrancas
+Los Cerrillos
+Malota
+Mistol Pozo
+Paso de Oscares
+Puente del Saladillo
+Rubia Paso
+Santa Lucía
+Sitkioj
+Verón
+Yacu Hurmana
+Asingasta
+-FIN PARTIDO Salavina
+Brea Pozo
+Estación Robles
+Estación Taboada
+Átoj Pozo
+Ashpa Sinchi
+Barrancas Coloradas
+Brea Pozo Viejo
+Chéej
+Colonia Pinto
+Diaspa
+Kilómetro 25
+La Blanca
+La Higuera
+La Verde
+Laguna Blanca
+Linton
+Los Gallegos
+Majadas Sud
+Pampa Atun
+Percas
+Perchil Bajo
+Pozo Mósoj
+Puestito
+Quimilíoj
+San José de Flores
+San Pascual
+Suncho Pozo
+Tío Pozo
+Tres Jazmines
+Tuamilla
+Villa Nueva
+-FIN PARTIDO San Martín
+Matará
+Garza
+Sauce Bajada
+Guaype
+-FIN PARTIDO Sarmiento
+Árraga
+Manogasta
+Nueva Francia
+Villa Silípica
+Buey Rodeo
+Campo Alegre
+Chañar Pujio
+Coro Pampa
+Huachana
+La Abrita
+La Higuera
+La Ramadita
+Puesto del Medio
+San Andrés
+San Vicente
+Simbol
+Sumamao
+-FIN PARTIDO Silípica

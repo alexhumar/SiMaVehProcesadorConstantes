@@ -1,2 +1,92 @@
-
--FIN PARTIDO 
+Apóstoles
+Azara
+San José
+Tres Capones
+-FIN PARTIDO Apóstoles
+Aristóbulo del Valle
+Dos de Mayo
+Campo Grande
+-FIN PARTIDO Cainguás
+Bonpland
+Candelaria
+Cerro Corá
+Loreto
+Mártires
+Profundidad
+Santa Ana
+-FIN PARTIDO Candelaria
+Posadas
+Garupá
+Fachinal
+-FIN PARTIDO Capital
+Concepción de la Sierra
+Santa María
+-FIN PARTIDO Concepción
+Colonia Delicia
+Colonia Victoria
+Eldorado
+Nueve de Julio
+Santiago de Liniers
+-FIN PARTIDO Eldorado
+Bernardo de Irigoyen
+Comandante Andresito
+San Antonio
+-FIN PARTIDO General Manuel Belgrano
+El Soberbio
+San Vicente
+-FIN PARTIDO Guaraní
+Wanda
+Puerto Esperanza
+Puerto Iguazú
+Puerto Libertad
+-FIN PARTIDO Iguazú
+Almafuerte
+Arroyo del Medio
+Caá Yarí
+Cerro Azul
+Dos Arroyos
+Gobernador López
+Leandro N. Alem
+Olegario Víctor Andrade
+-FIN PARTIDO Leandro N. Alem
+Capioví
+El Alcázar
+Garuhapé
+Puerto Leoni
+Puerto Rico
+Ruiz de Montoya
+-FIN PARTIDO Libertador General San Martín
+Caraguatay
+Montecarlo
+Puerto Piray
+-FIN PARTIDO Montecarlo
+Campo Ramón
+Campo Viera
+Colonia Alberdi
+General Alvear
+Guaraní
+Los Helechos
+Oberá
+Panambí
+San Martín
+-FIN PARTIDO Oberá
+Colonia Polana
+Corpus
+General Urquiza
+Gobernador Roca
+Hipólito Yrigoyen
+Jardín América
+San Ignacio
+Santo Pipó
+-FIN PARTIDO San Ignacio
+Florentino Ameghino
+Itacaruaré
+Mojón Grande
+San Javier
+-FIN PARTIDO San Javier
+San Pedro
+-FIN PARTIDO San Pedro
+Alba Posse
+Colonia Aurora
+25 de Mayo
+-FIN PARTIDO Veinticinco de Mayo

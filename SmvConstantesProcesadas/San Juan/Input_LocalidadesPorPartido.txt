@@ -1,0 +1,132 @@
+Campo Afuera
+General San Martín
+El Rincón
+La Cañada
+Las Lomitas
+Villa Ampacama
+-FIN PARTIDO Albardón
+Villa del Salvador
+Villa Sefair Talacasto
+Las Tapias
+-FIN PARTIDO Angaco
+Barreal
+Calingasta
+Tamberías
+Villa Pituil
+-FIN PARTIDO Calingasta
+Concepción
+Desamparados
+San Juan
+Trinidad
+-FIN PARTIDO Capital
+Bermejo
+Ciudad de Caucete
+El Rincón
+Marayes
+Las Talas
+Los Médanos
+Pie de Palo
+Vallecito
+Villa Independencia
+-FIN PARTIDO Caucete
+El Mogote
+Barrio Los Tamarindos
+Villa Obrera
+Villa Unión
+Villa Paula Albarracín de Sarmiento
+-FIN PARTIDO Chimbas
+Angualasto
+Bella Vista
+Colola
+Iglesia
+Las Flores
+Pismanta
+Rodeo
+Tudcum
+-FIN PARTIDO Iglesia
+San José de Jáchal
+El Fical
+El Médano
+Gran China
+Huaco
+La Falda
+Mogna
+Niquivil
+Pampa Vieja
+San Isidro
+Tamberías
+Villa Malvinas Argentinas
+Villa Mercedes
+-FIN PARTIDO Jáchal
+Colonia Fiorito
+Las Chacritas
+Nueve de Julio
+Dibella
+José Dolores
+La Majadita
+Tierra Adentro
+Alto de Sierra Este
+Rincón Cercado
+-FIN PARTIDO Nueve de Julio
+Barrio Ruta 40
+Carpintería
+La Rinconada
+Quinto Cuartel
+Villa Aberastain
+Villa Barboza
+Villa Centenario
+Villa Nacusi
+-FIN PARTIDO Pocito
+Villa Krause
+Rawson
+El Medanito
+Villa Bolaños
+-FIN PARTIDO Rawson
+Rivadavia
+Marquesado
+La Bebida
+-FIN PARTIDO Rivadavia
+San Isidro
+Dos Acequias
+La Puntilla
+-FIN PARTIDO San Martín
+Alto de Sierra
+Colonia Gutiérrez
+Santa Lucía
+La Legua
+Villa Marini
+Colonia Richet y Zapata
+Colonia Gutiérrez
+-FIN PARTIDO Santa Lucía
+Cañada Honda
+Cienaguita
+Colonia Fiscal
+Divisadero
+Guanacache
+Las Lagunas
+Los Berros
+Pedernal
+Punta del Médano
+Media Agua
+-FIN PARTIDO Sarmiento
+Villa Aurora
+Villa Ibáñez
+El Chilote
+-FIN PARTIDO Ullum
+Astica
+Baldes del Rosario
+Chucuma
+Los Baldecitos
+Usno
+Villa San Agustín
+-FIN PARTIDO Valle Fértil
+El Encón
+La Chimbera
+Tupelí
+Villa Borjas
+Villa El Tango
+Santa Rosa
+-FIN PARTIDO Veinticinco de Mayo
+Villa Basilio Nievas
+Villa Tacú
+-FIN PARTIDO Zonda
