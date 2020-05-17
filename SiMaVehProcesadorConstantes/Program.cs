@@ -10,8 +10,8 @@ namespace SiMaVehProcesadorConstantes
         {
             //Config
 
-            int startId = 1;
-            string nombreClaseConstante = "PartidoBuenosAires";
+            int startId = 217;
+            string nombreClaseConstante = "PartidoCorrientes";
             string baseDirectory = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "SmvConstantesProcesadas"); ;
 
             //End config
