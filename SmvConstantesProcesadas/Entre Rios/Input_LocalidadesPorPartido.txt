@@ -1,33 +1,296 @@
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
-
--FIN PARTIDO 
--FIN PARTIDO 
-
--FIN PARTIDO 
+Colón
+San José
+Ubajay
+Villa Elisa
+Pueblo Liebig
+Arroyo Barú
+La Clarita
+Pueblo Cazes
+San Miguel
+Colonia Hocker
+Colonia San Anselmo y Aledañas
+Hambis
+-FIN PARTIDO Colón
+Concordia
+Colonia Ayuí
+Estancia Grande
+La Criolla
+Los Charrúas
+Puerto Yeruá
+Colonia General Roca
+Nueva Escocia
+Pedernal
+Estación Yeruá
+Estación Yuquerí
+Clodomiro Ledesma
+El Redomón
+Colonia San Justo
+-FIN PARTIDO Concordia
+Diamante
+General Ramírez
+Aldea Valle María
+Libertador San Martín
+Aldea Brasilera
+Aldea Protestante
+Aldea Spatzenkutter
+Colonia Ensayo
+Estación Racedo
+Las Cuevas
+Costa Grande
+General Alvear
+Isletas
+Aldea Salto
+Estación Camps
+Aldea Grapschental
+-FIN PARTIDO Diamante
+Chajarí
+Federación
+Los Conquistadores
+San Jaime de la Frontera
+Santa Ana
+Villa del Rosario
+Colonia La Argentina
+San Pedro
+San Ramón
+Colonia Alemana
+Colonia de Santa María
+Colonia de Las Margaritas
+La Florida
+La Fraternidad y Santa Juana
+Paraje Guayaquil
+Colonia Tunas
+Gualeguaycito
+San Roque
+-FIN PARTIDO Federación
+Achiras
+Banderas
+Chañar
+Diego López
+Francisco Ramírez
+Sauce de Luna
+Federal
+Conscripto Bernardi
+Sauce de Luna
+El Cimarrón
+Nueva Vizcaya
+Paso Duarte
+Banderas
+Santa Lucía
+Arroyo del Medio
+Arroyo Las Tunas
+Distrito Diego López
+El Gato - Loma Limpia
+El Gramiyal
+-FIN PARTIDO Federal
+San José de Feliciano
+San Víctor
+Distrito Chañar
+La Verbena
+Laguna Benítez
+La Esmeralda
+Las Mulitas
+Las Hierras
+Mulas Grandes
+-FIN PARTIDO Feliciano
+Gualeguay
+General Galarza
+Aldea Asunción
+Distrito Sexto Costa de Nogoyá
+Quinto Distrito
+Islas Las Lechiguanas
+Primer Distrito Cuchilla
+Distrito Cuarto
+Estación Lazo
+González Calderón
+Monte Redondo
+Punta del Monte
+-FIN PARTIDO Gualeguay
+Gualeguaychú
+Larroque
+Urdinarrain
+Gilbert
+Pueblo General Belgrano
+Enrique Carbó
+Aldea San Juan
+Irazusta
+Costa Uruguay Norte
+Faustino M. Parera
+General Almada
+Las Mercedes
+Costa de San Antonio
+Costa Uruguay Sur
+Cuchilla Redonda
+Distrito Talitas
+Estación Escriña
+Pastor Britos
+Perdices
+Rincón del Cinto
+Rincón del Gato
+-FIN PARTIDO Gualeguaychú
+Ceibas
+Puerto Ibicuy
+Villa Paranacito
+Médanos
+Ñancay
+-FIN PARTIDO Islas del Ibicuy
+Bovril
+La Paz
+Santa Elena
+Piedras Blancas
+San Gustavo
+Villa Alcaraz
+Colonia Avigdor
+El Solar
+Ombú
+Alcaraz Norte
+Alcaraz Sur
+Yeso Oeste
+Colonia Carrasco
+Colonia Oficial Nº 3
+Colonia Oficial Nº 14
+El Quebracho
+La Providencia
+Puerto Algarrobo
+San Ramírez
+Saucecito
+Sir Leonard
+Tacuaras-Yacaré
+Colonia Oficial N° 13
+Colonia Viraró
+Estaquitas
+Las Toscas
+Picada Berón
+-FIN PARTIDO La Paz
+Lucas González
+Nogoyá
+Aranguren
+Hernández
+Don Cristóbal Segundo
+Febre
+XX de Setiembre
+Crucesitas Octava
+Distrito Sauce
+Don Cristóbal Primero
+Justo José de Urquiza
+Aldea San Miguel
+Crucecitas Séptima
+Crucecitas Tercera
+Betbeder
+Distrito Chiqueros
+Laurencena
+-FIN PARTIDO Nogoyá
+Crespo
+María Grande
+Paraná
+San Benito
+Viale
+Villa Hernandarias
+Cerrito
+Colonia Avellaneda
+Hasenkamp
+Oro Verde
+Seguí
+Tabossi
+Villa Urquiza
+Aldea María Luisa
+El Pingo
+Pueblo Brugo
+Aldea Santa María
+Puerto Curtiembre
+El Palenque
+La Picada
+Las Tunas
+Sauce Montrull
+Sosa
+Colonia Crespo
+Pueblo Bellocq
+Sauce Pinto
+Tezanos Pinto
+Villa Fontana
+Villa Gobernador Etchevehere
+Arroyo Burgos
+Arroyo Corralito
+Aldea Eigenfeld
+Aldea San Antonio
+Aldea San Rafael
+Aldea Santa Rosa
+Antonio Tomás
+Colonia Celina
+Espinillo Norte
+María Grande Segunda
+Paso de la Arena
+Paso de la Piedra
+Santa Luisa
+Arroyo Maturrango
+Arroyo Palo Seco
+Colonia Cerrito
+Colonia Merou
+Colonia Reffino
+Distrito Tala
+Quebracho
+-FIN PARTIDO Paraná
+San Salvador
+General Campos
+Colonia Baylina
+San Ernesto
+Colonia Oficial Nº 5
+Walter Moss
+-FIN PARTIDO San Salvador
+Maciá
+Rosario del Tala
+Gobernador Mansilla
+Gobernador Sola
+Durazno
+Gobernador Echagüe
+Guardamonte
+Altamirano Sur
+Arroyo Clé
+Las Guachas
+Sauce Sur
+La Ollita
+-FIN PARTIDO Tala
+Basavilbaso
+Concepción del Uruguay
+Caseros
+Colonia Elía
+Herrera
+Primero de Mayo
+Pronunciamiento
+San Justo
+Santa Anita
+Villa Mantero
+Las Moscas
+San Cipriano
+Villa San Marcial
+Tala
+Estación Líbaros
+Rocamora
+Arroyo Gená
+-FIN PARTIDO Uruguay
+Victoria
+Rincón de Nogoyá
+Rincón del Doll
+Antelo
+Molino Doll
+Chilcas
+Distrito Pajonal
+Hinojal
+Laguna del Pescado
+Montoya
+-FIN PARTIDO Victoria
+Villaguay
+Villa Clara
+Villa Domínguez
+Jubileo
+Paso de la Laguna
+Ingeniero Sajaroff
+Lucas Norte
+Lucas Sur Segundo
+Raíces Oeste
+Estación Raíces
+Lucas Sur Primera
+Mojones Norte
+Paraje Los Algarrobos
+Colonia Adivino
+Mojones Sud
+-FIN PARTIDO Villaguay

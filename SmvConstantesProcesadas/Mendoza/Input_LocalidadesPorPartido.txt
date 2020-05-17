@@ -1,0 +1,231 @@
+Mendoza
+-FIN PARTIDO Capital
+Canalejas
+Carmensa
+Cochicó
+Corral de Lorca
+El Ceibo
+El Juncalito
+General Alvear
+Gaspar Campos
+Goico
+La Escandinava
+La Mora
+Línea de Poste
+Los Campamentos
+Los Compartos
+Media Luna
+Ovejería
+Pampa del Tigre
+Poste de Hierro
+El Nevado
+El Desvío
+Bowen
+-FIN PARTIDO General Alvear
+Gobernador Benegas
+Godoy Cruz
+Las Tortugas
+Presidente Sarmiento
+San Francisco del Monte
+San Vicente
+-FIN PARTIDO Godoy Cruz
+Belgrano
+El Bermejo
+Buena Nueva
+Capilla del Rosario
+Colonia Molina
+Colonia Segovia
+Dorrego
+El Sauce
+Guaymallén
+Jesús Nazareno
+Kilómetro 8
+Kilómetro 11
+La Primavera
+Las Cañas
+Los Corralitos
+Nueva Ciudad
+Pedro Molina
+Puente de Hierro
+Rodeo de la Cruz
+San Francisco del Monte
+San José
+Villa Nueva
+-FIN PARTIDO Guaymallén
+Algarrobo Grande
+Alto Verde
+Ciudad
+Ingeniero Giagnoni
+La Colonia
+Los Barriales
+Medrano
+Mundo Nuevo
+Phillips
+Rodríguez Peña
+-FIN PARTIDO Junín
+Desaguadero
+La Paz Norte
+La Paz Sur
+Villa Antigua
+Villa Cabecera
+-FIN PARTIDO La Paz
+Capdevilla
+La Cieneguita
+El Algarrobal
+El Borbollón
+El Challao
+El Pastal
+El Plumerillo
+El Resguardo
+El Zapallar
+Las Cuevas
+Las Heras
+Panquehua
+Uspallata y Alta Montaña
+-FIN PARTIDO Las Heras
+Costa de Araujo
+El Carmen
+El Chilcal
+El Plumero
+El Vergel
+Gustavo André
+Jocolí
+Jocolí Viejo
+La Asunción
+La Holanda
+La Palmera
+La Pega
+Las Violetas
+Lagunas del Rosario
+Paramillo
+San Francisco
+San José
+San Miguel
+Tres de Mayo
+Villa Tulumaya
+Oscar Mendoza
+-FIN PARTIDO Lavalle
+Agrelo
+Cacheuta
+Carrodilla
+Chacras de Coria
+El Carrizal
+Industrial
+La Puntilla
+Las Compuertas
+Luján de Cuyo
+Mayor Drummond
+Perdriel
+Potrerillos
+Ugarteche
+Vistalba
+Vertientes del Pedemonte
+-FIN PARTIDO Luján de Cuyo
+Coquimbito
+Cruz de Piedra
+Fray Luis Beltrán
+General Gutiérrez
+General Ortega
+Barrancas
+Lunlunta
+Luzuriaga
+Maipú
+Rodeo del Medio
+Russell
+San Roque
+-FIN PARTIDO Maipú
+Agua Escondida
+Malargüe
+Río Barrancas
+Río Grande
+-FIN PARTIDO Malargüe
+Andrade
+El Mirador
+La Central
+La Libertad
+Los Árboles
+Los Campamentos
+Los Huarpes
+Medrano
+Mundo Nuevo
+Reducción
+Rivadavia
+Santa María de Oro
+San Isidro
+-FIN PARTIDO Rivadavia
+Chilecito
+Eugenio Bustos
+La Consulta
+Pareditas
+Tres Esquinas
+Villa de San Carlos
+-FIN PARTIDO San Carlos
+Alto Salvador
+Alto Verde
+Buen Orden
+Chapanay
+Chivilcoy
+El Central
+El Divisadero
+El Espino
+El Ramblón
+Ingeniero Giagnoni
+Las Chimbas
+Montecaseros
+Nueva California
+Palmira
+San Martín
+Tres Porteñas
+-FIN PARTIDO General San Martín
+Cañada Seca
+Cuadro Benegas
+Cuadro Nacional
+El Cerrito
+El Sosneado
+El Nihuil
+Goudge
+Jaime Prats
+La Llave
+Las Malvinas
+Las Paredes
+Monte Comán
+Punta del Agua
+Rama Caída
+Real del Padre
+San Rafael
+Villa Veinticinco de Mayo
+Villa Atuel
+-FIN PARTIDO San Rafael
+Doce de Octubre
+La Dormida
+Las Catitas
+Ñacuñan
+Santa Rosa
+-FIN PARTIDO Santa Rosa
+Campo de los Andes
+Colonia Las Rosas
+El Algarrobo
+El Totoral
+La Primavera
+Las Pintadas
+Los Árboles
+Los Chacayes
+Los Sauces
+Tunuyán
+Villa Seca
+Vista Flores
+-FIN PARTIDO Tunuyán
+Anchoris
+Cordón del Plata
+El Peral
+El Zampal
+El Zampalito
+Gualtallary
+La Arboleda
+La Carrera
+San José
+Santa Clara
+Tupungato
+Villa Bastías
+Zapata
+-FIN PARTIDO Tupungato

@@ -1,0 +1,199 @@
+Aimogasta
+Arauco
+Bañado de los Pantanos
+Estación Mazán
+Machigasta
+Termas de Santa Teresita
+Villa Mazán
+Udpinango
+-FIN PARTIDO Arauco
+La Rioja
+-FIN PARTIDO Capital
+Agua Blanca
+Aminga
+Anillaco
+Anjullón
+Chuquis
+Las Peñas
+Los Molinos
+Pinchas
+San Pedro
+Santa Vera Cruz
+-FIN PARTIDO Castro Barros
+Chamical
+Polco
+Bella Vista
+El Retamo
+Esperanza de los Cerrillos
+Esquina del Norte
+La Aguadita
+Santa Bárbara
+Santa Rita de la Zanja
+-FIN PARTIDO Chamical
+Chilecito
+Anguinán
+Los Sarmientos
+San Miguel
+La Puntilla
+Nonogasta
+Vichigasta
+Sañogasta
+Malligasta
+Colonia Malligasta
+Tilimuqui
+Colonia Vichigasta
+Miranda
+Guanchín
+Colonia Anguinán
+San Nicolás
+Santa Florentina
+Colonia Catinzaco
+Catinzaco
+La Mejicanita
+-FIN PARTIDO Chilecito
+Aicuña
+Banda Florida
+Guandacol
+Los Palacios
+Los Tambillos
+Pagancillo
+Puerto Alegre
+Santa Clara
+Villa Unión
+-FIN PARTIDO Coronel Felipe Varela
+Famatina
+Alto Carrizal
+Angulos
+Antinaco
+Bajo Carrizal
+Campanas
+Chañarmuyo
+El Potrerillo
+La Cuadra
+Pituil
+Plaza Vieja
+Santa Cruz
+Santo Domingo
+-FIN PARTIDO Famatina
+Alcázar
+Carrizal
+Chila
+Pacatala
+Km 38
+Puesto Santa Cruz
+Punta de los Llanos
+Tama
+Tuizón
+-FIN PARTIDO General Ángel V. Peñaloza
+Olta
+Castro Barros
+Chañar
+Loma Blanca
+Talva
+Cortaderas
+Miraflores
+Monte Grande
+San Ramón
+Simbolar
+El cardonal
+-FIN PARTIDO General Belgrano
+Portezuelo
+Malanzán
+Nácate
+San Antonio
+La Chimenea
+Solca
+El Retamal
+Puluchán
+Atiles
+Loma Larga
+Mascasín
+Tres Cruces
+Salana
+Tuaní
+Huaja
+-FIN PARTIDO General Juan Facundo Quiroga
+Villa Castelli
+Aguaditas
+El Condado
+La Banda
+Los Moraditos
+Pastos Largos
+Rivadavia
+Tiaguas
+-FIN PARTIDO General Lamadrid
+Ambil
+Colonia Ortiz de Ocampo
+Milagro
+Olpas
+Villa Santa Rita de Catuna
+Comandante Leal
+El Fraile
+Los Aguirres
+Los Alanices
+Esquina Chica
+-FIN PARTIDO General Ocampo
+Ulapes
+Aguayo
+Bajo Hondo
+Corral de Isaac
+Cuatro Esquinas
+El Caldén
+El Cadillo
+San Solano
+Villa Nidia
+El Abra
+La Represa
+La Represita
+Las Ventanitas
+Villa Nidia
+Pozo de Piedra
+-FIN PARTIDO General San Martín
+Amaná
+Los Colorados
+Paganzo
+Patquía
+Patquía Viejo
+-FIN PARTIDO Independencia
+Chepes
+Desiderio Tello
+El Totoral
+Villa Casana
+Mascasín
+Ñoqueve
+La calera
+Chelcos
+Potrerillo de los flores
+El Tala
+Valle Hermoso
+Las Toscas
+San Isidro
+Agua Blanca
+Las Jarillas
+-FIN PARTIDO Rosario Vera Peñaloza
+Las Pirguas
+El Retiro
+Alpasinche
+Chaupihuasi
+Salicas
+San Blas
+Los Robles
+Los Talas
+Cuipán
+Schaqui
+Andolucas
+Suriyaco
+Maicán
+Amuschina
+Tuyubil
+-FIN PARTIDO San Blas de los Sauces
+Villa Sanagasta
+Alta Gracia
+Huaco
+-FIN PARTIDO Sanagasta
+Villa San José de Vinchina
+Jagüé
+Potrero Grande
+Valle Hermoso
+Punta de Agua
+-FIN PARTIDO Vinchina
