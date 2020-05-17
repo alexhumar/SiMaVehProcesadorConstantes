@@ -1,0 +1,467 @@
+Embalse
+La Cruz
+Los Cóndores
+Los Molinos
+Los Reartes
+Río de Los Sauces
+San Agustín
+Santa Rosa de Calamuchita
+Villa del Dique
+Villa General Belgrano
+Villa Rumipal
+Villa Yacanto
+Amboy
+Calmayo
+Cañada del Sauce
+La Cumbrecita
+Las Bajadas
+Las Caleras
+Lutti
+San Ignacio
+Segunda Usina
+Villa Amancay
+Villa Ciudad Parque Los Reartes
+Villa Quillinzo
+-FIN PARTIDO Calamuchita
+Córdoba
+-FIN PARTIDO Capital
+Agua de Oro
+Colonia Caroya
+Estación Juárez Celman
+Jesús María
+La Calera
+La Granja
+Malvinas Argentinas
+Mendiolaza
+Río Ceballos
+Saldán
+Salsipuedes
+Unquillo
+Villa Allende
+Colonia Tirolesa
+Colonia Vicente Agüero
+El Manzano
+Estación General Paz
+Mi Granja
+Tinoco
+Villa Cerro Azul
+-FIN PARTIDO Colón
+Cruz del Eje
+San Marcos Sierras
+Serrezuela
+Villa de Soto
+El Brete
+Alto de los Quebrachos
+Bañado de Soto
+Cruz de Caña
+Guanaco Muerto
+La Batea
+La Higuera
+Las Cañadas
+Los Chañaritos
+Las Playas
+Media Naranja
+Paso Viejo
+Tuclame
+-FIN PARTIDO Cruz del Eje
+Buchardo
+Del Campillo
+Huinca Renancó
+Italó
+Jovita
+Mattaldi
+Villa Huidobro
+Villa Sarmiento
+Villa Valeria
+Nicolás Bruzzone
+Onagoity
+Pincén
+Ranqueles
+-FIN PARTIDO General Roca
+Arroyo Algodón
+Arroyo Cabral
+Ausonia
+Chazón
+Etruria
+La Laguna
+La Palestina
+La Playosa
+Luca
+Pasco
+Silvio Pellico
+Ticino
+Tío Pujio
+Villa María
+Villa Nueva
+-FIN PARTIDO General San Martín
+Avellaneda
+Cañada de Río Pinto
+Chuña
+Copacabana
+Los Pozos
+Olivares de San Nicolás
+Villa Gutiérrez
+-FIN PARTIDO Ischilín
+Alejandro Roca
+Bengolea
+Carnerillo
+Charras
+General Cabrera
+General Deheza
+Huanchillas
+La Carlota
+Los Cisnes
+Olaeta
+Reducción
+Santa Eufemia
+Ucacha
+Assunta
+El Rastreador
+Pacheco de Melo
+Paso del Durazno
+-FIN PARTIDO Juárez Celman
+Alejo Ledesma
+Arias
+Camilo Aldao
+Capitán General Bernardo O'Higgins
+Cavanagh
+Colonia Italiana
+Corral de Bustos
+Cruz Alta
+General Baldissera
+General Roca
+Guatimozín
+Inriville
+Isla Verde
+Leones
+Los Surgentes
+Marcos Juárez
+Monte Buey
+Noetinger
+Saira
+Colonia Barge
+Saladillo
+Villa Elisa
+-FIN PARTIDO Marcos Juárez
+San Carlos Minas
+Ciénaga del Coro
+El Chacho
+Estancia de Guadalupe
+Guasapampa
+La Playa
+Talaini
+Tosno
+-FIN PARTIDO Minas
+Salsacate
+Chancaní
+Las Palmas
+Los Talares
+San Gerónimo
+Tala Cañada
+Villa de Pocho
+-FIN PARTIDO Pocho
+General Levalle
+La Cesira
+Laboulaye
+Melo
+Rosales
+Serrano
+Villa Rossi
+Leguizamón
+Río Bamba
+San Joaquín
+-FIN PARTIDO Presidente Roque Sáenz Peña
+Bialet Massé
+Capilla del Monte
+Cosquín
+Huerta Grande
+La Cumbre
+La Falda
+Los Cocos
+San Esteban
+Santa María
+Tanti
+Valle Hermoso
+Villa Carlos Paz
+Villa Giardino
+Cabalango
+Casa Grande
+Charbonier
+Cuesta Blanca
+Estancia Vieja
+Mayu Sumaj
+Molinari
+San Antonio de Arredondo
+San Roque
+Tala Huasi
+Villa Icho Cruz
+Villa Parque Siquiman
+Villa Santa Cruz del Lago
+-FIN PARTIDO Punilla
+Achiras
+Adelia María
+Alcira Gigena
+Alpa Corral
+Berrotarán
+Bulnes
+Chaján
+Chucul
+Coronel Baigorria
+Coronel Moldes
+Elena
+La Carolina
+La Cautiva
+Las Acequias
+Las Albahacas
+Las Higueras
+Las Peñas Sud
+Las Vertientes
+Malena
+Monte de Los Gauchos
+Río Cuarto
+Sampacho
+San Basilio
+Santa Catalina
+Suco
+Tosquita
+Vicuña Mackenna
+Villa El Chacay
+Washington
+-FIN PARTIDO Río Cuarto
+La Para
+La Puerta
+Monte Cristo
+Obispo Trejo
+Piquillín
+Río Primero
+Santa Rosa de Río Primero
+Villa Fontana
+Atahona
+Cañada de Machado
+Capilla de los Remedios
+Chalacea
+Colonia Las Cuatro Esquinas
+Comechingones
+Diego de Rojas
+El Crispín
+Esquina
+Kilómetro 658
+La Posta
+La Quinta
+Las Gramillas
+Las Saladas
+Maquinista Gallini
+Plaza de Mercedes
+Sagrada Familia
+-FIN PARTIDO Río Primero
+Sebastián Elcano
+Villa de María
+Villa Candelaria Norte
+Cerro Colorado
+Chañar Viejo
+Eufrasio Loza
+Gutemberg
+La Rinconada
+Los Hoyos
+Puesto de Castro
+Rayo Cortado
+Santa Elena
+-FIN PARTIDO Río Seco
+Calchín
+Calchín Oeste
+Capilla del Carmen
+Carrilobo
+Colazo
+Costa Sacate
+Laguna Larga
+Las Junturas
+Luque
+Manfredi
+Matorrales
+Oncativo
+Pilar
+Pozo del Molle
+Río Segundo
+Santiago Temple
+Villa del Rosario
+Colonia Videla
+Impira
+Los Chañaritos
+Rincón
+-FIN PARTIDO Río Segundo
+Mina Clavero
+Nono
+San Pedro
+Villa Cura Brochero
+Villa Sarmiento
+Ámbul
+Arroyo de Los Patos
+Las Calles
+Las Rabonas
+Panaholma
+San Lorenzo
+San Vicente
+Sauce Arriba
+-FIN PARTIDO San Alberto
+La Paz
+San Javier/Yacanto
+San José
+Villa de Las Rosas
+Villa Dolores
+Conlara
+La Población
+Las Tapias
+Los Cerrillos
+Los Hornillos
+Luyaba
+-FIN PARTIDO San Javier
+Alicia
+Altos de Chipión
+Arroyito
+Balnearia
+Brinkmann
+Colonia Marina
+Colonia Prosperidad
+Colonia San Bartolomé
+Colonia Vignaud
+Devoto
+El Arañado
+El Fortín
+El Tío
+Freyre
+La Francia
+La Paquita
+La Tordilla
+Las Varas
+Las Varillas
+Marull
+Miramar
+Morteros
+Porteña
+Quebracho Herrado
+Sacanta
+San Francisco
+Saturnino María Laspiur
+Seeber
+Tránsito
+Villa Concepción del Tío
+Colonia Anita
+Colonia Iturraspe
+Colonia Las Pichanas
+Colonia San Pedro
+Colonia Valtelina
+Plaza Luxardo
+Villa San Esteban
+Toro Pujio
+-FIN PARTIDO San Justo
+Alta Gracia
+Despeñaderos
+Lozada
+Malagueño
+Monte Ralo
+Toledo
+Anisacate
+Bouwer
+Dique Chico
+Falda del Carmen
+La Paisanita
+La Rancherita
+La Serranita
+Los Cedros
+Potrero de Garay
+Rafael García
+San Clemente
+Valle de Anisacate
+Villa Ciudad de América
+Villa del Prado
+Villa La Bolsa
+Villa Los Aromos
+Villa Parque Santa Ana
+Villa San Isidro
+-FIN PARTIDO Santa María
+Aguada del Monte
+Caminiana
+Cerrillos
+Chuña Huasi
+San Francisco
+San Francisco del Chañar
+Caminiaga
+Chuña Huasi
+Pozo Nuevo
+-FIN PARTIDO Sobremonte
+Almafuerte
+Corralito
+Dalmacio Vélez Sarsfield
+Hernando
+James Craik
+Las Perdices
+Los Zorros
+Oliva
+Pampayasta Sud
+Punta del Agua
+Río Tercero
+Tancacha
+Villa Ascasubi
+Colonia Almada General Fotheringham
+Las Isletillas
+Pampayasta Norte
+-FIN PARTIDO Tercero Arriba
+Candelaria
+Macha
+Río Pinto
+Sinsacate
+Totoral
+Cañada de Luque
+Sarmiento
+Sinsacate
+Villa del Totoral
+Candelaria Sud
+Capilla de Sitón
+La Pampa
+Las Peñas
+Los Mistoles
+Simbolar
+-FIN PARTIDO Totoral
+Dormida
+Intihuasi
+Mercedes
+Parroquia
+San Pedro Norte
+Las Arrias
+Lucio V. Mansilla
+San José de La Dormida
+San José de Las Salinas
+San Pedro Norte
+Villa Tulumba
+Churqui Cañada
+El Rodeo
+Rosario del Saladillo
+-FIN PARTIDO Tulumba
+Alto Alegre
+Ballesteros (Córdoba)
+Ballesteros Sud
+Bell Ville
+Gould
+Canals
+Chilibroste
+Cintra
+Colonia Bismarck
+Idiazábal
+Justiniano Posse
+Laborde
+Monte Leña
+Monte Maíz
+Morrison
+Noetinger
+Ordóñez
+Pascanas
+Pueblo Italiano
+San Antonio de Litín
+San Marcos Sud
+Viamonte
+Wenceslao Escalante
+Aldea Santa María
+Ana Zumarán
+Colonia Bremen
+Villa Los Patos
+-FIN PARTIDO Unión
