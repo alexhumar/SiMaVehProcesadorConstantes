@@ -1,0 +1,10 @@
+namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
+{{
+    /// <summary>
+    /// {0}
+    /// </summary>
+    public class {1}
+    {{
+{2}
+    }}
+}}

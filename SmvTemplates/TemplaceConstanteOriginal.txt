@@ -1,0 +1,18 @@
+namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
+{
+    /// <summary>
+    /// Constante de nombres de Localidades de BuenosAires
+    /// </summary>
+    public class LocalidadBuenosAires
+    {
+        /// <summary>
+        /// Cochinoca
+        /// </summary>
+        public const string Cochinoca = "Cochinoca";
+
+        /// <summary>
+        /// Dr. Manuel Belgrano
+        /// </summary>
+        public const string DrManuelBelgrano = "Dr. Manuel Belgrano";
+    }
+}
