@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using SiMaVehProcesadorConstantes.Models;
+using System.Collections.Generic;
 using System.Text;
 
-namespace SiMaVehProcesadorConstantes.Generadores
+namespace SiMaVehProcesadorConstantes.GeneracionConstantes
 {
     public class GeneradorCuerpoConstantes
     {
-        public string Generar(List<InfoLinea> infoLineas)
+        public string Generar(IList<InfoLinea> infoLineas)
         {
             var sbConstantes = new StringBuilder();
             var indent = string.Empty.PadLeft(8);

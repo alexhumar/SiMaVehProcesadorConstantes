@@ -1,8 +1,9 @@
-﻿using System.Globalization;
+﻿using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
+using System.Globalization;
 
 namespace SiMaVehProcesadorConstantes.Procesadores
 {
-    public class ProcesadorNombreConstante
+    public class ProcesadorNombreConstante : IProcesadorNombreConstante
     {
         private string ProcesarPalabra(string palabra)
         {

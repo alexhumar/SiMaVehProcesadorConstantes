@@ -1,6 +1,10 @@
-﻿using SiMaVehProcesadorConstantes.Generadores;
+﻿using SiMaVehProcesadorConstantes.GeneracionConstantes;
+using SiMaVehProcesadorConstantes.GeneracionConstantes.Interfaces;
+using SiMaVehProcesadorConstantes.Loaders;
+using SiMaVehProcesadorConstantes.Loaders.Interfaces;
+using SiMaVehProcesadorConstantes.Models;
 using SiMaVehProcesadorConstantes.Procesadores;
-using System.Collections.Generic;
+using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
 using System.IO;
 
 namespace SiMaVehProcesadorConstantes
@@ -9,41 +13,30 @@ namespace SiMaVehProcesadorConstantes
     {
         static void Main(string[] args)
         {
-            //Config
+            #region config
 
             int startId = 217;
             string nombreClaseConstante = "PartidoCorrientes";
             string baseDirectory = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
             string baseInputDirectory = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "SmvConstantesProcesadas");
 
-            //End config
+            #endregion
 
-            // Dependencies
+            #region dependencias
 
-            var procesadorConstante = new ProcesadorNombreConstante();
-            var generadorArchivoConstantes = new GeneradorArchivoConstantes();
+            IProcesadorNombreConstante procesadorConstante = new ProcesadorNombreConstante();
+            IInfoLoader<InfoSubseccion> infoSubseccionLoader = new SubseccionInfoLoader(procesadorConstante);
+            IInfoLoader<InfoSeccion> infoSeccionLoader = new SeccionInfoLoader(procesadorConstante);
+            IGeneradorArchivoContantes<InfoSubseccion> subseccionGeneradorArchivoConstantes = new SubseccionGeneradorArchivoConstantes();
+            IGeneradorArchivoContantes<InfoSeccion> seccionGeneradorArchivoConstantes = new SeccionGeneradorArchivoConstantes();
 
-            // End dependencies
+            #endregion
 
-            var infoLineas = new List<InfoLinea>();
+            var infoPartidos = infoSubseccionLoader.LoadInfo(baseDirectory, "Buenos Aires");
+            var infoLocalidadesPartido = infoSeccionLoader.LoadInfo(baseDirectory, "Buenos Aires");
 
-            string inputPath = Path.Combine(baseInputDirectory, "Input.txt");
-            // Open the file to read from.
-            using (StreamReader sr = File.OpenText(inputPath))
-            {
-                string linea;
-                while ((linea = sr.ReadLine()) != null)
-                {
-                    infoLineas.Add(new InfoLinea
-                    {
-                        NombreConstante = procesadorConstante.ProcesarNombreConstante(linea),
-                        NombreOriginal = linea
-                    });
-                }
-            }
-
-            generadorArchivoConstantes.GenerarArchivo(baseDirectory, 
-                "Constante de nombres de Localidades de Buenos Aires", "LocalidadBuenosAires", infoLineas);
+            subseccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Partido", "Partidos", "SubdivisionesPais", infoPartidos);
+            seccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Localidad", "Localidades", "SubSubdivisionesPais", infoLocalidadesPartido);
 
             //TODO: Implementar en clase aparte
 

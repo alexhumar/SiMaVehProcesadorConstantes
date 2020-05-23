@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using SiMaVehProcesadorConstantes.Constantes;
+using SiMaVehProcesadorConstantes.GeneracionConstantes.Interfaces;
+using SiMaVehProcesadorConstantes.Models.Interfaces;
 using System.IO;
 using System.Text;
 
-namespace SiMaVehProcesadorConstantes.Generadores
+namespace SiMaVehProcesadorConstantes.GeneracionConstantes
 {
-    public class GeneradorArchivoConstantes
+    public abstract class GeneradorArchivoConstantes<T, S> : IGeneradorArchivoContantes<T> where T : IInfoEstructura<S>
     {
         private readonly GeneradorCuerpoConstantes generadorCuerpoConstantes;
 
@@ -13,9 +15,10 @@ namespace SiMaVehProcesadorConstantes.Generadores
             generadorCuerpoConstantes = new GeneradorCuerpoConstantes();
         }
 
-        public void GenerarArchivo(string directorioBase, string summaryClase,
-            string nombreClase, List<InfoLinea> infoLineas)
+        public void GenerarArchivo(string directorioBase, string tipoEntidad,
+            string descripcionEntidad, string agrupacionEntidades, T infoEstructura)
         {
+            string nombreClase = string.Concat(tipoEntidad, infoEstructura.Cabecera.NombreConstante);
             string outputConstantesPath = Path.Combine(directorioBase, "SmvOutputConstantes", $"{nombreClase}.cs");
             string templateFilePath = Path.Combine(directorioBase, "SmvTemplates", "TemplaceConstante.txt");
 
@@ -36,13 +39,12 @@ namespace SiMaVehProcesadorConstantes.Generadores
             }
 
             var template = sbTemplate.ToString();
-            var constantes = generadorCuerpoConstantes.Generar(infoLineas);
-
+            var constantes = generadorCuerpoConstantes.Generar(infoEstructura.GetLineas());
 
             // Create a file to write to.
             using (StreamWriter sw = File.CreateText(outputConstantesPath))
             {
-                sw.Write(string.Format(template, summaryClase, nombreClase, constantes));
+                sw.Write(string.Format(template, agrupacionEntidades, string.Format(Procesamiento.SummaryConstanteTemplateText, descripcionEntidad, infoEstructura.Cabecera.NombreOriginal), nombreClase, constantes));
             }
         }
     }

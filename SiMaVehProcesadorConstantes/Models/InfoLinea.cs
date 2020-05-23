@@ -1,4 +1,4 @@
-﻿namespace SiMaVehProcesadorConstantes
+﻿namespace SiMaVehProcesadorConstantes.Models
 {
     public class InfoLinea
     {
