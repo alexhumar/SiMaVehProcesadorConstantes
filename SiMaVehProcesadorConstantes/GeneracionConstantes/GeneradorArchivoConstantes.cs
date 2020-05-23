@@ -19,8 +19,8 @@ namespace SiMaVehProcesadorConstantes.GeneracionConstantes
             string descripcionEntidad, string agrupacionEntidades, T infoEstructura)
         {
             string nombreClase = string.Concat(tipoEntidad, infoEstructura.Cabecera.NombreConstante);
-            string outputConstantesPath = Path.Combine(directorioBase, "SmvOutputConstantes", $"{nombreClase}.cs");
-            string templateFilePath = Path.Combine(directorioBase, "SmvTemplates", "TemplaceConstante.txt");
+            string outputConstantesPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, $"{nombreClase}.cs");
+            string templateFilePath = Path.Combine(directorioBase, Procesamiento.SubdirectorioTemplates, "TemplateConstante.txt");
 
             if (File.Exists(outputConstantesPath))
             {
@@ -39,12 +39,12 @@ namespace SiMaVehProcesadorConstantes.GeneracionConstantes
             }
 
             var template = sbTemplate.ToString();
-            var constantes = generadorCuerpoConstantes.Generar(infoEstructura.GetLineas());
+            var contenido = generadorCuerpoConstantes.Generar(infoEstructura.GetLineas());
 
             // Create a file to write to.
             using (StreamWriter sw = File.CreateText(outputConstantesPath))
             {
-                sw.Write(string.Format(template, agrupacionEntidades, string.Format(Procesamiento.SummaryConstanteTemplateText, descripcionEntidad, infoEstructura.Cabecera.NombreOriginal), nombreClase, constantes));
+                sw.Write(string.Format(template, agrupacionEntidades, string.Format(Procesamiento.SummaryConstanteTemplateText, descripcionEntidad, infoEstructura.Cabecera.NombreOriginal), nombreClase, contenido));
             }
         }
     }

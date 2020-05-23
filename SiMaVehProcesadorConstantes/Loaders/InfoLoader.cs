@@ -52,6 +52,7 @@ namespace SiMaVehProcesadorConstantes.Loaders
             };
         }
 
+        //TODO: ver si se puede pasar a una nueva estructura de clases
         protected abstract S CrearUnidadInfoEstructura(StreamReader sr, string linea);
 
         protected abstract string GetNombreInputFile();

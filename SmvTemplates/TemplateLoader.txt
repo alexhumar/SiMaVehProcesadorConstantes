@@ -2,22 +2,22 @@ using SiMaVeh.Domain.DataSeed.Constants.SubdivisionesPais;
 using SiMaVeh.Domain.DataSeed.Fixtures.Interfaces;
 using System.Collections.Generic;
 
-namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
+namespace SiMaVeh.Domain.DataSeed.Fixtures.{0}.Loaders
 {{
-    class {0} : IFixtureItemKeyValueLoader<long, long, string>
+    class {1} : IFixtureItemKeyValueLoader<long, long, string>
     {{
         private readonly IFixturePartido fixturePartido;
 
-        public {0}(IFixturePartido fixturePartido)
+        public {1}(IFixturePartido fixturePartido)
         {{
             this.fixturePartido = fixturePartido;
         }}
 
         public void Load(Dictionary<long, Dictionary<long, string>> dictionary)
         {{
-            dictionary.Add(fixturePartido.FindByNombre({1}).Value.Key, new Dictionary<long, string>
+            dictionary.Add(fixturePartido.FindByNombre({2}).Value.Key, new Dictionary<long, string>
             {{
-{2}
+{3}
             }});
         }}
     }}

@@ -38,22 +38,7 @@ namespace SiMaVehProcesadorConstantes
             subseccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Partido", "Partidos", "SubdivisionesPais", infoPartidos);
             seccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Localidad", "Localidades", "SubSubdivisionesPais", infoLocalidadesPartido);
 
-            //TODO: Implementar en clase aparte
-
-            //string outputDictionaryPath = Path.Combine(baseInputDirectory, "Output_Dictionary.txt");
-            //if (!File.Exists(outputDictionaryPath))
-            //{
-            //    // Create a file to write to.
-            //    using (StreamWriter sw = File.CreateText(outputDictionaryPath))
-            //    {
-            //        foreach (var linea in infoLineas)
-            //        {
-            //            var stringToWrite = string.Format("/ {0}, {1}.{2} |,", startId, nombreClaseConstante, linea.NombreConstante);
-            //            sw.WriteLine(stringToWrite.Replace("/", "{").Replace("|", "}"));
-            //            startId++;
-            //        }
-            //    }
-            //}
+            //TODO: aca probar la parte de generacion de archivos de loaders. Cuando este...
         }
     }
 }
