@@ -13,7 +13,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         {
             return new ResultadoGeneracionCuerpoLoader
             {
-                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, tipoSuperEntidad, nombreSuperEntidad),
+                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, infoEstructura.Cabecera.NombreConstante, tipoSuperEntidad, nombreSuperEntidad),
                 FinishId = CurrentId
             };
         }

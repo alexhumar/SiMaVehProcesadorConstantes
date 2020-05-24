@@ -56,10 +56,10 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             CurrentId = currentId;
         }
 
-        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string tipoSuperEntidad, string valorSuperEntidad, bool finalizar = true)
+        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string valorEntidad, string tipoSuperEntidad, string valorSuperEntidad, bool finalizar = true)
         {
             var sbLoaders = new StringBuilder();
-            var nombreClaseConstante = string.Concat(tipoEntidad, infoEstructura.Cabecera.NombreConstante);
+            var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
 
             sbLoaders.AppendLine(string.Concat(Indent, $"dictionary.Add(fixture{tipoSuperEntidad}.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Value.Key, new Dictionary<long, string>"));
             sbLoaders.AppendLine(string.Concat(Indent, "{"));

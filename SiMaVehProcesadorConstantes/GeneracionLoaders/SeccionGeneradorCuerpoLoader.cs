@@ -19,7 +19,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             foreach (var infoSubSeccion in infoEstructura.Unidades)
             {
                 unidadesPendientesProcesar--;
-                sbLoaders.AppendLine(GenerarEntradaCuerpo(infoSubSeccion, tipoEntidad, tipoSuperEntidad, infoEstructura.Cabecera.NombreConstante, unidadesPendientesProcesar == 0));
+                sbLoaders.AppendLine(GenerarEntradaCuerpo(infoSubSeccion, tipoEntidad, infoEstructura.Cabecera.NombreConstante, tipoSuperEntidad, infoEstructura.Cabecera.NombreConstante, unidadesPendientesProcesar == 0));
             }
 
             return new ResultadoGeneracionCuerpoLoader

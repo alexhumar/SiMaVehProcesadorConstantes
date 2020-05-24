@@ -1,4 +1,5 @@
-﻿using SiMaVehProcesadorConstantes.Procesadores;
+﻿using SiMaVehProcesadorConstantes.Constantes;
+using SiMaVehProcesadorConstantes.Procesadores;
 using SiMaVehProcesadorConstantes.Procesadores.Builders;
 using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
 using System.IO;
@@ -11,8 +12,9 @@ namespace SiMaVehProcesadorConstantes
         {
             #region config
 
-            long currentID = 1;
+            long startID = 1;
             string baseDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
+            string inputDirectory = Path.Combine(baseDirectory, Procesamiento.SubdirectorioProcesamiento);
 
             #endregion
 
@@ -29,11 +31,17 @@ namespace SiMaVehProcesadorConstantes
 
             #region procesamiento
 
-            //Aca queda el valor 136
-            var resultadoPartidos = procesadorPartidos.ProcesarPartidos(baseDirectory, "Buenos Aires", currentID);
+            var currentPartidoId = startID;
+            var currentLocalidadId = startID;
 
-            //Y aca el 932
-            var resultadoLocalidades = procesadorLocalidades.ProcesarLocalidades(baseDirectory, "Buenos Aires", currentID);
+            foreach (var subdirectorio in Directory.GetDirectories(inputDirectory))
+            {
+                var nombreProvincia = Path.GetFileName(subdirectorio);
+                var resultadoPartidos = procesadorPartidos.ProcesarPartidos(baseDirectory, nombreProvincia, currentPartidoId);
+                currentPartidoId = resultadoPartidos.FinishId;
+                var resultadoLocalidades = procesadorLocalidades.ProcesarLocalidades(baseDirectory, nombreProvincia, currentLocalidadId);
+                currentLocalidadId = resultadoLocalidades.FinishId;
+            }
 
             #endregion
         }
