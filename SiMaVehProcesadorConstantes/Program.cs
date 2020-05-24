@@ -1,5 +1,7 @@
 ﻿using SiMaVehProcesadorConstantes.GeneracionConstantes;
 using SiMaVehProcesadorConstantes.GeneracionConstantes.Interfaces;
+using SiMaVehProcesadorConstantes.GeneracionLoaders;
+using SiMaVehProcesadorConstantes.GeneracionLoaders.Interfaces;
 using SiMaVehProcesadorConstantes.Loaders;
 using SiMaVehProcesadorConstantes.Loaders.Interfaces;
 using SiMaVehProcesadorConstantes.Models;
@@ -29,6 +31,8 @@ namespace SiMaVehProcesadorConstantes
             IInfoLoader<InfoSeccion> infoSeccionLoader = new SeccionInfoLoader(procesadorConstante);
             IGeneradorArchivoContantes<InfoSubseccion> subseccionGeneradorArchivoConstantes = new SubseccionGeneradorArchivoConstantes();
             IGeneradorArchivoContantes<InfoSeccion> seccionGeneradorArchivoConstantes = new SeccionGeneradorArchivoConstantes();
+            IGeneradorArchivoLoader<InfoSubseccion> subseccionGeneradorArchivoLoader = new SubseccionGeneradorArchivoLoader();
+            IGeneradorArchivoLoader<InfoSeccion> seccionGeneradorArchivoLoader = new SeccionGeneradorArchivoLoader();
 
             #endregion
 
@@ -38,7 +42,8 @@ namespace SiMaVehProcesadorConstantes
             subseccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Partido", "Partidos", "SubdivisionesPais", infoPartidos);
             seccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Localidad", "Localidades", "SubSubdivisionesPais", infoLocalidadesPartido);
 
-            //TODO: aca probar la parte de generacion de archivos de loaders. Cuando este...
+            subseccionGeneradorArchivoLoader.GenerarArchivo(infoPartidos, baseDirectory, "Partido", "Provincia", "Argentina", 0);
+            seccionGeneradorArchivoLoader.GenerarArchivo(infoLocalidadesPartido, baseDirectory, "Localidad", "Partido", "Buenos Aires", 0);
         }
     }
 }

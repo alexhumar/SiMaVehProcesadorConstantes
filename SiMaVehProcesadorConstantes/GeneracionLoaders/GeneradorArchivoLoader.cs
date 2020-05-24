@@ -16,7 +16,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             generadorCuerpoLoadersFactory = new GeneradorCuerpoLoadersFactory<T, S>();
         }
 
-        public void GenerarArchivo(string directorioBase, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad, T infoEstructura)
+        public void GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad, long startId)
         {
             string nombreClase = string.Concat(infoEstructura.Cabecera.NombreConstante, "Loader");
             string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, $"{nombreClase}.cs");
@@ -40,7 +40,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 
             var template = sbTemplate.ToString();
             var contenido = generadorCuerpoLoadersFactory
-                .Get(infoEstructura)
+                .Get(infoEstructura, startId)
                 .GenerarCuerpo(infoEstructura, tipoEntidad, tipoSuperEntidad, nombreSuperEntidad);
 
             using (StreamWriter sw = File.CreateText(outputLoadersPath))
