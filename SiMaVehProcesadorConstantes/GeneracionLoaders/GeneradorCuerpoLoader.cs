@@ -9,19 +9,19 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
     {
         private readonly object myLock = new object();
 
-        private long startId;
-        protected long StartId
+        private long currentId;
+        protected long CurrentId
         {
             get
             {
                 lock (myLock)
                 {
-                    return startId++;
+                    return currentId++;
                 }
             }
             set
             {
-                startId = value;
+                currentId = value;
             }
         }
 
@@ -51,9 +51,9 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             }
         }
 
-        public GeneradorCuerpoLoader(long startId)
+        public GeneradorCuerpoLoader(long currentId)
         {
-            StartId = startId;
+            CurrentId = currentId;
         }
 
         protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string tipoSuperEntidad, string valorSuperEntidad, bool finalizar = true)
@@ -66,7 +66,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 
             foreach (var linea in infoEstructura.GetLineas())
             {
-                var stringToWrite = string.Format("{{ {0}, {1}.{2} }},", StartId, nombreClaseConstante, linea.NombreConstante);
+                var stringToWrite = string.Format("{{ {0}, {1}.{2} }},", CurrentId, nombreClaseConstante, linea.NombreConstante);
                 sbLoaders.AppendLine(string.Concat(SubIndent, stringToWrite));
             }
 
@@ -75,6 +75,6 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             return sbLoaders.ToString().TrimEnd();
         }
 
-        public abstract string GenerarCuerpo(T infoEstructura, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad);
+        public abstract ResultadoGeneracionCuerpoLoader GenerarCuerpo(T infoEstructura, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad);
     }
 }

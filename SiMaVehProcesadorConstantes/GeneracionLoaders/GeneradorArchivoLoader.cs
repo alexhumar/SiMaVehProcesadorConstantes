@@ -16,10 +16,10 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             generadorCuerpoLoadersFactory = new GeneradorCuerpoLoadersFactory<T, S>();
         }
 
-        public void GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad, long startId)
+        public ResultadoGeneracionLoader GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad, long startId)
         {
             string nombreClase = string.Concat(infoEstructura.Cabecera.NombreConstante, "Loader");
-            string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, $"{nombreClase}.cs");
+            string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, GetSubdirectorioOutput(), $"{nombreClase}.cs");
             string templateFilePath = Path.Combine(directorioBase, Procesamiento.SubdirectorioTemplates, "TemplateLoader.txt");
 
             if (File.Exists(outputLoadersPath))
@@ -39,14 +39,21 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             }
 
             var template = sbTemplate.ToString();
-            var contenido = generadorCuerpoLoadersFactory
+            var resultadoGeneracionCuerpo = generadorCuerpoLoadersFactory
                 .Get(infoEstructura, startId)
                 .GenerarCuerpo(infoEstructura, tipoEntidad, tipoSuperEntidad, nombreSuperEntidad);
 
             using (StreamWriter sw = File.CreateText(outputLoadersPath))
             {
-                sw.Write(string.Format(template, tipoEntidad, nombreClase, tipoSuperEntidad, "A determinar como lo calculo", contenido));
+                sw.Write(string.Format(template, tipoEntidad, nombreClase, tipoSuperEntidad, resultadoGeneracionCuerpo.Cuerpo));
             }
+
+            return new ResultadoGeneracionLoader
+            {
+                FinishId = resultadoGeneracionCuerpo.FinishId
+            };
         }
+
+        protected abstract string GetSubdirectorioOutput();
     }
 }

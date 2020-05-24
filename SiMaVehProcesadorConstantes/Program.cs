@@ -1,11 +1,5 @@
-﻿using SiMaVehProcesadorConstantes.GeneracionConstantes;
-using SiMaVehProcesadorConstantes.GeneracionConstantes.Interfaces;
-using SiMaVehProcesadorConstantes.GeneracionLoaders;
-using SiMaVehProcesadorConstantes.GeneracionLoaders.Interfaces;
-using SiMaVehProcesadorConstantes.Loaders;
-using SiMaVehProcesadorConstantes.Loaders.Interfaces;
-using SiMaVehProcesadorConstantes.Models;
-using SiMaVehProcesadorConstantes.Procesadores;
+﻿using SiMaVehProcesadorConstantes.Procesadores;
+using SiMaVehProcesadorConstantes.Procesadores.Builders;
 using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
 using System.IO;
 
@@ -17,33 +11,31 @@ namespace SiMaVehProcesadorConstantes
         {
             #region config
 
-            int startId = 217;
-            string nombreClaseConstante = "PartidoCorrientes";
-            string baseDirectory = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
-            string baseInputDirectory = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "SmvConstantesProcesadas");
+            long currentID = 1;
+            string baseDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
 
             #endregion
 
             #region dependencias
 
             IProcesadorNombreConstante procesadorConstante = new ProcesadorNombreConstante();
-            IInfoLoader<InfoSubseccion> infoSubseccionLoader = new SubseccionInfoLoader(procesadorConstante);
-            IInfoLoader<InfoSeccion> infoSeccionLoader = new SeccionInfoLoader(procesadorConstante);
-            IGeneradorArchivoContantes<InfoSubseccion> subseccionGeneradorArchivoConstantes = new SubseccionGeneradorArchivoConstantes();
-            IGeneradorArchivoContantes<InfoSeccion> seccionGeneradorArchivoConstantes = new SeccionGeneradorArchivoConstantes();
-            IGeneradorArchivoLoader<InfoSubseccion> subseccionGeneradorArchivoLoader = new SubseccionGeneradorArchivoLoader();
-            IGeneradorArchivoLoader<InfoSeccion> seccionGeneradorArchivoLoader = new SeccionGeneradorArchivoLoader();
+            IProcesadorBuilder<ProcesadorLocalidades> procesadorLocalidadesBuilder = new ProcesadorLocalidadesBuilder(procesadorConstante);
+            IProcesadorBuilder<ProcesadorPartidos> procesadorPartidosBuilder = new ProcesadorPartidosBuilder(procesadorConstante);
+
+            var procesadorLocalidades = procesadorLocalidadesBuilder.BuildProcesador();
+            var procesadorPartidos = procesadorPartidosBuilder.BuildProcesador();
 
             #endregion
 
-            var infoPartidos = infoSubseccionLoader.LoadInfo(baseDirectory, "Buenos Aires");
-            var infoLocalidadesPartido = infoSeccionLoader.LoadInfo(baseDirectory, "Buenos Aires");
+            #region procesamiento
 
-            subseccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Partido", "Partidos", "SubdivisionesPais", infoPartidos);
-            seccionGeneradorArchivoConstantes.GenerarArchivo(baseDirectory, "Localidad", "Localidades", "SubSubdivisionesPais", infoLocalidadesPartido);
+            //Aca queda el valor 136
+            var resultadoPartidos = procesadorPartidos.ProcesarPartidos(baseDirectory, "Buenos Aires", currentID);
 
-            subseccionGeneradorArchivoLoader.GenerarArchivo(infoPartidos, baseDirectory, "Partido", "Provincia", "Argentina", 0);
-            seccionGeneradorArchivoLoader.GenerarArchivo(infoLocalidadesPartido, baseDirectory, "Localidad", "Partido", "Buenos Aires", 0);
+            //Y aca el 932
+            var resultadoLocalidades = procesadorLocalidades.ProcesarLocalidades(baseDirectory, "Buenos Aires", currentID);
+
+            #endregion
         }
     }
 }

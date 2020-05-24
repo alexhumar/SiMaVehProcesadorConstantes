@@ -1,4 +1,5 @@
-﻿using SiMaVehProcesadorConstantes.Models;
+﻿using SiMaVehProcesadorConstantes.Constantes;
+using SiMaVehProcesadorConstantes.Models;
 
 namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 {
@@ -6,6 +7,11 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
     {
         public SubseccionGeneradorArchivoLoader()
         {
+        }
+
+        protected override string GetSubdirectorioOutput()
+        {
+            return Procesamiento.SubdirectorioSubseccion;
         }
     }
 }

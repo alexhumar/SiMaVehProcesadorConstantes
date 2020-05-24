@@ -15,5 +15,9 @@
         public const string SubdirectorioOutput = "SmvProcesamientoOutput";
 
         public const string SummaryConstanteTemplateText = "Constante de nombres de {0} de {1}";
+
+        public const string SubdirectorioSeccion = "Localidades";
+
+        public const string SubdirectorioSubseccion = "Partidos";
     }
 }
