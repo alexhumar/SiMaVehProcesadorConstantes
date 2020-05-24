@@ -6,18 +6,18 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.{0}.Loaders
 {{
     class {1} : IFixtureItemKeyValueLoader<long, long, string>
     {{
-        private readonly IFixturePartido fixturePartido;
+        private readonly IFixture{2} fixture{2};
 
-        public {1}(IFixturePartido fixturePartido)
+        public {1}(IFixture{2} fixture{2})
         {{
-            this.fixturePartido = fixturePartido;
+            this.fixture{2} = fixture{2};
         }}
 
         public void Load(Dictionary<long, Dictionary<long, string>> dictionary)
         {{
-            dictionary.Add(fixturePartido.FindByNombre({2}).Value.Key, new Dictionary<long, string>
+            dictionary.Add(fixture{2}.FindByNombre({3}).Value.Key, new Dictionary<long, string>
             {{
-{3}
+{4}
             }});
         }}
     }}
