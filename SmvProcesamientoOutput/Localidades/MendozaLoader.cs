@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class MendozaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class MendozaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -17,7 +17,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
         {
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Capital).Value.Key, new Dictionary<long, string>
             {
-                { 2542, LocalidadMendoza.Mendoza },
+                { 2542, LocalidadMendoza.Mendoza }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.GeneralAlvear).Value.Key, new Dictionary<long, string>
             {
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2560, LocalidadMendoza.PosteDeHierro },
                 { 2561, LocalidadMendoza.ElNevado },
                 { 2562, LocalidadMendoza.ElDesvio },
-                { 2563, LocalidadMendoza.Bowen },
+                { 2563, LocalidadMendoza.Bowen }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.GodoyCruz).Value.Key, new Dictionary<long, string>
             {
@@ -50,7 +50,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2566, LocalidadMendoza.LasTortugas },
                 { 2567, LocalidadMendoza.PresidenteSarmiento },
                 { 2568, LocalidadMendoza.SanFranciscoDelMonte },
-                { 2569, LocalidadMendoza.SanVicente },
+                { 2569, LocalidadMendoza.SanVicente }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Guaymallen).Value.Key, new Dictionary<long, string>
             {
@@ -75,7 +75,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2588, LocalidadMendoza.RodeoDeLaCruz },
                 { 2589, LocalidadMendoza.SanFranciscoDelMonte },
                 { 2590, LocalidadMendoza.SanJose },
-                { 2591, LocalidadMendoza.VillaNueva },
+                { 2591, LocalidadMendoza.VillaNueva }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Junin).Value.Key, new Dictionary<long, string>
             {
@@ -88,7 +88,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2598, LocalidadMendoza.Medrano },
                 { 2599, LocalidadMendoza.MundoNuevo },
                 { 2600, LocalidadMendoza.Phillips },
-                { 2601, LocalidadMendoza.RodriguezPena },
+                { 2601, LocalidadMendoza.RodriguezPena }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.LaPaz).Value.Key, new Dictionary<long, string>
             {
@@ -96,7 +96,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2603, LocalidadMendoza.LaPazNorte },
                 { 2604, LocalidadMendoza.LaPazSur },
                 { 2605, LocalidadMendoza.VillaAntigua },
-                { 2606, LocalidadMendoza.VillaCabecera },
+                { 2606, LocalidadMendoza.VillaCabecera }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.LasHeras).Value.Key, new Dictionary<long, string>
             {
@@ -112,7 +112,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2616, LocalidadMendoza.LasCuevas },
                 { 2617, LocalidadMendoza.LasHeras },
                 { 2618, LocalidadMendoza.Panquehua },
-                { 2619, LocalidadMendoza.UspallataYAltaMontana },
+                { 2619, LocalidadMendoza.UspallataYAltaMontana }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Lavalle).Value.Key, new Dictionary<long, string>
             {
@@ -136,7 +136,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2637, LocalidadMendoza.SanMiguel },
                 { 2638, LocalidadMendoza.TresDeMayo },
                 { 2639, LocalidadMendoza.VillaTulumaya },
-                { 2640, LocalidadMendoza.OscarMendoza },
+                { 2640, LocalidadMendoza.OscarMendoza }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.LujanDeCuyo).Value.Key, new Dictionary<long, string>
             {
@@ -154,7 +154,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2652, LocalidadMendoza.Potrerillos },
                 { 2653, LocalidadMendoza.Ugarteche },
                 { 2654, LocalidadMendoza.Vistalba },
-                { 2655, LocalidadMendoza.VertientesDelPedemonte },
+                { 2655, LocalidadMendoza.VertientesDelPedemonte }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Maipu).Value.Key, new Dictionary<long, string>
             {
@@ -169,14 +169,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2664, LocalidadMendoza.Maipu },
                 { 2665, LocalidadMendoza.RodeoDelMedio },
                 { 2666, LocalidadMendoza.Russell },
-                { 2667, LocalidadMendoza.SanRoque },
+                { 2667, LocalidadMendoza.SanRoque }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Malargue).Value.Key, new Dictionary<long, string>
             {
                 { 2668, LocalidadMendoza.AguaEscondida },
                 { 2669, LocalidadMendoza.Malargue },
                 { 2670, LocalidadMendoza.RioBarrancas },
-                { 2671, LocalidadMendoza.RioGrande },
+                { 2671, LocalidadMendoza.RioGrande }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Rivadavia).Value.Key, new Dictionary<long, string>
             {
@@ -192,7 +192,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2681, LocalidadMendoza.Reduccion },
                 { 2682, LocalidadMendoza.Rivadavia },
                 { 2683, LocalidadMendoza.SantaMariaDeOro },
-                { 2684, LocalidadMendoza.SanIsidro },
+                { 2684, LocalidadMendoza.SanIsidro }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.SanCarlos).Value.Key, new Dictionary<long, string>
             {
@@ -201,7 +201,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2687, LocalidadMendoza.LaConsulta },
                 { 2688, LocalidadMendoza.Pareditas },
                 { 2689, LocalidadMendoza.TresEsquinas },
-                { 2690, LocalidadMendoza.VillaDeSanCarlos },
+                { 2690, LocalidadMendoza.VillaDeSanCarlos }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.GeneralSanMartin).Value.Key, new Dictionary<long, string>
             {
@@ -220,7 +220,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2703, LocalidadMendoza.NuevaCalifornia },
                 { 2704, LocalidadMendoza.Palmira },
                 { 2705, LocalidadMendoza.SanMartin },
-                { 2706, LocalidadMendoza.TresPortenas },
+                { 2706, LocalidadMendoza.TresPortenas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.SanRafael).Value.Key, new Dictionary<long, string>
             {
@@ -241,7 +241,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2721, LocalidadMendoza.RealDelPadre },
                 { 2722, LocalidadMendoza.SanRafael },
                 { 2723, LocalidadMendoza.VillaVeinticincoDeMayo },
-                { 2724, LocalidadMendoza.VillaAtuel },
+                { 2724, LocalidadMendoza.VillaAtuel }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.SantaRosa).Value.Key, new Dictionary<long, string>
             {
@@ -249,7 +249,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2726, LocalidadMendoza.LaDormida },
                 { 2727, LocalidadMendoza.LasCatitas },
                 { 2728, LocalidadMendoza.Nacunan },
-                { 2729, LocalidadMendoza.SantaRosa },
+                { 2729, LocalidadMendoza.SantaRosa }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Tunuyan).Value.Key, new Dictionary<long, string>
             {
@@ -264,7 +264,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2738, LocalidadMendoza.LosSauces },
                 { 2739, LocalidadMendoza.Tunuyan },
                 { 2740, LocalidadMendoza.VillaSeca },
-                { 2741, LocalidadMendoza.VistaFlores },
+                { 2741, LocalidadMendoza.VistaFlores }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMendoza.Tupungato).Value.Key, new Dictionary<long, string>
             {
@@ -280,7 +280,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2751, LocalidadMendoza.SantaClara },
                 { 2752, LocalidadMendoza.Tupungato },
                 { 2753, LocalidadMendoza.VillaBastias },
-                { 2754, LocalidadMendoza.Zapata },
+                { 2754, LocalidadMendoza.Zapata }
             });
         }
     }

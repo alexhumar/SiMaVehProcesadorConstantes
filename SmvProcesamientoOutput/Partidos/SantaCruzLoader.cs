@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class SantaCruzLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class SantaCruzLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -23,7 +23,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 443, PartidoSantaCruz.CorpenAike },
                 { 444, PartidoSantaCruz.Magallanes },
                 { 445, PartidoSantaCruz.LagoBuenosAires },
-                { 446, PartidoSantaCruz.RioChico },
+                { 446, PartidoSantaCruz.RioChico }
             });
         }
     }

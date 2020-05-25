@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class ChubutLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class ChubutLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -28,7 +28,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1195, LocalidadChubut.PlayaElDoradillo },
                 { 1196, LocalidadChubut.PuertoGalvan },
                 { 1197, LocalidadChubut.ElDesempeno },
-                { 1198, LocalidadChubut.PuertoSanJose },
+                { 1198, LocalidadChubut.PuertoSanJose }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Cushamen).Value.Key, new Dictionary<long, string>
             {
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1205, LocalidadChubut.Gualjaina },
                 { 1206, LocalidadChubut.LagoEpuyen },
                 { 1207, LocalidadChubut.LagoPuelo },
-                { 1208, LocalidadChubut.Leleque },
+                { 1208, LocalidadChubut.Leleque }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Escalante).Value.Key, new Dictionary<long, string>
             {
@@ -72,12 +72,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1233, LocalidadChubut.DiademaArgentina },
                 { 1234, LocalidadChubut.PampaSalamanca },
                 { 1235, LocalidadChubut.PicoSalamanca },
-                { 1236, LocalidadChubut.BahiaBustamante },
+                { 1236, LocalidadChubut.BahiaBustamante }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.FlorentinoAmeghino).Value.Key, new Dictionary<long, string>
             {
                 { 1237, LocalidadChubut.Camarones },
-                { 1238, LocalidadChubut.Garayalde },
+                { 1238, LocalidadChubut.Garayalde }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Futaleufu).Value.Key, new Dictionary<long, string>
             {
@@ -86,14 +86,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1241, LocalidadChubut.Corcovado },
                 { 1242, LocalidadChubut.LagoRosario },
                 { 1243, LocalidadChubut.LosCipreses },
-                { 1244, LocalidadChubut.VillaFutalaufquen },
+                { 1244, LocalidadChubut.VillaFutalaufquen }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Gaiman).Value.Key, new Dictionary<long, string>
             {
                 { 1245, LocalidadChubut.VillaDiqueFlorentinoAmeghino },
                 { 1246, LocalidadChubut.Dolavon },
                 { 1247, LocalidadChubut.Gaiman },
-                { 1248, LocalidadChubut.VeintiochoDeJulio },
+                { 1248, LocalidadChubut.VeintiochoDeJulio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Gastre).Value.Key, new Dictionary<long, string>
             {
@@ -101,7 +101,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1250, LocalidadChubut.LagunitaSalada },
                 { 1251, LocalidadChubut.Blancuntre },
                 { 1252, LocalidadChubut.ElEscorial },
-                { 1253, LocalidadChubut.YalaLaubat },
+                { 1253, LocalidadChubut.YalaLaubat }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Languineo).Value.Key, new Dictionary<long, string>
             {
@@ -109,19 +109,19 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1255, LocalidadChubut.PasoDelSapo },
                 { 1256, LocalidadChubut.Carrenleufu },
                 { 1257, LocalidadChubut.ColanConhue },
-                { 1258, LocalidadChubut.AldeaEpulef },
+                { 1258, LocalidadChubut.AldeaEpulef }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Martires).Value.Key, new Dictionary<long, string>
             {
                 { 1259, LocalidadChubut.LasPlumas },
-                { 1260, LocalidadChubut.ElMirasol },
+                { 1260, LocalidadChubut.ElMirasol }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.PasoDeIndios).Value.Key, new Dictionary<long, string>
             {
                 { 1261, LocalidadChubut.LosAltares },
                 { 1262, LocalidadChubut.CerroCondor },
                 { 1263, LocalidadChubut.PasoDeIndios },
-                { 1264, LocalidadChubut.ElSombrero },
+                { 1264, LocalidadChubut.ElSombrero }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Rawson).Value.Key, new Dictionary<long, string>
             {
@@ -129,7 +129,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1266, LocalidadChubut.PuertoRawson },
                 { 1267, LocalidadChubut.Rawson },
                 { 1268, LocalidadChubut.Trelew },
-                { 1269, LocalidadChubut.PlayaMagagna },
+                { 1269, LocalidadChubut.PlayaMagagna }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.RioSenguer).Value.Key, new Dictionary<long, string>
             {
@@ -139,24 +139,24 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1273, LocalidadChubut.LagoBlanco },
                 { 1274, LocalidadChubut.AldeaBeleiro },
                 { 1275, LocalidadChubut.Facundo },
-                { 1276, LocalidadChubut.AldeaApeleg },
+                { 1276, LocalidadChubut.AldeaApeleg }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Sarmiento).Value.Key, new Dictionary<long, string>
             {
                 { 1277, LocalidadChubut.BuenPasto },
-                { 1278, LocalidadChubut.Sarmiento },
+                { 1278, LocalidadChubut.Sarmiento }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Tehuelches).Value.Key, new Dictionary<long, string>
             {
                 { 1279, LocalidadChubut.GobernadorCosta },
                 { 1280, LocalidadChubut.JoseDeSanMartin },
                 { 1281, LocalidadChubut.RioPico },
-                { 1282, LocalidadChubut.DoctorAtilioOscarViglione },
+                { 1282, LocalidadChubut.DoctorAtilioOscarViglione }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Telsen).Value.Key, new Dictionary<long, string>
             {
                 { 1283, LocalidadChubut.GanGan },
-                { 1284, LocalidadChubut.Telsen },
+                { 1284, LocalidadChubut.Telsen }
             });
         }
     }

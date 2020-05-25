@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class TucumanLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class TucumanLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -33,7 +33,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 511, PartidoTucuman.TafiDelValle },
                 { 512, PartidoTucuman.TafiViejo },
                 { 513, PartidoTucuman.Trancas },
-                { 514, PartidoTucuman.YerbaBuena },
+                { 514, PartidoTucuman.YerbaBuena }
             });
         }
     }

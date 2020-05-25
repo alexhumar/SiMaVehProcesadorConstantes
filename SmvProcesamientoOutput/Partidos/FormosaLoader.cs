@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class FormosaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class FormosaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -25,7 +25,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 265, PartidoFormosa.Pilagas },
                 { 266, PartidoFormosa.Pilcomayo },
                 { 267, PartidoFormosa.Pirane },
-                { 268, PartidoFormosa.RamonLista },
+                { 268, PartidoFormosa.RamonLista }
             });
         }
     }

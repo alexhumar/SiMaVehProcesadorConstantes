@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class BuenosAiresLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class BuenosAiresLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -25,14 +25,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 6, LocalidadBuenosAires.DelfinHuergo },
                 { 7, LocalidadBuenosAires.LaPala },
                 { 8, LocalidadBuenosAires.Thames },
-                { 9, LocalidadBuenosAires.Yutuyaco },
+                { 9, LocalidadBuenosAires.Yutuyaco }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.AdolfoGonzalesChaves).Value.Key, new Dictionary<long, string>
             {
                 { 10, LocalidadBuenosAires.GonzalesChaves },
                 { 11, LocalidadBuenosAires.DeLaGarma },
                 { 12, LocalidadBuenosAires.JuanEulogioBarra },
-                { 13, LocalidadBuenosAires.Vasquez },
+                { 13, LocalidadBuenosAires.Vasquez }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Alberti).Value.Key, new Dictionary<long, string>
             {
@@ -43,7 +43,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 18, LocalidadBuenosAires.CoronelSegui },
                 { 19, LocalidadBuenosAires.VillaGrisolia },
                 { 20, LocalidadBuenosAires.VillaMaria },
-                { 21, LocalidadBuenosAires.GobernadorUgarte },
+                { 21, LocalidadBuenosAires.GobernadorUgarte }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.AlmiranteBrown).Value.Key, new Dictionary<long, string>
             {
@@ -58,13 +58,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 30, LocalidadBuenosAires.MalvinasArgentinas },
                 { 31, LocalidadBuenosAires.SanFranciscoDeAsis },
                 { 32, LocalidadBuenosAires.SanJose },
-                { 33, LocalidadBuenosAires.SanFranciscoSolano },
+                { 33, LocalidadBuenosAires.SanFranciscoSolano }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Arrecifes).Value.Key, new Dictionary<long, string>
             {
                 { 34, LocalidadBuenosAires.Arrecifes },
                 { 35, LocalidadBuenosAires.Todd },
-                { 36, LocalidadBuenosAires.Vina },
+                { 36, LocalidadBuenosAires.Vina }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Avellaneda).Value.Key, new Dictionary<long, string>
             {
@@ -74,7 +74,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 40, LocalidadBuenosAires.Pineyro },
                 { 41, LocalidadBuenosAires.Sarandi },
                 { 42, LocalidadBuenosAires.VillaDominico },
-                { 43, LocalidadBuenosAires.Wilde },
+                { 43, LocalidadBuenosAires.Wilde }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Ayacucho).Value.Key, new Dictionary<long, string>
             {
@@ -85,7 +85,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 48, LocalidadBuenosAires.ParajeCangallo },
                 { 49, LocalidadBuenosAires.ParajeLangueyu },
                 { 50, LocalidadBuenosAires.ParajeFair },
-                { 51, LocalidadBuenosAires.ParajeSanIgnacio },
+                { 51, LocalidadBuenosAires.ParajeSanIgnacio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Azul).Value.Key, new Dictionary<long, string>
             {
@@ -93,7 +93,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 53, LocalidadBuenosAires.Chillar },
                 { 54, LocalidadBuenosAires.Cachari },
                 { 55, LocalidadBuenosAires.DieciseisDeJulio },
-                { 56, LocalidadBuenosAires.Ariel },
+                { 56, LocalidadBuenosAires.Ariel }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.BahiaBlanca).Value.Key, new Dictionary<long, string>
             {
@@ -104,7 +104,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 61, LocalidadBuenosAires.Cabildo },
                 { 62, LocalidadBuenosAires.VillaEspora },
                 { 63, LocalidadBuenosAires.VillaBordeu },
-                { 64, LocalidadBuenosAires.LaViticola },
+                { 64, LocalidadBuenosAires.LaViticola }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Balcarce).Value.Key, new Dictionary<long, string>
             {
@@ -113,14 +113,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 67, LocalidadBuenosAires.Napaleofu },
                 { 68, LocalidadBuenosAires.LosPinos },
                 { 69, LocalidadBuenosAires.VillaLagunaLaBrava },
-                { 70, LocalidadBuenosAires.RamosOtero },
+                { 70, LocalidadBuenosAires.RamosOtero }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Baradero).Value.Key, new Dictionary<long, string>
             {
                 { 71, LocalidadBuenosAires.Baradero },
                 { 72, LocalidadBuenosAires.VillaAlsina },
                 { 73, LocalidadBuenosAires.IreneoPortela },
-                { 74, LocalidadBuenosAires.SantaColoma },
+                { 74, LocalidadBuenosAires.SantaColoma }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.BenitoJuarez).Value.Key, new Dictionary<long, string>
             {
@@ -128,7 +128,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 76, LocalidadBuenosAires.VillaCacique },
                 { 77, LocalidadBuenosAires.Barker },
                 { 78, LocalidadBuenosAires.EstacionLopez },
-                { 79, LocalidadBuenosAires.TedinUriburu },
+                { 79, LocalidadBuenosAires.TedinUriburu }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Berazategui).Value.Key, new Dictionary<long, string>
             {
@@ -140,7 +140,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 85, LocalidadBuenosAires.Pereyra },
                 { 86, LocalidadBuenosAires.Platanos },
                 { 87, LocalidadBuenosAires.VillaEspana },
-                { 88, LocalidadBuenosAires.ElPato },
+                { 88, LocalidadBuenosAires.ElPato }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Berisso).Value.Key, new Dictionary<long, string>
             {
@@ -163,7 +163,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 105, LocalidadBuenosAires.LaBalandra },
                 { 106, LocalidadBuenosAires.JuanBJusto },
                 { 107, LocalidadBuenosAires.BarrioObrero },
-                { 108, LocalidadBuenosAires.BarrioSantaTeresita },
+                { 108, LocalidadBuenosAires.BarrioSantaTeresita }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Bolivar).Value.Key, new Dictionary<long, string>
             {
@@ -176,7 +176,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 115, LocalidadBuenosAires.MarianoUnzue },
                 { 116, LocalidadBuenosAires.VillaLynchPueyrredon },
                 { 117, LocalidadBuenosAires.ParajeVallimanca },
-                { 118, LocalidadBuenosAires.ParajeVillaSanz },
+                { 118, LocalidadBuenosAires.ParajeVillaSanz }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Bragado).Value.Key, new Dictionary<long, string>
             {
@@ -189,7 +189,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 125, LocalidadBuenosAires.Olascoaga },
                 { 126, LocalidadBuenosAires.MaximoFernandez },
                 { 127, LocalidadBuenosAires.LaLimpia },
-                { 128, LocalidadBuenosAires.Asamblea },
+                { 128, LocalidadBuenosAires.Asamblea }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Brandsen).Value.Key, new Dictionary<long, string>
             {
@@ -198,14 +198,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 131, LocalidadBuenosAires.Gomez },
                 { 132, LocalidadBuenosAires.Altamirano },
                 { 133, LocalidadBuenosAires.Samborombon },
-                { 134, LocalidadBuenosAires.Oliden },
+                { 134, LocalidadBuenosAires.Oliden }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Campana).Value.Key, new Dictionary<long, string>
             {
                 { 135, LocalidadBuenosAires.Campana },
                 { 136, LocalidadBuenosAires.AltoLosCardales },
                 { 137, LocalidadBuenosAires.LomasDelRioLujan },
-                { 138, LocalidadBuenosAires.IngenieroRomuloOtamendi },
+                { 138, LocalidadBuenosAires.IngenieroRomuloOtamendi }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Canuelas).Value.Key, new Dictionary<long, string>
             {
@@ -217,12 +217,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 144, LocalidadBuenosAires.VicenteCasares },
                 { 145, LocalidadBuenosAires.GobernadorUdaondo },
                 { 146, LocalidadBuenosAires.ElTaladro },
-                { 147, LocalidadBuenosAires.SantaAnita },
+                { 147, LocalidadBuenosAires.SantaAnita }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CapitanSarmiento).Value.Key, new Dictionary<long, string>
             {
                 { 148, LocalidadBuenosAires.CapitanSarmiento },
-                { 149, LocalidadBuenosAires.LaLuisa },
+                { 149, LocalidadBuenosAires.LaLuisa }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CarlosCasares).Value.Key, new Dictionary<long, string>
             {
@@ -235,7 +235,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 156, LocalidadBuenosAires.Ordoqui },
                 { 157, LocalidadBuenosAires.MauricioHirsch },
                 { 158, LocalidadBuenosAires.ColoniaMauricio },
-                { 159, LocalidadBuenosAires.LaSofia },
+                { 159, LocalidadBuenosAires.LaSofia }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CarlosTejedor).Value.Key, new Dictionary<long, string>
             {
@@ -243,19 +243,19 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 161, LocalidadBuenosAires.TresAlgarrobos },
                 { 162, LocalidadBuenosAires.ColoniaSere },
                 { 163, LocalidadBuenosAires.Timote },
-                { 164, LocalidadBuenosAires.Curaru },
+                { 164, LocalidadBuenosAires.Curaru }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CarmenDeAreco).Value.Key, new Dictionary<long, string>
             {
                 { 165, LocalidadBuenosAires.CarmenDeAreco },
                 { 166, LocalidadBuenosAires.TresSargentos },
-                { 167, LocalidadBuenosAires.PuebloGouin },
+                { 167, LocalidadBuenosAires.PuebloGouin }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Castelli).Value.Key, new Dictionary<long, string>
             {
                 { 168, LocalidadBuenosAires.Castelli },
                 { 169, LocalidadBuenosAires.CentroGuerrero },
-                { 170, LocalidadBuenosAires.CerroDeLaGloria },
+                { 170, LocalidadBuenosAires.CerroDeLaGloria }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Chacabuco).Value.Key, new Dictionary<long, string>
             {
@@ -263,11 +263,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 172, LocalidadBuenosAires.Rawson },
                 { 173, LocalidadBuenosAires.Ohiggins },
                 { 174, LocalidadBuenosAires.Castilla },
-                { 175, LocalidadBuenosAires.LosAngeles },
+                { 175, LocalidadBuenosAires.LosAngeles }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Chascomus).Value.Key, new Dictionary<long, string>
             {
-                { 176, LocalidadBuenosAires.Chascomus },
+                { 176, LocalidadBuenosAires.Chascomus }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Chivilcoy).Value.Key, new Dictionary<long, string>
             {
@@ -281,14 +281,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 184, LocalidadBuenosAires.HenryBell },
                 { 185, LocalidadBuenosAires.Indacochea },
                 { 186, LocalidadBuenosAires.PalemonHuergo },
-                { 187, LocalidadBuenosAires.RamonBiaus },
+                { 187, LocalidadBuenosAires.RamonBiaus }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Colon).Value.Key, new Dictionary<long, string>
             {
                 { 188, LocalidadBuenosAires.Colon },
                 { 189, LocalidadBuenosAires.Pearson },
                 { 190, LocalidadBuenosAires.Sarasa },
-                { 191, LocalidadBuenosAires.ElArbolito },
+                { 191, LocalidadBuenosAires.ElArbolito }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CoronelDorrego).Value.Key, new Dictionary<long, string>
             {
@@ -299,7 +299,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 196, LocalidadBuenosAires.SanRoman },
                 { 197, LocalidadBuenosAires.BalnearioMarisol },
                 { 198, LocalidadBuenosAires.Irene },
-                { 199, LocalidadBuenosAires.Faro },
+                { 199, LocalidadBuenosAires.Faro }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CoronelPringles).Value.Key, new Dictionary<long, string>
             {
@@ -308,7 +308,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 202, LocalidadBuenosAires.Lartigau },
                 { 203, LocalidadBuenosAires.ElPensamiento },
                 { 204, LocalidadBuenosAires.ElDivisorio },
-                { 205, LocalidadBuenosAires.Frapal },
+                { 205, LocalidadBuenosAires.Frapal }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CoronelRosales).Value.Key, new Dictionary<long, string>
             {
@@ -322,7 +322,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 213, LocalidadBuenosAires.BaseNavalPuertoBelgrano },
                 { 214, LocalidadBuenosAires.ArroyoPareja },
                 { 215, LocalidadBuenosAires.PuntaAncla },
-                { 216, LocalidadBuenosAires.BaseDeInfanteriaDeMarinaBaterias },
+                { 216, LocalidadBuenosAires.BaseDeInfanteriaDeMarinaBaterias }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.CoronelSuarez).Value.Key, new Dictionary<long, string>
             {
@@ -336,7 +336,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 224, LocalidadBuenosAires.CuraMalal },
                 { 225, LocalidadBuenosAires.EstacionPineyro },
                 { 226, LocalidadBuenosAires.Dorbigny },
-                { 227, LocalidadBuenosAires.Cascada },
+                { 227, LocalidadBuenosAires.Cascada }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Daireaux).Value.Key, new Dictionary<long, string>
             {
@@ -348,12 +348,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 233, LocalidadBuenosAires.LaManuela },
                 { 234, LocalidadBuenosAires.Luro },
                 { 235, LocalidadBuenosAires.Andant },
-                { 236, LocalidadBuenosAires.EnriqueLavalleFreyre },
+                { 236, LocalidadBuenosAires.EnriqueLavalleFreyre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Dolores).Value.Key, new Dictionary<long, string>
             {
                 { 237, LocalidadBuenosAires.Dolores },
-                { 238, LocalidadBuenosAires.Sevigne },
+                { 238, LocalidadBuenosAires.Sevigne }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Ensenada).Value.Key, new Dictionary<long, string>
             {
@@ -361,7 +361,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 240, LocalidadBuenosAires.PuntaLara },
                 { 241, LocalidadBuenosAires.VillaCatella },
                 { 242, LocalidadBuenosAires.DiqueN1 },
-                { 243, LocalidadBuenosAires.IslaSantiagoOeste },
+                { 243, LocalidadBuenosAires.IslaSantiagoOeste }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Escobar).Value.Key, new Dictionary<long, string>
             {
@@ -371,7 +371,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 247, LocalidadBuenosAires.Matheu },
                 { 248, LocalidadBuenosAires.MaquinistaFSavio },
                 { 249, LocalidadBuenosAires.PuertoParana },
-                { 250, LocalidadBuenosAires.LomaVerde },
+                { 250, LocalidadBuenosAires.LomaVerde }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.EstebanEcheverria).Value.Key, new Dictionary<long, string>
             {
@@ -379,7 +379,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 252, LocalidadBuenosAires.CanningOriental },
                 { 253, LocalidadBuenosAires.ElJaguel },
                 { 254, LocalidadBuenosAires.LuisGuillon },
-                { 255, LocalidadBuenosAires.MonteGrande },
+                { 255, LocalidadBuenosAires.MonteGrande }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.ExaltacionDeLaCruz).Value.Key, new Dictionary<long, string>
             {
@@ -394,7 +394,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 264, LocalidadBuenosAires.ParadaLaLata-LaLoma },
                 { 265, LocalidadBuenosAires.DiegoGaynor },
                 { 266, LocalidadBuenosAires.GobernadorAndonaegui },
-                { 267, LocalidadBuenosAires.Chenaut },
+                { 267, LocalidadBuenosAires.Chenaut }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Ezeiza).Value.Key, new Dictionary<long, string>
             {
@@ -403,7 +403,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 270, LocalidadBuenosAires.CarlosSpegazzini },
                 { 271, LocalidadBuenosAires.Ezeiza },
                 { 272, LocalidadBuenosAires.LaUnion },
-                { 273, LocalidadBuenosAires.TristanSuarez },
+                { 273, LocalidadBuenosAires.TristanSuarez }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.FlorencioVarela).Value.Key, new Dictionary<long, string>
             {
@@ -416,7 +416,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 280, LocalidadBuenosAires.VillaBrown },
                 { 281, LocalidadBuenosAires.VillaSanLuis },
                 { 282, LocalidadBuenosAires.VillaSantaRosa },
-                { 283, LocalidadBuenosAires.VillaVatteone },
+                { 283, LocalidadBuenosAires.VillaVatteone }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.FlorentinoAmeghino).Value.Key, new Dictionary<long, string>
             {
@@ -424,7 +424,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 285, LocalidadBuenosAires.Blaquier },
                 { 286, LocalidadBuenosAires.Porvenir },
                 { 287, LocalidadBuenosAires.ParajeNuevaSuiza },
-                { 288, LocalidadBuenosAires.ParajePorvenir },
+                { 288, LocalidadBuenosAires.ParajePorvenir }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralAlvarado).Value.Key, new Dictionary<long, string>
             {
@@ -432,11 +432,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 290, LocalidadBuenosAires.MarDelSur },
                 { 291, LocalidadBuenosAires.ComandanteNicanorOtamendi },
                 { 292, LocalidadBuenosAires.Mechongue },
-                { 293, LocalidadBuenosAires.CentinelaDelMar },
+                { 293, LocalidadBuenosAires.CentinelaDelMar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralAlvear).Value.Key, new Dictionary<long, string>
             {
-                { 294, LocalidadBuenosAires.GeneralAlvear },
+                { 294, LocalidadBuenosAires.GeneralAlvear }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralArenales).Value.Key, new Dictionary<long, string>
             {
@@ -446,21 +446,21 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 298, LocalidadBuenosAires.EstacionArenales },
                 { 299, LocalidadBuenosAires.Ferre },
                 { 300, LocalidadBuenosAires.LaAngelita },
-                { 301, LocalidadBuenosAires.LaTrinidad },
+                { 301, LocalidadBuenosAires.LaTrinidad }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralBelgrano).Value.Key, new Dictionary<long, string>
             {
                 { 302, LocalidadBuenosAires.GeneralBelgrano },
-                { 303, LocalidadBuenosAires.Gorchs },
+                { 303, LocalidadBuenosAires.Gorchs }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralGuido).Value.Key, new Dictionary<long, string>
             {
                 { 304, LocalidadBuenosAires.GeneralGuido },
-                { 305, LocalidadBuenosAires.Labarden },
+                { 305, LocalidadBuenosAires.Labarden }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralMadariaga).Value.Key, new Dictionary<long, string>
             {
-                { 306, LocalidadBuenosAires.GeneralMadariaga },
+                { 306, LocalidadBuenosAires.GeneralMadariaga }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralLaMadrid).Value.Key, new Dictionary<long, string>
             {
@@ -470,7 +470,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 310, LocalidadBuenosAires.LasMartinetas },
                 { 311, LocalidadBuenosAires.Pontaut },
                 { 312, LocalidadBuenosAires.Lastra },
-                { 313, LocalidadBuenosAires.Quilco },
+                { 313, LocalidadBuenosAires.Quilco }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralLasHeras).Value.Key, new Dictionary<long, string>
             {
@@ -480,14 +480,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 317, LocalidadBuenosAires.Plomer },
                 { 318, LocalidadBuenosAires.LaChoza },
                 { 319, LocalidadBuenosAires.Lozano },
-                { 320, LocalidadBuenosAires.EnriqueFynn },
+                { 320, LocalidadBuenosAires.EnriqueFynn }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralLavalle).Value.Key, new Dictionary<long, string>
             {
                 { 321, LocalidadBuenosAires.GeneralLavalle },
                 { 322, LocalidadBuenosAires.Pavon },
                 { 323, LocalidadBuenosAires.LasChacras },
-                { 324, LocalidadBuenosAires.LasTijeras },
+                { 324, LocalidadBuenosAires.LasTijeras }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralPaz).Value.Key, new Dictionary<long, string>
             {
@@ -495,7 +495,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 326, LocalidadBuenosAires.LomaVerde },
                 { 327, LocalidadBuenosAires.Villanueva },
                 { 328, LocalidadBuenosAires.BarrioRioSalado },
-                { 329, LocalidadBuenosAires.Alegre },
+                { 329, LocalidadBuenosAires.Alegre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralPinto).Value.Key, new Dictionary<long, string>
             {
@@ -503,7 +503,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 331, LocalidadBuenosAires.Germania },
                 { 332, LocalidadBuenosAires.VillaFrancia },
                 { 333, LocalidadBuenosAires.ColoniaSanRicardo },
-                { 334, LocalidadBuenosAires.VillaRoth },
+                { 334, LocalidadBuenosAires.VillaRoth }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralPueyrredon).Value.Key, new Dictionary<long, string>
             {
@@ -528,11 +528,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 353, LocalidadBuenosAires.BarrioFelixUCamet },
                 { 354, LocalidadBuenosAires.BarrioLosAcantilados },
                 { 355, LocalidadBuenosAires.BarrioChapadmalal },
-                { 356, LocalidadBuenosAires.BarrioSanEduardoDelMar },
+                { 356, LocalidadBuenosAires.BarrioSanEduardoDelMar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralRodriguez).Value.Key, new Dictionary<long, string>
             {
-                { 357, LocalidadBuenosAires.GeneralRodriguez },
+                { 357, LocalidadBuenosAires.GeneralRodriguez }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralSanMartin).Value.Key, new Dictionary<long, string>
             {
@@ -545,7 +545,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 364, LocalidadBuenosAires.VillaChacabuco },
                 { 365, LocalidadBuenosAires.VillaBallester },
                 { 366, LocalidadBuenosAires.VillaLynch },
-                { 367, LocalidadBuenosAires.VillaMaipu },
+                { 367, LocalidadBuenosAires.VillaMaipu }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralViamonte).Value.Key, new Dictionary<long, string>
             {
@@ -553,7 +553,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 369, LocalidadBuenosAires.Baigorrita },
                 { 370, LocalidadBuenosAires.Zavalia },
                 { 371, LocalidadBuenosAires.SanEmilio },
-                { 372, LocalidadBuenosAires.LaDelfina },
+                { 372, LocalidadBuenosAires.LaDelfina }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.GeneralVillegas).Value.Key, new Dictionary<long, string>
             {
@@ -568,7 +568,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 381, LocalidadBuenosAires.VillaSaboya },
                 { 382, LocalidadBuenosAires.SantaEleodora },
                 { 383, LocalidadBuenosAires.MasseyEstElordi },
-                { 384, LocalidadBuenosAires.Pichincha },
+                { 384, LocalidadBuenosAires.Pichincha }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Guamini).Value.Key, new Dictionary<long, string>
             {
@@ -578,29 +578,29 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 388, LocalidadBuenosAires.VictorinoDeLaPlaza },
                 { 389, LocalidadBuenosAires.Garre },
                 { 390, LocalidadBuenosAires.ArroyoVenado },
-                { 391, LocalidadBuenosAires.Huanguelen },
+                { 391, LocalidadBuenosAires.Huanguelen }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.HipolitoYrigoyen).Value.Key, new Dictionary<long, string>
             {
                 { 392, LocalidadBuenosAires.Henderson },
                 { 393, LocalidadBuenosAires.HerreraVegas },
                 { 394, LocalidadBuenosAires.MariaLucila },
-                { 395, LocalidadBuenosAires.Coraceros },
+                { 395, LocalidadBuenosAires.Coraceros }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Hurlingham).Value.Key, new Dictionary<long, string>
             {
                 { 396, LocalidadBuenosAires.Hurlingham },
                 { 397, LocalidadBuenosAires.VillaTesei },
-                { 398, LocalidadBuenosAires.WilliamCMorris },
+                { 398, LocalidadBuenosAires.WilliamCMorris }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Ituzaingo).Value.Key, new Dictionary<long, string>
             {
                 { 399, LocalidadBuenosAires.Ituzaingo },
-                { 400, LocalidadBuenosAires.VillaUdaondo },
+                { 400, LocalidadBuenosAires.VillaUdaondo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.JoseCPaz).Value.Key, new Dictionary<long, string>
             {
-                { 401, LocalidadBuenosAires.JoseCPaz },
+                { 401, LocalidadBuenosAires.JoseCPaz }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Junin).Value.Key, new Dictionary<long, string>
             {
@@ -611,7 +611,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 406, LocalidadBuenosAires.Saforcada },
                 { 407, LocalidadBuenosAires.Agustina },
                 { 408, LocalidadBuenosAires.Laplacette },
-                { 409, LocalidadBuenosAires.BalnearioLagunaDeGomez },
+                { 409, LocalidadBuenosAires.BalnearioLagunaDeGomez }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LaCosta).Value.Key, new Dictionary<long, string>
             {
@@ -629,7 +629,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 421, LocalidadBuenosAires.NuevaAtlantis },
                 { 422, LocalidadBuenosAires.PuntaMedanos },
                 { 423, LocalidadBuenosAires.PinarDelSol },
-                { 424, LocalidadBuenosAires.CostaEsmeralda },
+                { 424, LocalidadBuenosAires.CostaEsmeralda }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LaMatanza).Value.Key, new Dictionary<long, string>
             {
@@ -648,7 +648,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 437, LocalidadBuenosAires.Tapiales },
                 { 438, LocalidadBuenosAires.VillaLuzuriaga },
                 { 439, LocalidadBuenosAires.VillaMadero },
-                { 440, LocalidadBuenosAires.VirreyDelPino },
+                { 440, LocalidadBuenosAires.VirreyDelPino }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LaPlata).Value.Key, new Dictionary<long, string>
             {
@@ -682,7 +682,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 468, LocalidadBuenosAires.VillaMontoro },
                 { 469, LocalidadBuenosAires.VillaParqueSicardi },
                 { 470, LocalidadBuenosAires.IgnacioCorreas },
-                { 471, LocalidadBuenosAires.LomasDeCopello },
+                { 471, LocalidadBuenosAires.LomasDeCopello }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Lanus).Value.Key, new Dictionary<long, string>
             {
@@ -691,13 +691,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 474, LocalidadBuenosAires.RemediosDeEscalada },
                 { 475, LocalidadBuenosAires.Gerli },
                 { 476, LocalidadBuenosAires.ValentinAlsina },
-                { 477, LocalidadBuenosAires.MonteChingolo },
+                { 477, LocalidadBuenosAires.MonteChingolo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Laprida).Value.Key, new Dictionary<long, string>
             {
                 { 478, LocalidadBuenosAires.Laprida },
                 { 479, LocalidadBuenosAires.PuebloSanJorge },
-                { 480, LocalidadBuenosAires.PuebloNuevo },
+                { 480, LocalidadBuenosAires.PuebloNuevo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LasFlores).Value.Key, new Dictionary<long, string>
             {
@@ -705,7 +705,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 482, LocalidadBuenosAires.Pardo },
                 { 483, LocalidadBuenosAires.ElTrigo },
                 { 484, LocalidadBuenosAires.CoronelBoerr },
-                { 485, LocalidadBuenosAires.Rosas },
+                { 485, LocalidadBuenosAires.Rosas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LeandroNAlem).Value.Key, new Dictionary<long, string>
             {
@@ -714,11 +714,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 488, LocalidadBuenosAires.LeandroNAlem },
                 { 489, LocalidadBuenosAires.AlberdiViejo },
                 { 490, LocalidadBuenosAires.ElDorado },
-                { 491, LocalidadBuenosAires.FortinAcha },
+                { 491, LocalidadBuenosAires.FortinAcha }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Lezama).Value.Key, new Dictionary<long, string>
             {
-                { 492, LocalidadBuenosAires.Lezama },
+                { 492, LocalidadBuenosAires.Lezama }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Lincoln).Value.Key, new Dictionary<long, string>
             {
@@ -731,7 +731,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 499, LocalidadBuenosAires.Bayauca },
                 { 500, LocalidadBuenosAires.LasToscas },
                 { 501, LocalidadBuenosAires.CarlosSalas },
-                { 502, LocalidadBuenosAires.Triunvirato },
+                { 502, LocalidadBuenosAires.Triunvirato }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Loberia).Value.Key, new Dictionary<long, string>
             {
@@ -740,7 +740,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 505, LocalidadBuenosAires.Tamangueyu },
                 { 506, LocalidadBuenosAires.LicenciadoMatienzo },
                 { 507, LocalidadBuenosAires.Pieres },
-                { 508, LocalidadBuenosAires.ArenasVerdes },
+                { 508, LocalidadBuenosAires.ArenasVerdes }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Lobos).Value.Key, new Dictionary<long, string>
             {
@@ -752,7 +752,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 514, LocalidadBuenosAires.LasChacras },
                 { 515, LocalidadBuenosAires.SalvadorMaria },
                 { 516, LocalidadBuenosAires.VillaLoguercio },
-                { 517, LocalidadBuenosAires.Zapiola },
+                { 517, LocalidadBuenosAires.Zapiola }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.LomasDeZamora).Value.Key, new Dictionary<long, string>
             {
@@ -765,7 +765,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 524, LocalidadBuenosAires.VillaFiorito },
                 { 525, LocalidadBuenosAires.IngenieroBudge },
                 { 526, LocalidadBuenosAires.VillaAlbertina },
-                { 527, LocalidadBuenosAires.SanJose },
+                { 527, LocalidadBuenosAires.SanJose }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Lujan).Value.Key, new Dictionary<long, string>
             {
@@ -776,7 +776,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 532, LocalidadBuenosAires.Olivera },
                 { 533, LocalidadBuenosAires.OpenDoor },
                 { 534, LocalidadBuenosAires.Torres },
-                { 535, LocalidadBuenosAires.LezicaYTorrezuri },
+                { 535, LocalidadBuenosAires.LezicaYTorrezuri }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Magdalena).Value.Key, new Dictionary<long, string>
             {
@@ -785,13 +785,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 538, LocalidadBuenosAires.Atalaya },
                 { 539, LocalidadBuenosAires.Vieytes },
                 { 540, LocalidadBuenosAires.RobertoJPayro },
-                { 541, LocalidadBuenosAires.LosNaranjos },
+                { 541, LocalidadBuenosAires.LosNaranjos }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Maipu).Value.Key, new Dictionary<long, string>
             {
                 { 542, LocalidadBuenosAires.Maipu },
                 { 543, LocalidadBuenosAires.LasArmas },
-                { 544, LocalidadBuenosAires.SantoDomingo },
+                { 544, LocalidadBuenosAires.SantoDomingo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.MalvinasArgentinas).Value.Key, new Dictionary<long, string>
             {
@@ -802,7 +802,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 549, LocalidadBuenosAires.LosPolvorines },
                 { 550, LocalidadBuenosAires.Tortuguitas },
                 { 551, LocalidadBuenosAires.VillaDeMayo },
-                { 552, LocalidadBuenosAires.TierrasAltas },
+                { 552, LocalidadBuenosAires.TierrasAltas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.MarChiquita).Value.Key, new Dictionary<long, string>
             {
@@ -821,7 +821,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 565, LocalidadBuenosAires.PlayaDorada },
                 { 566, LocalidadBuenosAires.SantaClaraDelMar },
                 { 567, LocalidadBuenosAires.SantaElena },
-                { 568, LocalidadBuenosAires.Vivorata },
+                { 568, LocalidadBuenosAires.Vivorata }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.MarcosPaz).Value.Key, new Dictionary<long, string>
             {
@@ -829,7 +829,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 570, LocalidadBuenosAires.EliasRomero },
                 { 571, LocalidadBuenosAires.SantaRosa },
                 { 572, LocalidadBuenosAires.LisandroDeLaTorre },
-                { 573, LocalidadBuenosAires.SantaMarta },
+                { 573, LocalidadBuenosAires.SantaMarta }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Mercedes).Value.Key, new Dictionary<long, string>
             {
@@ -840,7 +840,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 578, LocalidadBuenosAires.JMGarcia },
                 { 579, LocalidadBuenosAires.LaVerde },
                 { 580, LocalidadBuenosAires.Mercedes },
-                { 581, LocalidadBuenosAires.TomasJofre },
+                { 581, LocalidadBuenosAires.TomasJofre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Merlo).Value.Key, new Dictionary<long, string>
             {
@@ -849,18 +849,18 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 584, LocalidadBuenosAires.Libertad },
                 { 585, LocalidadBuenosAires.MarianoAcosta },
                 { 586, LocalidadBuenosAires.ParqueSanMartin },
-                { 587, LocalidadBuenosAires.Pontevedra },
+                { 587, LocalidadBuenosAires.Pontevedra }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Monte).Value.Key, new Dictionary<long, string>
             {
                 { 588, LocalidadBuenosAires.SanMiguelDelMonte },
                 { 589, LocalidadBuenosAires.Abbott },
-                { 590, LocalidadBuenosAires.ZenonVidelaDorna },
+                { 590, LocalidadBuenosAires.ZenonVidelaDorna }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.MonteHermoso).Value.Key, new Dictionary<long, string>
             {
                 { 591, LocalidadBuenosAires.MonteHermoso },
-                { 592, LocalidadBuenosAires.BalnearioSauceGrande },
+                { 592, LocalidadBuenosAires.BalnearioSauceGrande }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Moreno).Value.Key, new Dictionary<long, string>
             {
@@ -869,7 +869,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 595, LocalidadBuenosAires.FranciscoAlvarez },
                 { 596, LocalidadBuenosAires.CuartelV },
                 { 597, LocalidadBuenosAires.Trujui },
-                { 598, LocalidadBuenosAires.PasoDelRey },
+                { 598, LocalidadBuenosAires.PasoDelRey }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Moron).Value.Key, new Dictionary<long, string>
             {
@@ -877,21 +877,21 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 600, LocalidadBuenosAires.Castelar },
                 { 601, LocalidadBuenosAires.ElPalomar },
                 { 602, LocalidadBuenosAires.Haedo },
-                { 603, LocalidadBuenosAires.VillaSarmiento },
+                { 603, LocalidadBuenosAires.VillaSarmiento }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Navarro).Value.Key, new Dictionary<long, string>
             {
                 { 604, LocalidadBuenosAires.Navarro },
                 { 605, LocalidadBuenosAires.VillaMoll },
                 { 606, LocalidadBuenosAires.LasMarianas },
-                { 607, LocalidadBuenosAires.JoseJuanAlmeyra },
+                { 607, LocalidadBuenosAires.JoseJuanAlmeyra }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Necochea).Value.Key, new Dictionary<long, string>
             {
                 { 608, LocalidadBuenosAires.Necochea },
                 { 609, LocalidadBuenosAires.Quequen },
                 { 610, LocalidadBuenosAires.JuanNepomucenoFernandez },
-                { 611, LocalidadBuenosAires.LaDulce },
+                { 611, LocalidadBuenosAires.LaDulce }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.NueveDeJulio).Value.Key, new Dictionary<long, string>
             {
@@ -906,7 +906,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 620, LocalidadBuenosAires.Morea },
                 { 621, LocalidadBuenosAires.DoceDeOctubre },
                 { 622, LocalidadBuenosAires.MarcelinoUgarte },
-                { 623, LocalidadBuenosAires.Norumbega },
+                { 623, LocalidadBuenosAires.Norumbega }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Olavarria).Value.Key, new Dictionary<long, string>
             {
@@ -921,7 +921,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 632, LocalidadBuenosAires.VillaLaSerrania },
                 { 633, LocalidadBuenosAires.SantaLuisa },
                 { 634, LocalidadBuenosAires.BlancaGrande },
-                { 635, LocalidadBuenosAires.ColoniaNievas },
+                { 635, LocalidadBuenosAires.ColoniaNievas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Patagones).Value.Key, new Dictionary<long, string>
             {
@@ -931,7 +931,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 639, LocalidadBuenosAires.BahiaSanBlas },
                 { 640, LocalidadBuenosAires.JuanAPradere },
                 { 641, LocalidadBuenosAires.CardenalCagliero },
-                { 642, LocalidadBuenosAires.JoseBCasas },
+                { 642, LocalidadBuenosAires.JoseBCasas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pehuajo).Value.Key, new Dictionary<long, string>
             {
@@ -943,13 +943,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 648, LocalidadBuenosAires.Magdala },
                 { 649, LocalidadBuenosAires.NuevaPlata },
                 { 650, LocalidadBuenosAires.Chiclana },
-                { 651, LocalidadBuenosAires.CapitanCastro },
+                { 651, LocalidadBuenosAires.CapitanCastro }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pellegrini).Value.Key, new Dictionary<long, string>
             {
                 { 652, LocalidadBuenosAires.Pellegrini },
                 { 653, LocalidadBuenosAires.Bocayuva },
-                { 654, LocalidadBuenosAires.DeBary },
+                { 654, LocalidadBuenosAires.DeBary }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pergamino).Value.Key, new Dictionary<long, string>
             {
@@ -966,12 +966,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 665, LocalidadBuenosAires.Fontezuela },
                 { 666, LocalidadBuenosAires.JADeLaPena },
                 { 667, LocalidadBuenosAires.MarianoBenitez },
-                { 668, LocalidadBuenosAires.VillaSanJose },
+                { 668, LocalidadBuenosAires.VillaSanJose }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pila).Value.Key, new Dictionary<long, string>
             {
                 { 669, LocalidadBuenosAires.Pila },
-                { 670, LocalidadBuenosAires.Casalins },
+                { 670, LocalidadBuenosAires.Casalins }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pilar).Value.Key, new Dictionary<long, string>
             {
@@ -989,7 +989,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 682, LocalidadBuenosAires.ManuelAlberti },
                 { 683, LocalidadBuenosAires.Lagomarsino },
                 { 684, LocalidadBuenosAires.VillaRosa },
-                { 685, LocalidadBuenosAires.Zelaya },
+                { 685, LocalidadBuenosAires.Zelaya }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Pinamar).Value.Key, new Dictionary<long, string>
             {
@@ -998,11 +998,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 688, LocalidadBuenosAires.MarDeOstende },
                 { 689, LocalidadBuenosAires.Ostende },
                 { 690, LocalidadBuenosAires.ValeriaDelMar },
-                { 691, LocalidadBuenosAires.Carilo },
+                { 691, LocalidadBuenosAires.Carilo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.PresidentePeron).Value.Key, new Dictionary<long, string>
             {
-                { 692, LocalidadBuenosAires.Guernica },
+                { 692, LocalidadBuenosAires.Guernica }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Puan).Value.Key, new Dictionary<long, string>
             {
@@ -1018,7 +1018,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 702, LocalidadBuenosAires.Viboras },
                 { 703, LocalidadBuenosAires.VillaCastelar },
                 { 704, LocalidadBuenosAires.VillaDurcudoy },
-                { 705, LocalidadBuenosAires.VillaIris },
+                { 705, LocalidadBuenosAires.VillaIris }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.PuntaIndio).Value.Key, new Dictionary<long, string>
             {
@@ -1027,7 +1027,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 708, LocalidadBuenosAires.PuntaDelIndio },
                 { 709, LocalidadBuenosAires.AlvarezJonte },
                 { 710, LocalidadBuenosAires.LasTahonas },
-                { 711, LocalidadBuenosAires.MonteVeloz },
+                { 711, LocalidadBuenosAires.MonteVeloz }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Quilmes).Value.Key, new Dictionary<long, string>
             {
@@ -1039,7 +1039,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 717, LocalidadBuenosAires.Quilmes },
                 { 718, LocalidadBuenosAires.QuilmesOeste },
                 { 719, LocalidadBuenosAires.SanFranciscoSolano },
-                { 720, LocalidadBuenosAires.VillaLaFlorida },
+                { 720, LocalidadBuenosAires.VillaLaFlorida }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Ramallo).Value.Key, new Dictionary<long, string>
             {
@@ -1047,11 +1047,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 722, LocalidadBuenosAires.ElParaiso },
                 { 723, LocalidadBuenosAires.PerezMillan },
                 { 724, LocalidadBuenosAires.VillaRamallo },
-                { 725, LocalidadBuenosAires.VillaGeneralSavio },
+                { 725, LocalidadBuenosAires.VillaGeneralSavio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Rauch).Value.Key, new Dictionary<long, string>
             {
-                { 726, LocalidadBuenosAires.Rauch },
+                { 726, LocalidadBuenosAires.Rauch }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Rivadavia).Value.Key, new Dictionary<long, string>
             {
@@ -1062,7 +1062,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 731, LocalidadBuenosAires.Roosevelt },
                 { 732, LocalidadBuenosAires.Sundblad },
                 { 733, LocalidadBuenosAires.MiraPampa },
-                { 734, LocalidadBuenosAires.SanMauricio },
+                { 734, LocalidadBuenosAires.SanMauricio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Rojas).Value.Key, new Dictionary<long, string>
             {
@@ -1074,7 +1074,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 740, LocalidadBuenosAires.LaBeba },
                 { 741, LocalidadBuenosAires.VillaParqueCecir },
                 { 742, LocalidadBuenosAires.RobertoCano },
-                { 743, LocalidadBuenosAires.SolDeMayo },
+                { 743, LocalidadBuenosAires.SolDeMayo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.RoquePerez).Value.Key, new Dictionary<long, string>
             {
@@ -1085,7 +1085,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 748, LocalidadBuenosAires.JuanTronconi },
                 { 749, LocalidadBuenosAires.LaPaz },
                 { 750, LocalidadBuenosAires.LaPazChica },
-                { 751, LocalidadBuenosAires.Atucha },
+                { 751, LocalidadBuenosAires.Atucha }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Saavedra).Value.Key, new Dictionary<long, string>
             {
@@ -1095,7 +1095,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 755, LocalidadBuenosAires.Goyena },
                 { 756, LocalidadBuenosAires.ArroyoCorto },
                 { 757, LocalidadBuenosAires.Dufaur },
-                { 758, LocalidadBuenosAires.ColoniaSanMartin },
+                { 758, LocalidadBuenosAires.ColoniaSanMartin }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Saladillo).Value.Key, new Dictionary<long, string>
             {
@@ -1104,12 +1104,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 761, LocalidadBuenosAires.Polvaredas },
                 { 762, LocalidadBuenosAires.Cazon },
                 { 763, LocalidadBuenosAires.AlvarezDeToledo },
-                { 764, LocalidadBuenosAires.JuanJoseBlaquier },
+                { 764, LocalidadBuenosAires.JuanJoseBlaquier }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Salliquelo).Value.Key, new Dictionary<long, string>
             {
                 { 765, LocalidadBuenosAires.Salliquelo },
-                { 766, LocalidadBuenosAires.Quenuma },
+                { 766, LocalidadBuenosAires.Quenuma }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Salto).Value.Key, new Dictionary<long, string>
             {
@@ -1118,7 +1118,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 769, LocalidadBuenosAires.InesIndart },
                 { 770, LocalidadBuenosAires.Gahan },
                 { 771, LocalidadBuenosAires.Berdier },
-                { 772, LocalidadBuenosAires.LaInvencible },
+                { 772, LocalidadBuenosAires.LaInvencible }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanAndresDeGiles).Value.Key, new Dictionary<long, string>
             {
@@ -1128,27 +1128,27 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 776, LocalidadBuenosAires.Cucullu },
                 { 777, LocalidadBuenosAires.Azcuenaga },
                 { 778, LocalidadBuenosAires.VillaEspil },
-                { 779, LocalidadBuenosAires.Franklin },
+                { 779, LocalidadBuenosAires.Franklin }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanAntonioDeAreco).Value.Key, new Dictionary<long, string>
             {
                 { 780, LocalidadBuenosAires.SanAntonioDeAreco },
                 { 781, LocalidadBuenosAires.VillaLia },
                 { 782, LocalidadBuenosAires.Duggan },
-                { 783, LocalidadBuenosAires.Vagues },
+                { 783, LocalidadBuenosAires.Vagues }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanCayetano).Value.Key, new Dictionary<long, string>
             {
                 { 784, LocalidadBuenosAires.SanCayetano },
                 { 785, LocalidadBuenosAires.Ochandio },
-                { 786, LocalidadBuenosAires.BalnearioSanCayetano },
+                { 786, LocalidadBuenosAires.BalnearioSanCayetano }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanFernando).Value.Key, new Dictionary<long, string>
             {
                 { 787, LocalidadBuenosAires.SanFernando },
                 { 788, LocalidadBuenosAires.Victoria },
                 { 789, LocalidadBuenosAires.Virreyes },
-                { 790, LocalidadBuenosAires.Islas },
+                { 790, LocalidadBuenosAires.Islas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanIsidro).Value.Key, new Dictionary<long, string>
             {
@@ -1157,7 +1157,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 793, LocalidadBuenosAires.Martinez },
                 { 794, LocalidadBuenosAires.Acassuso },
                 { 795, LocalidadBuenosAires.SanIsidro },
-                { 796, LocalidadBuenosAires.Beccar },
+                { 796, LocalidadBuenosAires.Beccar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanMiguel).Value.Key, new Dictionary<long, string>
             {
@@ -1165,7 +1165,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 798, LocalidadBuenosAires.BellaVista },
                 { 799, LocalidadBuenosAires.CampoDeMayo },
                 { 800, LocalidadBuenosAires.Muniz },
-                { 801, LocalidadBuenosAires.SantaMaria },
+                { 801, LocalidadBuenosAires.SantaMaria }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanNicolas).Value.Key, new Dictionary<long, string>
             {
@@ -1179,7 +1179,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 809, LocalidadBuenosAires.VillaCanto },
                 { 810, LocalidadBuenosAires.VillaEsperanza },
                 { 811, LocalidadBuenosAires.VillaHermosa },
-                { 812, LocalidadBuenosAires.VillaRiccio },
+                { 812, LocalidadBuenosAires.VillaRiccio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanPedro).Value.Key, new Dictionary<long, string>
             {
@@ -1188,19 +1188,19 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 815, LocalidadBuenosAires.SantaLucia },
                 { 816, LocalidadBuenosAires.RioTala },
                 { 817, LocalidadBuenosAires.PuebloDoyle },
-                { 818, LocalidadBuenosAires.Obligado },
+                { 818, LocalidadBuenosAires.Obligado }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.SanVicente).Value.Key, new Dictionary<long, string>
             {
                 { 819, LocalidadBuenosAires.SanVicente },
                 { 820, LocalidadBuenosAires.AlejandroKorn },
-                { 821, LocalidadBuenosAires.Domselaar },
+                { 821, LocalidadBuenosAires.Domselaar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Suipacha).Value.Key, new Dictionary<long, string>
             {
                 { 822, LocalidadBuenosAires.Suipacha },
                 { 823, LocalidadBuenosAires.GeneralRivas },
-                { 824, LocalidadBuenosAires.RomanBaez },
+                { 824, LocalidadBuenosAires.RomanBaez }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Tandil).Value.Key, new Dictionary<long, string>
             {
@@ -1208,7 +1208,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 826, LocalidadBuenosAires.MariaIgnacia },
                 { 827, LocalidadBuenosAires.Gardey },
                 { 828, LocalidadBuenosAires.DeLaCanal },
-                { 829, LocalidadBuenosAires.DesvioAguirre },
+                { 829, LocalidadBuenosAires.DesvioAguirre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Tapalque).Value.Key, new Dictionary<long, string>
             {
@@ -1220,7 +1220,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 835, LocalidadBuenosAires.SanBernardo },
                 { 836, LocalidadBuenosAires.Covello },
                 { 837, LocalidadBuenosAires.Velloso },
-                { 838, LocalidadBuenosAires.LaPaloma },
+                { 838, LocalidadBuenosAires.LaPaloma }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Tigre).Value.Key, new Dictionary<long, string>
             {
@@ -1234,12 +1234,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 846, LocalidadBuenosAires.RicardoRojas },
                 { 847, LocalidadBuenosAires.RinconDeMilberg },
                 { 848, LocalidadBuenosAires.Nordelta },
-                { 849, LocalidadBuenosAires.DeltaDelTigre },
+                { 849, LocalidadBuenosAires.DeltaDelTigre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Tordillo).Value.Key, new Dictionary<long, string>
             {
                 { 850, LocalidadBuenosAires.GeneralConesa },
-                { 851, LocalidadBuenosAires.VillaRoch },
+                { 851, LocalidadBuenosAires.VillaRoch }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Tornquist).Value.Key, new Dictionary<long, string>
             {
@@ -1249,7 +1249,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 855, LocalidadBuenosAires.VillaVentana },
                 { 856, LocalidadBuenosAires.Chasico },
                 { 857, LocalidadBuenosAires.TresPicos },
-                { 858, LocalidadBuenosAires.VillaSerranaLaGruta },
+                { 858, LocalidadBuenosAires.VillaSerranaLaGruta }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.TrenqueLauquen).Value.Key, new Dictionary<long, string>
             {
@@ -1258,7 +1258,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 861, LocalidadBuenosAires.Beruti },
                 { 862, LocalidadBuenosAires.Girodias },
                 { 863, LocalidadBuenosAires.LaCarreta },
-                { 864, LocalidadBuenosAires.Garre },
+                { 864, LocalidadBuenosAires.Garre }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.TresArroyos).Value.Key, new Dictionary<long, string>
             {
@@ -1272,7 +1272,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 872, LocalidadBuenosAires.BalnearioOrense },
                 { 873, LocalidadBuenosAires.SanMayol },
                 { 874, LocalidadBuenosAires.LinCalel },
-                { 875, LocalidadBuenosAires.Barrow },
+                { 875, LocalidadBuenosAires.Barrow }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.TresDeFebrero).Value.Key, new Dictionary<long, string>
             {
@@ -1290,12 +1290,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 887, LocalidadBuenosAires.SaenzPena },
                 { 888, LocalidadBuenosAires.SantosLugares },
                 { 889, LocalidadBuenosAires.VillaBosch },
-                { 890, LocalidadBuenosAires.VillaRaffo },
+                { 890, LocalidadBuenosAires.VillaRaffo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.TresLomas).Value.Key, new Dictionary<long, string>
             {
                 { 891, LocalidadBuenosAires.TresLomas },
-                { 892, LocalidadBuenosAires.IngenieroThompson },
+                { 892, LocalidadBuenosAires.IngenieroThompson }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.VeinticincoDeMayo).Value.Key, new Dictionary<long, string>
             {
@@ -1308,7 +1308,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 899, LocalidadBuenosAires.SanEnrique },
                 { 900, LocalidadBuenosAires.AgustinMosconi },
                 { 901, LocalidadBuenosAires.Ernestina },
-                { 902, LocalidadBuenosAires.LucasMonteverde },
+                { 902, LocalidadBuenosAires.LucasMonteverde }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.VicenteLopez).Value.Key, new Dictionary<long, string>
             {
@@ -1320,14 +1320,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 908, LocalidadBuenosAires.FloridaOeste },
                 { 909, LocalidadBuenosAires.Munro },
                 { 910, LocalidadBuenosAires.Carapachay },
-                { 911, LocalidadBuenosAires.VillaAdelina },
+                { 911, LocalidadBuenosAires.VillaAdelina }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.VillaGesell).Value.Key, new Dictionary<long, string>
             {
                 { 912, LocalidadBuenosAires.LasGaviotas },
                 { 913, LocalidadBuenosAires.MarAzul },
                 { 914, LocalidadBuenosAires.MarDeLasPampas },
-                { 915, LocalidadBuenosAires.VillaGesell },
+                { 915, LocalidadBuenosAires.VillaGesell }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Villarino).Value.Key, new Dictionary<long, string>
             {
@@ -1340,7 +1340,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 922, LocalidadBuenosAires.ColoniaSanAdolfo },
                 { 923, LocalidadBuenosAires.Argerich },
                 { 924, LocalidadBuenosAires.LagunaChasico },
-                { 925, LocalidadBuenosAires.BalnearioLaChiquita },
+                { 925, LocalidadBuenosAires.BalnearioLaChiquita }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoBuenosAires.Zarate).Value.Key, new Dictionary<long, string>
             {
@@ -1349,7 +1349,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 928, LocalidadBuenosAires.BarrioSaavedra },
                 { 929, LocalidadBuenosAires.CountryClubElCasco },
                 { 930, LocalidadBuenosAires.Escalada },
-                { 931, LocalidadBuenosAires.ParajeOrtiz },
+                { 931, LocalidadBuenosAires.ParajeOrtiz }
             });
         }
     }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class TierraDelFuegoLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class TierraDelFuegoLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -21,7 +21,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 494, PartidoTierraDelFuego.IslasDelAtlanticoSur },
                 { 495, PartidoTierraDelFuego.RioGrande },
                 { 496, PartidoTierraDelFuego.Tolhuin },
-                { 497, PartidoTierraDelFuego.Ushuaia },
+                { 497, PartidoTierraDelFuego.Ushuaia }
             });
         }
     }

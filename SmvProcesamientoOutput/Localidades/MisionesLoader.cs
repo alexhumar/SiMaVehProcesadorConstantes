@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class MisionesLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class MisionesLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -20,13 +20,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2755, LocalidadMisiones.Apostoles },
                 { 2756, LocalidadMisiones.Azara },
                 { 2757, LocalidadMisiones.SanJose },
-                { 2758, LocalidadMisiones.TresCapones },
+                { 2758, LocalidadMisiones.TresCapones }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Cainguas).Value.Key, new Dictionary<long, string>
             {
                 { 2759, LocalidadMisiones.AristobuloDelValle },
                 { 2760, LocalidadMisiones.DosDeMayo },
-                { 2761, LocalidadMisiones.CampoGrande },
+                { 2761, LocalidadMisiones.CampoGrande }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Candelaria).Value.Key, new Dictionary<long, string>
             {
@@ -36,18 +36,18 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2765, LocalidadMisiones.Loreto },
                 { 2766, LocalidadMisiones.Martires },
                 { 2767, LocalidadMisiones.Profundidad },
-                { 2768, LocalidadMisiones.SantaAna },
+                { 2768, LocalidadMisiones.SantaAna }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Capital).Value.Key, new Dictionary<long, string>
             {
                 { 2769, LocalidadMisiones.Posadas },
                 { 2770, LocalidadMisiones.Garupa },
-                { 2771, LocalidadMisiones.Fachinal },
+                { 2771, LocalidadMisiones.Fachinal }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Concepcion).Value.Key, new Dictionary<long, string>
             {
                 { 2772, LocalidadMisiones.ConcepcionDeLaSierra },
-                { 2773, LocalidadMisiones.SantaMaria },
+                { 2773, LocalidadMisiones.SantaMaria }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Eldorado).Value.Key, new Dictionary<long, string>
             {
@@ -55,25 +55,25 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2775, LocalidadMisiones.ColoniaVictoria },
                 { 2776, LocalidadMisiones.Eldorado },
                 { 2777, LocalidadMisiones.NueveDeJulio },
-                { 2778, LocalidadMisiones.SantiagoDeLiniers },
+                { 2778, LocalidadMisiones.SantiagoDeLiniers }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.GeneralManuelBelgrano).Value.Key, new Dictionary<long, string>
             {
                 { 2779, LocalidadMisiones.BernardoDeIrigoyen },
                 { 2780, LocalidadMisiones.ComandanteAndresito },
-                { 2781, LocalidadMisiones.SanAntonio },
+                { 2781, LocalidadMisiones.SanAntonio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Guarani).Value.Key, new Dictionary<long, string>
             {
                 { 2782, LocalidadMisiones.ElSoberbio },
-                { 2783, LocalidadMisiones.SanVicente },
+                { 2783, LocalidadMisiones.SanVicente }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Iguazu).Value.Key, new Dictionary<long, string>
             {
                 { 2784, LocalidadMisiones.Wanda },
                 { 2785, LocalidadMisiones.PuertoEsperanza },
                 { 2786, LocalidadMisiones.PuertoIguazu },
-                { 2787, LocalidadMisiones.PuertoLibertad },
+                { 2787, LocalidadMisiones.PuertoLibertad }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.LeandroNAlem).Value.Key, new Dictionary<long, string>
             {
@@ -84,7 +84,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2792, LocalidadMisiones.DosArroyos },
                 { 2793, LocalidadMisiones.GobernadorLopez },
                 { 2794, LocalidadMisiones.LeandroNAlem },
-                { 2795, LocalidadMisiones.OlegarioVictorAndrade },
+                { 2795, LocalidadMisiones.OlegarioVictorAndrade }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.LibertadorGeneralSanMartin).Value.Key, new Dictionary<long, string>
             {
@@ -93,13 +93,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2798, LocalidadMisiones.Garuhape },
                 { 2799, LocalidadMisiones.PuertoLeoni },
                 { 2800, LocalidadMisiones.PuertoRico },
-                { 2801, LocalidadMisiones.RuizDeMontoya },
+                { 2801, LocalidadMisiones.RuizDeMontoya }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Montecarlo).Value.Key, new Dictionary<long, string>
             {
                 { 2802, LocalidadMisiones.Caraguatay },
                 { 2803, LocalidadMisiones.Montecarlo },
-                { 2804, LocalidadMisiones.PuertoPiray },
+                { 2804, LocalidadMisiones.PuertoPiray }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.Obera).Value.Key, new Dictionary<long, string>
             {
@@ -111,7 +111,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2810, LocalidadMisiones.LosHelechos },
                 { 2811, LocalidadMisiones.Obera },
                 { 2812, LocalidadMisiones.Panambi },
-                { 2813, LocalidadMisiones.SanMartin },
+                { 2813, LocalidadMisiones.SanMartin }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.SanIgnacio).Value.Key, new Dictionary<long, string>
             {
@@ -122,24 +122,24 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2818, LocalidadMisiones.HipolitoYrigoyen },
                 { 2819, LocalidadMisiones.JardinAmerica },
                 { 2820, LocalidadMisiones.SanIgnacio },
-                { 2821, LocalidadMisiones.SantoPipo },
+                { 2821, LocalidadMisiones.SantoPipo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.SanJavier).Value.Key, new Dictionary<long, string>
             {
                 { 2822, LocalidadMisiones.FlorentinoAmeghino },
                 { 2823, LocalidadMisiones.Itacaruare },
                 { 2824, LocalidadMisiones.MojonGrande },
-                { 2825, LocalidadMisiones.SanJavier },
+                { 2825, LocalidadMisiones.SanJavier }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.SanPedro).Value.Key, new Dictionary<long, string>
             {
-                { 2826, LocalidadMisiones.SanPedro },
+                { 2826, LocalidadMisiones.SanPedro }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoMisiones.VeinticincoDeMayo).Value.Key, new Dictionary<long, string>
             {
                 { 2827, LocalidadMisiones.AlbaPosse },
                 { 2828, LocalidadMisiones.ColoniaAurora },
-                { 2829, LocalidadMisiones.25DeMayo },
+                { 2829, LocalidadMisiones.25DeMayo }
             });
         }
     }

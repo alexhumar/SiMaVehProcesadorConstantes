@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class TucumanLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class TucumanLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -27,11 +27,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4173, LocalidadTucuman.Piedrabuena },
                 { 4174, LocalidadTucuman.VillaPadreMonti },
                 { 4175, LocalidadTucuman.VillaBenjaminAraoz },
-                { 4176, LocalidadTucuman.Burruyacu },
+                { 4176, LocalidadTucuman.Burruyacu }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Capital).Value.Key, new Dictionary<long, string>
             {
-                { 4177, LocalidadTucuman.SanMiguelDeTucuman },
+                { 4177, LocalidadTucuman.SanMiguelDeTucuman }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Chicligasta).Value.Key, new Dictionary<long, string>
             {
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4181, LocalidadTucuman.Arcadia },
                 { 4182, LocalidadTucuman.GastonaYBelicha },
                 { 4183, LocalidadTucuman.IngenioLaTrinidad },
-                { 4184, LocalidadTucuman.Medinas },
+                { 4184, LocalidadTucuman.Medinas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.CruzAlta).Value.Key, new Dictionary<long, string>
             {
@@ -58,24 +58,24 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4195, LocalidadTucuman.LosPerez },
                 { 4196, LocalidadTucuman.LosRalos },
                 { 4197, LocalidadTucuman.RanchillosYSanMiguel },
-                { 4198, LocalidadTucuman.SanAndres },
+                { 4198, LocalidadTucuman.SanAndres }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Famailla).Value.Key, new Dictionary<long, string>
             {
-                { 4199, LocalidadTucuman.Famailla },
+                { 4199, LocalidadTucuman.Famailla }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Graneros).Value.Key, new Dictionary<long, string>
             {
                 { 4200, LocalidadTucuman.Graneros },
                 { 4201, LocalidadTucuman.Lamadrid },
-                { 4202, LocalidadTucuman.TacoRalo },
+                { 4202, LocalidadTucuman.TacoRalo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.JuanBautistaAlberdi).Value.Key, new Dictionary<long, string>
             {
                 { 4203, LocalidadTucuman.JuanBautistaAlberdi },
                 { 4204, LocalidadTucuman.CiudadAlberdi },
                 { 4205, LocalidadTucuman.Escaba },
-                { 4206, LocalidadTucuman.VillaBelgrano },
+                { 4206, LocalidadTucuman.VillaBelgrano }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.LaCocha).Value.Key, new Dictionary<long, string>
             {
@@ -85,7 +85,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4210, LocalidadTucuman.RumiPunco },
                 { 4211, LocalidadTucuman.SanIgnacio },
                 { 4212, LocalidadTucuman.SanJoseDeLaCocha },
-                { 4213, LocalidadTucuman.Yanima },
+                { 4213, LocalidadTucuman.Yanima }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Leales).Value.Key, new Dictionary<long, string>
             {
@@ -102,7 +102,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4224, LocalidadTucuman.QuilmesYLosSueldos },
                 { 4225, LocalidadTucuman.RioColorado },
                 { 4226, LocalidadTucuman.SantaRosaDeLeales },
-                { 4227, LocalidadTucuman.VillaDeLeales },
+                { 4227, LocalidadTucuman.VillaDeLeales }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Lules).Value.Key, new Dictionary<long, string>
             {
@@ -111,7 +111,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4230, LocalidadTucuman.SanFelipe },
                 { 4231, LocalidadTucuman.SantaBarbara },
                 { 4232, LocalidadTucuman.SanPablo },
-                { 4233, LocalidadTucuman.VillaNougues },
+                { 4233, LocalidadTucuman.VillaNougues }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Monteros).Value.Key, new Dictionary<long, string>
             {
@@ -127,7 +127,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4243, LocalidadTucuman.SargentoMoya },
                 { 4244, LocalidadTucuman.SoldadoMaldonado },
                 { 4245, LocalidadTucuman.TenienteBerdina },
-                { 4246, LocalidadTucuman.VillaQuinteros },
+                { 4246, LocalidadTucuman.VillaQuinteros }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.RioChico).Value.Key, new Dictionary<long, string>
             {
@@ -136,7 +136,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4249, LocalidadTucuman.LosSarmientos },
                 { 4250, LocalidadTucuman.RioChico },
                 { 4251, LocalidadTucuman.SantaAna },
-                { 4252, LocalidadTucuman.VillaClodomiroHileret },
+                { 4252, LocalidadTucuman.VillaClodomiroHileret }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Simoca).Value.Key, new Dictionary<long, string>
             {
@@ -151,14 +151,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4261, LocalidadTucuman.SanPedroYSanAntonio },
                 { 4262, LocalidadTucuman.SantaCruzYLaTuna },
                 { 4263, LocalidadTucuman.VillaChicligasta },
-                { 4264, LocalidadTucuman.YerbaBuena },
+                { 4264, LocalidadTucuman.YerbaBuena }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.TafiDelValle).Value.Key, new Dictionary<long, string>
             {
                 { 4265, LocalidadTucuman.TafiDelValle },
                 { 4266, LocalidadTucuman.AmaichaDelValle },
                 { 4267, LocalidadTucuman.ColalaoDelValle },
-                { 4268, LocalidadTucuman.ElMollar },
+                { 4268, LocalidadTucuman.ElMollar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.TafiViejo).Value.Key, new Dictionary<long, string>
             {
@@ -170,20 +170,20 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 4274, LocalidadTucuman.LosNogales },
                 { 4275, LocalidadTucuman.Raco },
                 { 4276, LocalidadTucuman.LosPocitos },
-                { 4277, LocalidadTucuman.LomasDeTafi },
+                { 4277, LocalidadTucuman.LomasDeTafi }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.Trancas).Value.Key, new Dictionary<long, string>
             {
                 { 4278, LocalidadTucuman.Trancas },
                 { 4279, LocalidadTucuman.Choromoro },
                 { 4280, LocalidadTucuman.SanPedroDeColalao },
-                { 4281, LocalidadTucuman.Tapia },
+                { 4281, LocalidadTucuman.Tapia }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoTucuman.YerbaBuena).Value.Key, new Dictionary<long, string>
             {
                 { 4282, LocalidadTucuman.YerbaBuena },
                 { 4283, LocalidadTucuman.SanJavier },
-                { 4284, LocalidadTucuman.CebilRedondo },
+                { 4284, LocalidadTucuman.CebilRedondo }
             });
         }
     }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class LaPampaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class LaPampaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -38,7 +38,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 303, PartidoLaPampa.Realico },
                 { 304, PartidoLaPampa.Toay },
                 { 305, PartidoLaPampa.Trenel },
-                { 306, PartidoLaPampa.Utracan },
+                { 306, PartidoLaPampa.Utracan }
             });
         }
     }

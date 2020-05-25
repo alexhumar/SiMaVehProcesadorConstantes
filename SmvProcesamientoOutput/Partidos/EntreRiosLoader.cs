@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class EntreRiosLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class EntreRiosLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -33,7 +33,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 256, PartidoEntreRios.Tala },
                 { 257, PartidoEntreRios.Uruguay },
                 { 258, PartidoEntreRios.Victoria },
-                { 259, PartidoEntreRios.Villaguay },
+                { 259, PartidoEntreRios.Villaguay }
             });
         }
     }

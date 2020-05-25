@@ -1,6 +1,7 @@
 ﻿using SiMaVehProcesadorConstantes.GeneracionLoaders.Interfaces;
 using SiMaVehProcesadorConstantes.Models;
 using SiMaVehProcesadorConstantes.Models.Interfaces;
+using System.Linq;
 using System.Text;
 
 namespace SiMaVehProcesadorConstantes.GeneracionLoaders
@@ -60,13 +61,15 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         {
             var sbLoaders = new StringBuilder();
             var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
+            var lineasPendientesProcesar = infoEstructura.GetLineas().Count();
 
             sbLoaders.AppendLine(string.Concat(Indent, $"dictionary.Add(fixture{tipoSuperEntidad}.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Value.Key, new Dictionary<long, string>"));
             sbLoaders.AppendLine(string.Concat(Indent, "{"));
 
             foreach (var linea in infoEstructura.GetLineas())
             {
-                var stringToWrite = string.Format("{{ {0}, {1}.{2} }},", CurrentId, nombreClaseConstante, linea.NombreConstante);
+                lineasPendientesProcesar--;
+                var stringToWrite = string.Format("{{ {0}, {1}.{2} }}{3}", CurrentId, nombreClaseConstante, linea.NombreConstante, lineasPendientesProcesar > 0 ? "," : string.Empty);
                 sbLoaders.AppendLine(string.Concat(SubIndent, stringToWrite));
             }
 

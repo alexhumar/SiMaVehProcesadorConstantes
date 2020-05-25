@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class SantaCruzLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class SantaCruzLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -20,7 +20,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3438, LocalidadSantaCruz.ComandanteLuisPiedrabuena },
                 { 3439, LocalidadSantaCruz.PuertoSantaCruz },
                 { 3440, LocalidadSantaCruz.PuertoDePuntaQuilla },
-                { 3441, LocalidadSantaCruz.RioChico },
+                { 3441, LocalidadSantaCruz.RioChico }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.Deseado).Value.Key, new Dictionary<long, string>
             {
@@ -33,7 +33,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3448, LocalidadSantaCruz.LasHeras },
                 { 3449, LocalidadSantaCruz.PicoTruncado },
                 { 3450, LocalidadSantaCruz.PuertoDeseado },
-                { 3451, LocalidadSantaCruz.Tellier },
+                { 3451, LocalidadSantaCruz.Tellier }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.GuerAike).Value.Key, new Dictionary<long, string>
             {
@@ -45,31 +45,31 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3457, LocalidadSantaCruz.RioTurbio },
                 { 3458, LocalidadSantaCruz.RospentekAike },
                 { 3459, LocalidadSantaCruz.VeintiochoDeNoviembre },
-                { 3460, LocalidadSantaCruz.GuerAike },
+                { 3460, LocalidadSantaCruz.GuerAike }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.LagoArgentino).Value.Key, new Dictionary<long, string>
             {
                 { 3461, LocalidadSantaCruz.ElCalafate },
                 { 3462, LocalidadSantaCruz.ElChalten },
                 { 3463, LocalidadSantaCruz.TresLagos },
-                { 3464, LocalidadSantaCruz.PuertoBandera },
+                { 3464, LocalidadSantaCruz.PuertoBandera }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.LagoBuenosAires).Value.Key, new Dictionary<long, string>
             {
                 { 3465, LocalidadSantaCruz.LosAntiguos },
-                { 3466, LocalidadSantaCruz.PeritoMoreno },
+                { 3466, LocalidadSantaCruz.PeritoMoreno }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.Magallanes).Value.Key, new Dictionary<long, string>
             {
                 { 3467, LocalidadSantaCruz.PuertoSanJulian },
                 { 3468, LocalidadSantaCruz.ElSalado },
-                { 3469, LocalidadSantaCruz.BellaVista },
+                { 3469, LocalidadSantaCruz.BellaVista }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaCruz.RioChico).Value.Key, new Dictionary<long, string>
             {
                 { 3470, LocalidadSantaCruz.BajoCaracoles },
                 { 3471, LocalidadSantaCruz.GobernadorGregores },
-                { 3472, LocalidadSantaCruz.HipolitoYrigoyen },
+                { 3472, LocalidadSantaCruz.HipolitoYrigoyen }
             });
         }
     }

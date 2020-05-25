@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class LaRiojaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class LaRiojaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -24,11 +24,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2365, LocalidadLaRioja.Machigasta },
                 { 2366, LocalidadLaRioja.TermasDeSantaTeresita },
                 { 2367, LocalidadLaRioja.VillaMazan },
-                { 2368, LocalidadLaRioja.Udpinango },
+                { 2368, LocalidadLaRioja.Udpinango }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Capital).Value.Key, new Dictionary<long, string>
             {
-                { 2369, LocalidadLaRioja.LaRioja },
+                { 2369, LocalidadLaRioja.LaRioja }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.CastroBarros).Value.Key, new Dictionary<long, string>
             {
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2376, LocalidadLaRioja.LosMolinos },
                 { 2377, LocalidadLaRioja.Pinchas },
                 { 2378, LocalidadLaRioja.SanPedro },
-                { 2379, LocalidadLaRioja.SantaVeraCruz },
+                { 2379, LocalidadLaRioja.SantaVeraCruz }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Chamical).Value.Key, new Dictionary<long, string>
             {
@@ -53,7 +53,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2385, LocalidadLaRioja.EsquinaDelNorte },
                 { 2386, LocalidadLaRioja.LaAguadita },
                 { 2387, LocalidadLaRioja.SantaBarbara },
-                { 2388, LocalidadLaRioja.SantaRitaDeLaZanja },
+                { 2388, LocalidadLaRioja.SantaRitaDeLaZanja }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Chilecito).Value.Key, new Dictionary<long, string>
             {
@@ -76,7 +76,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2405, LocalidadLaRioja.SantaFlorentina },
                 { 2406, LocalidadLaRioja.ColoniaCatinzaco },
                 { 2407, LocalidadLaRioja.Catinzaco },
-                { 2408, LocalidadLaRioja.LaMejicanita },
+                { 2408, LocalidadLaRioja.LaMejicanita }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.CoronelFelipeVarela).Value.Key, new Dictionary<long, string>
             {
@@ -88,7 +88,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2414, LocalidadLaRioja.Pagancillo },
                 { 2415, LocalidadLaRioja.PuertoAlegre },
                 { 2416, LocalidadLaRioja.SantaClara },
-                { 2417, LocalidadLaRioja.VillaUnion },
+                { 2417, LocalidadLaRioja.VillaUnion }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Famatina).Value.Key, new Dictionary<long, string>
             {
@@ -104,7 +104,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2427, LocalidadLaRioja.Pituil },
                 { 2428, LocalidadLaRioja.PlazaVieja },
                 { 2429, LocalidadLaRioja.SantaCruz },
-                { 2430, LocalidadLaRioja.SantoDomingo },
+                { 2430, LocalidadLaRioja.SantoDomingo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralAngelVPenaloza).Value.Key, new Dictionary<long, string>
             {
@@ -116,7 +116,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2436, LocalidadLaRioja.PuestoSantaCruz },
                 { 2437, LocalidadLaRioja.PuntaDeLosLlanos },
                 { 2438, LocalidadLaRioja.Tama },
-                { 2439, LocalidadLaRioja.Tuizon },
+                { 2439, LocalidadLaRioja.Tuizon }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralBelgrano).Value.Key, new Dictionary<long, string>
             {
@@ -130,7 +130,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2447, LocalidadLaRioja.MonteGrande },
                 { 2448, LocalidadLaRioja.SanRamon },
                 { 2449, LocalidadLaRioja.Simbolar },
-                { 2450, LocalidadLaRioja.ElCardonal },
+                { 2450, LocalidadLaRioja.ElCardonal }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralJuanFacundoQuiroga).Value.Key, new Dictionary<long, string>
             {
@@ -148,7 +148,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2462, LocalidadLaRioja.TresCruces },
                 { 2463, LocalidadLaRioja.Salana },
                 { 2464, LocalidadLaRioja.Tuani },
-                { 2465, LocalidadLaRioja.Huaja },
+                { 2465, LocalidadLaRioja.Huaja }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralLamadrid).Value.Key, new Dictionary<long, string>
             {
@@ -159,7 +159,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2470, LocalidadLaRioja.LosMoraditos },
                 { 2471, LocalidadLaRioja.PastosLargos },
                 { 2472, LocalidadLaRioja.Rivadavia },
-                { 2473, LocalidadLaRioja.Tiaguas },
+                { 2473, LocalidadLaRioja.Tiaguas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralOcampo).Value.Key, new Dictionary<long, string>
             {
@@ -172,7 +172,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2480, LocalidadLaRioja.ElFraile },
                 { 2481, LocalidadLaRioja.LosAguirres },
                 { 2482, LocalidadLaRioja.LosAlanices },
-                { 2483, LocalidadLaRioja.EsquinaChica },
+                { 2483, LocalidadLaRioja.EsquinaChica }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.GeneralSanMartin).Value.Key, new Dictionary<long, string>
             {
@@ -190,7 +190,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2495, LocalidadLaRioja.LaRepresita },
                 { 2496, LocalidadLaRioja.LasVentanitas },
                 { 2497, LocalidadLaRioja.VillaNidia },
-                { 2498, LocalidadLaRioja.PozoDePiedra },
+                { 2498, LocalidadLaRioja.PozoDePiedra }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Independencia).Value.Key, new Dictionary<long, string>
             {
@@ -198,7 +198,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2500, LocalidadLaRioja.LosColorados },
                 { 2501, LocalidadLaRioja.Paganzo },
                 { 2502, LocalidadLaRioja.Patquia },
-                { 2503, LocalidadLaRioja.PatquiaViejo },
+                { 2503, LocalidadLaRioja.PatquiaViejo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.RosarioVeraPenaloza).Value.Key, new Dictionary<long, string>
             {
@@ -216,7 +216,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2515, LocalidadLaRioja.LasToscas },
                 { 2516, LocalidadLaRioja.SanIsidro },
                 { 2517, LocalidadLaRioja.AguaBlanca },
-                { 2518, LocalidadLaRioja.LasJarillas },
+                { 2518, LocalidadLaRioja.LasJarillas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.SanBlasDeLosSauces).Value.Key, new Dictionary<long, string>
             {
@@ -234,13 +234,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2530, LocalidadLaRioja.Suriyaco },
                 { 2531, LocalidadLaRioja.Maican },
                 { 2532, LocalidadLaRioja.Amuschina },
-                { 2533, LocalidadLaRioja.Tuyubil },
+                { 2533, LocalidadLaRioja.Tuyubil }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Sanagasta).Value.Key, new Dictionary<long, string>
             {
                 { 2534, LocalidadLaRioja.VillaSanagasta },
                 { 2535, LocalidadLaRioja.AltaGracia },
-                { 2536, LocalidadLaRioja.Huaco },
+                { 2536, LocalidadLaRioja.Huaco }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoLaRioja.Vinchina).Value.Key, new Dictionary<long, string>
             {
@@ -248,7 +248,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2538, LocalidadLaRioja.Jague },
                 { 2539, LocalidadLaRioja.PotreroGrande },
                 { 2540, LocalidadLaRioja.ValleHermoso },
-                { 2541, LocalidadLaRioja.PuntaDeAgua },
+                { 2541, LocalidadLaRioja.PuntaDeAgua }
             });
         }
     }

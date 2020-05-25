@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class CatamarcaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class CatamarcaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -32,7 +32,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 148, PartidoCatamarca.SantaMaria },
                 { 149, PartidoCatamarca.SantaRosa },
                 { 150, PartidoCatamarca.Tinogasta },
-                { 151, PartidoCatamarca.ValleViejo },
+                { 151, PartidoCatamarca.ValleViejo }
             });
         }
     }

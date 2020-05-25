@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class ChubutLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class ChubutLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -31,7 +31,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 188, PartidoChubut.RioSenguer },
                 { 189, PartidoChubut.Sarmiento },
                 { 190, PartidoChubut.Tehuelches },
-                { 191, PartidoChubut.Telsen },
+                { 191, PartidoChubut.Telsen }
             });
         }
     }

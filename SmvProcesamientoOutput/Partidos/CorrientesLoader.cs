@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class CorrientesLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class CorrientesLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 239, PartidoCorrientes.SanMiguel },
                 { 240, PartidoCorrientes.SanRoque },
                 { 241, PartidoCorrientes.SantoTome },
-                { 242, PartidoCorrientes.Sauce },
+                { 242, PartidoCorrientes.Sauce }
             });
         }
     }

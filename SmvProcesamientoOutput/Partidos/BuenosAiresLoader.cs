@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class BuenosAiresLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class BuenosAiresLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -151,7 +151,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 132, PartidoBuenosAires.VicenteLopez },
                 { 133, PartidoBuenosAires.VillaGesell },
                 { 134, PartidoBuenosAires.Villarino },
-                { 135, PartidoBuenosAires.Zarate },
+                { 135, PartidoBuenosAires.Zarate }
             });
         }
     }

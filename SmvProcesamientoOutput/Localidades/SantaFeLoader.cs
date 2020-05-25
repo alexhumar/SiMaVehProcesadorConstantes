@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class SantaFeLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class SantaFeLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -40,7 +40,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3493, LocalidadSantaFe.CarmenDelSauce },
                 { 3494, LocalidadSantaFe.PuebloMunoz },
                 { 3495, LocalidadSantaFe.Albarellos },
-                { 3496, LocalidadSantaFe.Arminda },
+                { 3496, LocalidadSantaFe.Arminda }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.LaCapital).Value.Key, new Dictionary<long, string>
             {
@@ -58,7 +58,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3508, LocalidadSantaFe.Recreo },
                 { 3509, LocalidadSantaFe.SanJoseDelRincon },
                 { 3510, LocalidadSantaFe.SantoTome },
-                { 3511, LocalidadSantaFe.SauceViejo },
+                { 3511, LocalidadSantaFe.SauceViejo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.GeneralLopez).Value.Key, new Dictionary<long, string>
             {
@@ -92,7 +92,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3539, LocalidadSantaFe.LaChispa },
                 { 3540, LocalidadSantaFe.MiguelTorres },
                 { 3541, LocalidadSantaFe.SanFranciscoDeStaFe },
-                { 3542, LocalidadSantaFe.AaronCastellanos },
+                { 3542, LocalidadSantaFe.AaronCastellanos }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Castellanos).Value.Key, new Dictionary<long, string>
             {
@@ -105,7 +105,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3549, LocalidadSantaFe.Lehmann },
                 { 3550, LocalidadSantaFe.Josefina },
                 { 3551, LocalidadSantaFe.SantaClaraDeSaguier },
-                { 3552, LocalidadSantaFe.Ataliva },
+                { 3552, LocalidadSantaFe.Ataliva }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.GeneralObligado).Value.Key, new Dictionary<long, string>
             {
@@ -130,7 +130,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3571, LocalidadSantaFe.SanAntonioDeObligado },
                 { 3572, LocalidadSantaFe.Tacuarendi },
                 { 3573, LocalidadSantaFe.VillaAna },
-                { 3574, LocalidadSantaFe.VillaGuillermina },
+                { 3574, LocalidadSantaFe.VillaGuillermina }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanLorenzo).Value.Key, new Dictionary<long, string>
             {
@@ -148,7 +148,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3586, LocalidadSantaFe.FrayLuisBeltran },
                 { 3587, LocalidadSantaFe.PuertoGeneralSanMartin },
                 { 3588, LocalidadSantaFe.Roldan },
-                { 3589, LocalidadSantaFe.SanLorenzo },
+                { 3589, LocalidadSantaFe.SanLorenzo }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.LasColonias).Value.Key, new Dictionary<long, string>
             {
@@ -188,7 +188,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3623, LocalidadSantaFe.SantaMariaNorte },
                 { 3624, LocalidadSantaFe.SantoDomingo },
                 { 3625, LocalidadSantaFe.Sarmiento },
-                { 3626, LocalidadSantaFe.Soutomayor },
+                { 3626, LocalidadSantaFe.Soutomayor }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Constitucion).Value.Key, new Dictionary<long, string>
             {
@@ -210,7 +210,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3642, LocalidadSantaFe.Rueda },
                 { 3643, LocalidadSantaFe.SantaTeresa },
                 { 3644, LocalidadSantaFe.SargentoCabral },
-                { 3645, LocalidadSantaFe.Theobald },
+                { 3645, LocalidadSantaFe.Theobald }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Caseros).Value.Key, new Dictionary<long, string>
             {
@@ -227,7 +227,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3656, LocalidadSantaFe.LosQuirquinchos },
                 { 3657, LocalidadSantaFe.SanJoseDeLaEsquina },
                 { 3658, LocalidadSantaFe.Sanford },
-                { 3659, LocalidadSantaFe.Villada },
+                { 3659, LocalidadSantaFe.Villada }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanJeronimo).Value.Key, new Dictionary<long, string>
             {
@@ -251,7 +251,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3677, LocalidadSantaFe.Monje },
                 { 3678, LocalidadSantaFe.PuebloIrigoyen },
                 { 3679, LocalidadSantaFe.SanEugenio },
-                { 3680, LocalidadSantaFe.SanFabian },
+                { 3680, LocalidadSantaFe.SanFabian }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanCristobal).Value.Key, new Dictionary<long, string>
             {
@@ -286,7 +286,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3709, LocalidadSantaFe.Soledad },
                 { 3710, LocalidadSantaFe.Suardi },
                 { 3711, LocalidadSantaFe.VillaSaralegui },
-                { 3712, LocalidadSantaFe.VillaTrinidad },
+                { 3712, LocalidadSantaFe.VillaTrinidad }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Iriondo).Value.Key, new Dictionary<long, string>
             {
@@ -301,7 +301,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3721, LocalidadSantaFe.PuebloAndino },
                 { 3722, LocalidadSantaFe.SaltoGrande },
                 { 3723, LocalidadSantaFe.Serodino },
-                { 3724, LocalidadSantaFe.VillaEloisa },
+                { 3724, LocalidadSantaFe.VillaEloisa }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanMartin).Value.Key, new Dictionary<long, string>
             {
@@ -321,7 +321,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3738, LocalidadSantaFe.MariaSusana },
                 { 3739, LocalidadSantaFe.Piamonte },
                 { 3740, LocalidadSantaFe.SanMartinDeLasEscobas },
-                { 3741, LocalidadSantaFe.Traill },
+                { 3741, LocalidadSantaFe.Traill }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Vera).Value.Key, new Dictionary<long, string>
             {
@@ -336,7 +336,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3750, LocalidadSantaFe.LosAmores },
                 { 3751, LocalidadSantaFe.Margarita },
                 { 3752, LocalidadSantaFe.Tartagal },
-                { 3753, LocalidadSantaFe.Toba },
+                { 3753, LocalidadSantaFe.Toba }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Belgrano).Value.Key, new Dictionary<long, string>
             {
@@ -345,7 +345,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3756, LocalidadSantaFe.LasRosas },
                 { 3757, LocalidadSantaFe.Bouquet },
                 { 3758, LocalidadSantaFe.MontesDeOca },
-                { 3759, LocalidadSantaFe.Tortugas },
+                { 3759, LocalidadSantaFe.Tortugas }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanJusto).Value.Key, new Dictionary<long, string>
             {
@@ -365,7 +365,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3773, LocalidadSantaFe.SanBernardo },
                 { 3774, LocalidadSantaFe.SanMartinNorte },
                 { 3775, LocalidadSantaFe.Silva },
-                { 3776, LocalidadSantaFe.Videla },
+                { 3776, LocalidadSantaFe.Videla }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.SanJavier).Value.Key, new Dictionary<long, string>
             {
@@ -374,7 +374,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3779, LocalidadSantaFe.Alejandra },
                 { 3780, LocalidadSantaFe.CaciqueAriacaiquin },
                 { 3781, LocalidadSantaFe.ColoniaDuran },
-                { 3782, LocalidadSantaFe.LaBrava },
+                { 3782, LocalidadSantaFe.LaBrava }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.NueveDeJulio).Value.Key, new Dictionary<long, string>
             {
@@ -388,7 +388,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3790, LocalidadSantaFe.PozoBorrado },
                 { 3791, LocalidadSantaFe.SanBernardo },
                 { 3792, LocalidadSantaFe.SantaMargarita },
-                { 3793, LocalidadSantaFe.VillaMinetti },
+                { 3793, LocalidadSantaFe.VillaMinetti }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoSantaFe.Garay).Value.Key, new Dictionary<long, string>
             {
@@ -396,7 +396,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3795, LocalidadSantaFe.ColoniaMascias },
                 { 3796, LocalidadSantaFe.Helvecia },
                 { 3797, LocalidadSantaFe.SaladeroMarianoCabal },
-                { 3798, LocalidadSantaFe.SantaRosaDeCalchines },
+                { 3798, LocalidadSantaFe.SantaRosaDeCalchines }
             });
         }
     }

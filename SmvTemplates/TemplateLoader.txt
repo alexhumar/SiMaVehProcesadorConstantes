@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.{0}.Loaders
 {{
-    public class {1} : IFixtureItemKeyValueLoader<long, long, string>
+    class {1} : IFixtureItemKeyValueLoader<long, long, string>
     {{
         private readonly IFixture{2} fixture{2};
 

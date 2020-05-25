@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class ChacoLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class ChacoLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 173, PartidoChaco.SanLorenzo },
                 { 174, PartidoChaco.SargentoCabral },
                 { 175, PartidoChaco.Tapenaga },
-                { 176, PartidoChaco.VeinticincoDeMayo },
+                { 176, PartidoChaco.VeinticincoDeMayo }
             });
         }
     }

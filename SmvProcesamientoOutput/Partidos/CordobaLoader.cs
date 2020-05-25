@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class CordobaLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class CordobaLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -42,7 +42,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 214, PartidoCordoba.TerceroArriba },
                 { 215, PartidoCordoba.Totoral },
                 { 216, PartidoCordoba.Tulumba },
-                { 217, PartidoCordoba.Union },
+                { 217, PartidoCordoba.Union }
             });
         }
     }

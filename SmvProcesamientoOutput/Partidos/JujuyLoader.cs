@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
 {
-    public class JujuyLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class JujuyLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixtureProvincia fixtureProvincia;
 
@@ -32,7 +32,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders
                 { 281, PartidoJujuy.Tilcara },
                 { 282, PartidoJujuy.Tumbaya },
                 { 283, PartidoJujuy.ValleGrande },
-                { 284, PartidoJujuy.Yavi },
+                { 284, PartidoJujuy.Yavi }
             });
         }
     }

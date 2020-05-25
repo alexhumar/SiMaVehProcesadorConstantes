@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
 {
-    public class JujuyLoader : IFixtureItemKeyValueLoader<long, long, string>
+    class JujuyLoader : IFixtureItemKeyValueLoader<long, long, string>
     {
         private readonly IFixturePartido fixturePartido;
 
@@ -25,7 +25,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2144, LocalidadJujuy.Casabindo },
                 { 2145, LocalidadJujuy.Tusaquillas },
                 { 2146, LocalidadJujuy.Cochinoca },
-                { 2147, LocalidadJujuy.SanFranciscoDeAlfarcito },
+                { 2147, LocalidadJujuy.SanFranciscoDeAlfarcito }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.DrManuelBelgrano).Value.Key, new Dictionary<long, string>
             {
@@ -37,7 +37,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2153, LocalidadJujuy.Ocloyas },
                 { 2154, LocalidadJujuy.SanPabloDeReyes },
                 { 2155, LocalidadJujuy.SanSalvadorDeJujuy },
-                { 2156, LocalidadJujuy.Yala },
+                { 2156, LocalidadJujuy.Yala }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.ElCarmen).Value.Key, new Dictionary<long, string>
             {
@@ -50,7 +50,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2163, LocalidadJujuy.BarrioElMilagro },
                 { 2164, LocalidadJujuy.BarrioLaUnion },
                 { 2165, LocalidadJujuy.LosLapachos },
-                { 2166, LocalidadJujuy.Manantiales },
+                { 2166, LocalidadJujuy.Manantiales }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Humahuaca).Value.Key, new Dictionary<long, string>
             {
@@ -59,7 +59,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2169, LocalidadJujuy.Humahuaca },
                 { 2170, LocalidadJujuy.Iturbe },
                 { 2171, LocalidadJujuy.TresCruces },
-                { 2172, LocalidadJujuy.Uquia },
+                { 2172, LocalidadJujuy.Uquia }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Ledesma).Value.Key, new Dictionary<long, string>
             {
@@ -76,13 +76,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2183, LocalidadJujuy.LibertadorGeneralSanMartin },
                 { 2184, LocalidadJujuy.Paulina },
                 { 2185, LocalidadJujuy.SanBorja },
-                { 2186, LocalidadJujuy.Yuto },
+                { 2186, LocalidadJujuy.Yuto }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Palpala).Value.Key, new Dictionary<long, string>
             {
                 { 2187, LocalidadJujuy.Carahunco },
                 { 2188, LocalidadJujuy.CentroForestal },
-                { 2189, LocalidadJujuy.Palpala },
+                { 2189, LocalidadJujuy.Palpala }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Rinconada).Value.Key, new Dictionary<long, string>
             {
@@ -93,13 +93,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2194, LocalidadJujuy.LomaBlanca },
                 { 2195, LocalidadJujuy.NuevoPirquitas },
                 { 2196, LocalidadJujuy.Orosmayo },
-                { 2197, LocalidadJujuy.Rinconada },
+                { 2197, LocalidadJujuy.Rinconada }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.SanAntonio).Value.Key, new Dictionary<long, string>
             {
                 { 2198, LocalidadJujuy.ElCeibal },
                 { 2199, LocalidadJujuy.LoteoNavea(LosAlisos) },
-                { 2200, LocalidadJujuy.SanAntonio },
+                { 2200, LocalidadJujuy.SanAntonio }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.SanPedro).Value.Key, new Dictionary<long, string>
             {
@@ -121,7 +121,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2216, LocalidadJujuy.RosarioDeRioGrande },
                 { 2217, LocalidadJujuy.SanAntonio },
                 { 2218, LocalidadJujuy.SanLucas },
-                { 2219, LocalidadJujuy.SanPedroDeJujuy },
+                { 2219, LocalidadJujuy.SanPedroDeJujuy }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.SantaBarbara).Value.Key, new Dictionary<long, string>
             {
@@ -131,7 +131,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2223, LocalidadJujuy.ElTalar },
                 { 2224, LocalidadJujuy.PalmaSola },
                 { 2225, LocalidadJujuy.SantaClara },
-                { 2226, LocalidadJujuy.Vinalito },
+                { 2226, LocalidadJujuy.Vinalito }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.SantaCatalina).Value.Key, new Dictionary<long, string>
             {
@@ -139,7 +139,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2228, LocalidadJujuy.CienegaDePaicone },
                 { 2229, LocalidadJujuy.Cieneguillas },
                 { 2230, LocalidadJujuy.CusiCusi },
-                { 2231, LocalidadJujuy.SantaCatalina },
+                { 2231, LocalidadJujuy.SantaCatalina }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Susques).Value.Key, new Dictionary<long, string>
             {
@@ -147,7 +147,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2233, LocalidadJujuy.Catua },
                 { 2234, LocalidadJujuy.Coranzuli },
                 { 2235, LocalidadJujuy.ElToro },
-                { 2236, LocalidadJujuy.Huancar },
+                { 2236, LocalidadJujuy.Huancar }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Tilcara).Value.Key, new Dictionary<long, string>
             {
@@ -155,7 +155,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2238, LocalidadJujuy.Huacalera },
                 { 2239, LocalidadJujuy.Juella },
                 { 2240, LocalidadJujuy.Maimara },
-                { 2241, LocalidadJujuy.Tilcara },
+                { 2241, LocalidadJujuy.Tilcara }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Tumbaya).Value.Key, new Dictionary<long, string>
             {
@@ -163,7 +163,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2243, LocalidadJujuy.ElMoreno },
                 { 2244, LocalidadJujuy.Purmamarca },
                 { 2245, LocalidadJujuy.Tumbaya },
-                { 2246, LocalidadJujuy.Volcan },
+                { 2246, LocalidadJujuy.Volcan }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.ValleGrande).Value.Key, new Dictionary<long, string>
             {
@@ -172,7 +172,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2249, LocalidadJujuy.SanFrancisco },
                 { 2250, LocalidadJujuy.SantaAna },
                 { 2251, LocalidadJujuy.ValleColorado },
-                { 2252, LocalidadJujuy.ValleGrande },
+                { 2252, LocalidadJujuy.ValleGrande }
             },
             dictionary.Add(fixturePartido.FindByNombre(PartidoJujuy.Yavi).Value.Key, new Dictionary<long, string>
             {
@@ -182,7 +182,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2256, LocalidadJujuy.LaQuiaca },
                 { 2257, LocalidadJujuy.Pumahuasi },
                 { 2258, LocalidadJujuy.Yavi },
-                { 2259, LocalidadJujuy.Barrios },
+                { 2259, LocalidadJujuy.Barrios }
             });
         }
     }
