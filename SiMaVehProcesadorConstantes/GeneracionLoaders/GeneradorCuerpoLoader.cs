@@ -57,7 +57,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             CurrentId = currentId;
         }
 
-        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string valorEntidad, string tipoSuperEntidad, string valorSuperEntidad, bool finalizar = true)
+        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string valorEntidad, string tipoSuperEntidad, string valorSuperEntidad)
         {
             var sbLoaders = new StringBuilder();
             var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
@@ -73,7 +73,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
                 sbLoaders.AppendLine(string.Concat(SubIndent, stringToWrite));
             }
 
-            sbLoaders.AppendLine(finalizar ? string.Concat(Indent, "});") : string.Concat(Indent, "},"));
+            sbLoaders.AppendLine(string.Concat(Indent, "});"));
 
             return sbLoaders.ToString().TrimEnd();
         }

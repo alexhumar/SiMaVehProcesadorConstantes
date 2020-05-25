@@ -23,27 +23,27 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3264, LocalidadSanJuan.LaCanada },
                 { 3265, LocalidadSanJuan.LasLomitas },
                 { 3266, LocalidadSanJuan.VillaAmpacama }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Angaco).Value.Key, new Dictionary<long, string>
             {
                 { 3267, LocalidadSanJuan.VillaDelSalvador },
                 { 3268, LocalidadSanJuan.VillaSefairTalacasto },
                 { 3269, LocalidadSanJuan.LasTapias }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Calingasta).Value.Key, new Dictionary<long, string>
             {
                 { 3270, LocalidadSanJuan.Barreal },
                 { 3271, LocalidadSanJuan.Calingasta },
                 { 3272, LocalidadSanJuan.Tamberias },
                 { 3273, LocalidadSanJuan.VillaPituil }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Capital).Value.Key, new Dictionary<long, string>
             {
                 { 3274, LocalidadSanJuan.Concepcion },
                 { 3275, LocalidadSanJuan.Desamparados },
                 { 3276, LocalidadSanJuan.SanJuan },
                 { 3277, LocalidadSanJuan.Trinidad }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Caucete).Value.Key, new Dictionary<long, string>
             {
                 { 3278, LocalidadSanJuan.Bermejo },
@@ -55,7 +55,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3284, LocalidadSanJuan.PieDePalo },
                 { 3285, LocalidadSanJuan.Vallecito },
                 { 3286, LocalidadSanJuan.VillaIndependencia }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Chimbas).Value.Key, new Dictionary<long, string>
             {
                 { 3287, LocalidadSanJuan.ElMogote },
@@ -63,7 +63,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3289, LocalidadSanJuan.VillaObrera },
                 { 3290, LocalidadSanJuan.VillaUnion },
                 { 3291, LocalidadSanJuan.VillaPaulaAlbarracinDeSarmiento }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Iglesia).Value.Key, new Dictionary<long, string>
             {
                 { 3292, LocalidadSanJuan.Angualasto },
@@ -74,7 +74,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3297, LocalidadSanJuan.Pismanta },
                 { 3298, LocalidadSanJuan.Rodeo },
                 { 3299, LocalidadSanJuan.Tudcum }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Jachal).Value.Key, new Dictionary<long, string>
             {
                 { 3300, LocalidadSanJuan.SanJoseDeJachal },
@@ -90,7 +90,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3310, LocalidadSanJuan.Tamberias },
                 { 3311, LocalidadSanJuan.VillaMalvinasArgentinas },
                 { 3312, LocalidadSanJuan.VillaMercedes }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.NueveDeJulio).Value.Key, new Dictionary<long, string>
             {
                 { 3313, LocalidadSanJuan.ColoniaFiorito },
@@ -102,7 +102,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3319, LocalidadSanJuan.TierraAdentro },
                 { 3320, LocalidadSanJuan.AltoDeSierraEste },
                 { 3321, LocalidadSanJuan.RinconCercado }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Pocito).Value.Key, new Dictionary<long, string>
             {
                 { 3322, LocalidadSanJuan.BarrioRuta40 },
@@ -113,26 +113,26 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3327, LocalidadSanJuan.VillaBarboza },
                 { 3328, LocalidadSanJuan.VillaCentenario },
                 { 3329, LocalidadSanJuan.VillaNacusi }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Rawson).Value.Key, new Dictionary<long, string>
             {
                 { 3330, LocalidadSanJuan.VillaKrause },
                 { 3331, LocalidadSanJuan.Rawson },
                 { 3332, LocalidadSanJuan.ElMedanito },
                 { 3333, LocalidadSanJuan.VillaBolanos }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Rivadavia).Value.Key, new Dictionary<long, string>
             {
                 { 3334, LocalidadSanJuan.Rivadavia },
                 { 3335, LocalidadSanJuan.Marquesado },
                 { 3336, LocalidadSanJuan.LaBebida }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.SanMartin).Value.Key, new Dictionary<long, string>
             {
                 { 3337, LocalidadSanJuan.SanIsidro },
                 { 3338, LocalidadSanJuan.DosAcequias },
                 { 3339, LocalidadSanJuan.LaPuntilla }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.SantaLucia).Value.Key, new Dictionary<long, string>
             {
                 { 3340, LocalidadSanJuan.AltoDeSierra },
@@ -142,7 +142,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3344, LocalidadSanJuan.VillaMarini },
                 { 3345, LocalidadSanJuan.ColoniaRichetYZapata },
                 { 3346, LocalidadSanJuan.ColoniaGutierrez }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Sarmiento).Value.Key, new Dictionary<long, string>
             {
                 { 3347, LocalidadSanJuan.CanadaHonda },
@@ -155,13 +155,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3354, LocalidadSanJuan.Pedernal },
                 { 3355, LocalidadSanJuan.PuntaDelMedano },
                 { 3356, LocalidadSanJuan.MediaAgua }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Ullum).Value.Key, new Dictionary<long, string>
             {
                 { 3357, LocalidadSanJuan.VillaAurora },
                 { 3358, LocalidadSanJuan.VillaIbanez },
                 { 3359, LocalidadSanJuan.ElChilote }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.ValleFertil).Value.Key, new Dictionary<long, string>
             {
                 { 3360, LocalidadSanJuan.Astica },
@@ -170,7 +170,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3363, LocalidadSanJuan.LosBaldecitos },
                 { 3364, LocalidadSanJuan.Usno },
                 { 3365, LocalidadSanJuan.VillaSanAgustin }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.VeinticincoDeMayo).Value.Key, new Dictionary<long, string>
             {
                 { 3366, LocalidadSanJuan.ElEncon },
@@ -179,7 +179,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3369, LocalidadSanJuan.VillaBorjas },
                 { 3370, LocalidadSanJuan.VillaElTango },
                 { 3371, LocalidadSanJuan.SantaRosa }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanJuan.Zonda).Value.Key, new Dictionary<long, string>
             {
                 { 3372, LocalidadSanJuan.VillaBasilioNievas },

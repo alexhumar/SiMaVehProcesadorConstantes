@@ -80,7 +80,7 @@ Los Sauces
 -FIN PARTIDO General Güemes
 Tartagal
 Embarcación
-Salvador Mazza (Pocitos)
+Salvador Mazza
 General Mosconi
 Aguaray
 Coronel Cornejo
@@ -222,7 +222,7 @@ Angastaco
 Animaná
 San Carlos
 El Barrial
-Jasimaná (3.842 msnm)
+Jasimaná
 La Angostura
 Mina Don Otto
 Monteverde

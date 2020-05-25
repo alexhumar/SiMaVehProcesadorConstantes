@@ -43,7 +43,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Coyuco-Cochico
         /// </summary>
-        public const string Coyuco-Cochico = "Coyuco-Cochico";
+        public const string CoyucoCochico = "Coyuco-Cochico";
 
         /// <summary>
         /// Villa Curí Leuvú
@@ -68,7 +68,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Cutral-Co
         /// </summary>
-        public const string Cutral-Co = "Cutral-Co";
+        public const string CutralCo = "Cutral-Co";
 
         /// <summary>
         /// Villa El Chocón
@@ -113,7 +113,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Auca-Pan
         /// </summary>
-        public const string Auca-Pan = "Auca-Pan";
+        public const string AucaPan = "Auca-Pan";
 
         /// <summary>
         /// Atreuco
@@ -353,7 +353,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Caviahue-Copahue
         /// </summary>
-        public const string Caviahue-Copahue = "Caviahue-Copahue";
+        public const string CaviahueCopahue = "Caviahue-Copahue";
 
         /// <summary>
         /// El Cholar

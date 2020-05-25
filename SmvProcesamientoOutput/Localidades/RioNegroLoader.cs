@@ -26,7 +26,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2926, LocalidadRioNegro.LoteoCostaDeRio },
                 { 2927, LocalidadRioNegro.PozoSalado },
                 { 2928, LocalidadRioNegro.SanJavier }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Avellaneda).Value.Key, new Dictionary<long, string>
             {
                 { 2929, LocalidadRioNegro.ChoeleChoel },
@@ -38,7 +38,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2935, LocalidadRioNegro.Pomona },
                 { 2936, LocalidadRioNegro.BarrioUnion },
                 { 2937, LocalidadRioNegro.Chelforo }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Bariloche).Value.Key, new Dictionary<long, string>
             {
                 { 2938, LocalidadRioNegro.ColoniaSuiza },
@@ -52,11 +52,11 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2946, LocalidadRioNegro.VillaLlaoLlao },
                 { 2947, LocalidadRioNegro.VillaLosCoihues },
                 { 2948, LocalidadRioNegro.VillaMascardi }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Conesa).Value.Key, new Dictionary<long, string>
             {
                 { 2949, LocalidadRioNegro.GeneralConesa }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.ElCuy).Value.Key, new Dictionary<long, string>
             {
                 { 2950, LocalidadRioNegro.AguadaGuzman },
@@ -66,7 +66,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2954, LocalidadRioNegro.Mencue },
                 { 2955, LocalidadRioNegro.NaupaHuen },
                 { 2956, LocalidadRioNegro.ValleAzul }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.GeneralRoca).Value.Key, new Dictionary<long, string>
             {
                 { 2957, LocalidadRioNegro.Allen },
@@ -100,7 +100,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2985, LocalidadRioNegro.VillaManzano },
                 { 2986, LocalidadRioNegro.VillaRegina },
                 { 2987, LocalidadRioNegro.VillaSanIsidro }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.NueveDeJulio).Value.Key, new Dictionary<long, string>
             {
                 { 2988, LocalidadRioNegro.Comico },
@@ -110,7 +110,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2992, LocalidadRioNegro.Treneta },
                 { 2993, LocalidadRioNegro.SierraColorada },
                 { 2994, LocalidadRioNegro.Yaminue }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Norquinco).Value.Key, new Dictionary<long, string>
             {
                 { 2995, LocalidadRioNegro.LasBayas },
@@ -118,12 +118,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 2997, LocalidadRioNegro.Norquinco },
                 { 2998, LocalidadRioNegro.OjosDeAgua },
                 { 2999, LocalidadRioNegro.RioChico }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.PichiMahuida).Value.Key, new Dictionary<long, string>
             {
                 { 3000, LocalidadRioNegro.ColoniaJuliaYEcharren },
                 { 3001, LocalidadRioNegro.RioColorado }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Pilcaniyeu).Value.Key, new Dictionary<long, string>
             {
                 { 3002, LocalidadRioNegro.DinaHuapi },
@@ -138,7 +138,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3011, LocalidadRioNegro.AneconGrande },
                 { 3012, LocalidadRioNegro.NeneoRuca },
                 { 3013, LocalidadRioNegro.LosJuncos }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.SanAntonio).Value.Key, new Dictionary<long, string>
             {
                 { 3014, LocalidadRioNegro.LasGrutas },
@@ -147,7 +147,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3017, LocalidadRioNegro.SanAntonioEste },
                 { 3018, LocalidadRioNegro.SanAntonioOeste },
                 { 3019, LocalidadRioNegro.SierraGrande }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.Valcheta).Value.Key, new Dictionary<long, string>
             {
                 { 3020, LocalidadRioNegro.Valcheta },
@@ -158,7 +158,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3025, LocalidadRioNegro.SierraPaileman },
                 { 3026, LocalidadRioNegro.Chipauquil },
                 { 3027, LocalidadRioNegro.PajaAlta }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoRioNegro.VeinticincoDeMayo).Value.Key, new Dictionary<long, string>
             {
                 { 3028, LocalidadRioNegro.AguadaDeGuerra },

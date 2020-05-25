@@ -29,7 +29,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1196, LocalidadChubut.PuertoGalvan },
                 { 1197, LocalidadChubut.ElDesempeno },
                 { 1198, LocalidadChubut.PuertoSanJose }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Cushamen).Value.Key, new Dictionary<long, string>
             {
                 { 1199, LocalidadChubut.BuenosAiresChico },
@@ -42,12 +42,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1206, LocalidadChubut.LagoEpuyen },
                 { 1207, LocalidadChubut.LagoPuelo },
                 { 1208, LocalidadChubut.Leleque }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Escalante).Value.Key, new Dictionary<long, string>
             {
                 { 1209, LocalidadChubut.ComodoroRivadavia },
                 { 1210, LocalidadChubut.AccesoNorte },
-                { 1211, LocalidadChubut.BarrioMilitar-Aeropuerto },
+                { 1211, LocalidadChubut.BarrioMilitarAeropuerto },
                 { 1212, LocalidadChubut.CaletaCordova },
                 { 1213, LocalidadChubut.CaletaOlivares },
                 { 1214, LocalidadChubut.Castelli },
@@ -73,12 +73,12 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1234, LocalidadChubut.PampaSalamanca },
                 { 1235, LocalidadChubut.PicoSalamanca },
                 { 1236, LocalidadChubut.BahiaBustamante }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.FlorentinoAmeghino).Value.Key, new Dictionary<long, string>
             {
                 { 1237, LocalidadChubut.Camarones },
                 { 1238, LocalidadChubut.Garayalde }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Futaleufu).Value.Key, new Dictionary<long, string>
             {
                 { 1239, LocalidadChubut.Esquel },
@@ -87,14 +87,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1242, LocalidadChubut.LagoRosario },
                 { 1243, LocalidadChubut.LosCipreses },
                 { 1244, LocalidadChubut.VillaFutalaufquen }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Gaiman).Value.Key, new Dictionary<long, string>
             {
                 { 1245, LocalidadChubut.VillaDiqueFlorentinoAmeghino },
                 { 1246, LocalidadChubut.Dolavon },
                 { 1247, LocalidadChubut.Gaiman },
                 { 1248, LocalidadChubut.VeintiochoDeJulio }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Gastre).Value.Key, new Dictionary<long, string>
             {
                 { 1249, LocalidadChubut.Gastre },
@@ -102,7 +102,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1251, LocalidadChubut.Blancuntre },
                 { 1252, LocalidadChubut.ElEscorial },
                 { 1253, LocalidadChubut.YalaLaubat }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Languineo).Value.Key, new Dictionary<long, string>
             {
                 { 1254, LocalidadChubut.Tecka },
@@ -110,19 +110,19 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1256, LocalidadChubut.Carrenleufu },
                 { 1257, LocalidadChubut.ColanConhue },
                 { 1258, LocalidadChubut.AldeaEpulef }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Martires).Value.Key, new Dictionary<long, string>
             {
                 { 1259, LocalidadChubut.LasPlumas },
                 { 1260, LocalidadChubut.ElMirasol }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.PasoDeIndios).Value.Key, new Dictionary<long, string>
             {
                 { 1261, LocalidadChubut.LosAltares },
                 { 1262, LocalidadChubut.CerroCondor },
                 { 1263, LocalidadChubut.PasoDeIndios },
                 { 1264, LocalidadChubut.ElSombrero }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Rawson).Value.Key, new Dictionary<long, string>
             {
                 { 1265, LocalidadChubut.PlayaUnion },
@@ -130,7 +130,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1267, LocalidadChubut.Rawson },
                 { 1268, LocalidadChubut.Trelew },
                 { 1269, LocalidadChubut.PlayaMagagna }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.RioSenguer).Value.Key, new Dictionary<long, string>
             {
                 { 1270, LocalidadChubut.RioMayo },
@@ -140,19 +140,19 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1274, LocalidadChubut.AldeaBeleiro },
                 { 1275, LocalidadChubut.Facundo },
                 { 1276, LocalidadChubut.AldeaApeleg }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Sarmiento).Value.Key, new Dictionary<long, string>
             {
                 { 1277, LocalidadChubut.BuenPasto },
                 { 1278, LocalidadChubut.Sarmiento }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Tehuelches).Value.Key, new Dictionary<long, string>
             {
                 { 1279, LocalidadChubut.GobernadorCosta },
                 { 1280, LocalidadChubut.JoseDeSanMartin },
                 { 1281, LocalidadChubut.RioPico },
                 { 1282, LocalidadChubut.DoctorAtilioOscarViglione }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoChubut.Telsen).Value.Key, new Dictionary<long, string>
             {
                 { 1283, LocalidadChubut.GanGan },

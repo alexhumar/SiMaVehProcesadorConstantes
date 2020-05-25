@@ -943,7 +943,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// San Antonio - Roldán
         /// </summary>
-        public const string SanAntonio-Roldan = "San Antonio - Roldán";
+        public const string SanAntonioRoldan = "San Antonio - Roldán";
 
         /// <summary>
         /// Vilelas

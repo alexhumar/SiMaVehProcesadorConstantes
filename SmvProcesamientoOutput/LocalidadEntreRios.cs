@@ -393,7 +393,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// El Gato - Loma Limpia
         /// </summary>
-        public const string ElGato-LomaLimpia = "El Gato - Loma Limpia";
+        public const string ElGatoLomaLimpia = "El Gato - Loma Limpia";
 
         /// <summary>
         /// El Gramiyal
@@ -743,7 +743,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Tacuaras-Yacaré
         /// </summary>
-        public const string Tacuaras-Yacare = "Tacuaras-Yacaré";
+        public const string TacuarasYacare = "Tacuaras-Yacaré";
 
         /// <summary>
         /// Colonia Oficial N° 13

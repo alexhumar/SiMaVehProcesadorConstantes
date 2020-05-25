@@ -263,7 +263,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Riacho He-Hé
         /// </summary>
-        public const string RiachoHe-He = "Riacho He-Hé";
+        public const string RiachoHeHe = "Riacho He-Hé";
 
         /// <summary>
         /// Riacho Negro

@@ -41,7 +41,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3062, LocalidadSalta.Centro25DeJunio },
                 { 3063, LocalidadSalta.CoronelOlleros },
                 { 3064, LocalidadSalta.PiqueteCabado }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Cachi).Value.Key, new Dictionary<long, string>
             {
                 { 3065, LocalidadSalta.Cachi },
@@ -51,18 +51,18 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3069, LocalidadSalta.SanJoseDeEscalchi },
                 { 3070, LocalidadSalta.CachiAdentro },
                 { 3071, LocalidadSalta.LaPaya }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Cafayate).Value.Key, new Dictionary<long, string>
             {
                 { 3072, LocalidadSalta.Cafayate },
                 { 3073, LocalidadSalta.Tolombon },
                 { 3074, LocalidadSalta.LasConchas },
                 { 3075, LocalidadSalta.SantaBarbara }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Capital).Value.Key, new Dictionary<long, string>
             {
                 { 3076, LocalidadSalta.Salta }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Cerrillos).Value.Key, new Dictionary<long, string>
             {
                 { 3077, LocalidadSalta.Cerrillos },
@@ -71,7 +71,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3080, LocalidadSalta.VillaLosAlamos },
                 { 3081, LocalidadSalta.Sumalao },
                 { 3082, LocalidadSalta.LasPalmas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Chicoana).Value.Key, new Dictionary<long, string>
             {
                 { 3083, LocalidadSalta.Chicoana },
@@ -92,7 +92,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3098, LocalidadSalta.PotreroDeDiaz },
                 { 3099, LocalidadSalta.Simbolar },
                 { 3100, LocalidadSalta.Maroma }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.GeneralGuemes).Value.Key, new Dictionary<long, string>
             {
                 { 3101, LocalidadSalta.CampoSanto },
@@ -108,7 +108,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3111, LocalidadSalta.LasMesitas },
                 { 3112, LocalidadSalta.VirgilioTedin },
                 { 3113, LocalidadSalta.LosSauces }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.GeneralJoseDeSanMartin).Value.Key, new Dictionary<long, string>
             {
                 { 3114, LocalidadSalta.Tartagal },
@@ -135,7 +135,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3135, LocalidadSalta.Campichuelo },
                 { 3136, LocalidadSalta.Pacara },
                 { 3137, LocalidadSalta.Recaredo }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Guachipas).Value.Key, new Dictionary<long, string>
             {
                 { 3138, LocalidadSalta.Guachipas },
@@ -143,7 +143,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3140, LocalidadSalta.Cebilar },
                 { 3141, LocalidadSalta.PampaGrande },
                 { 3142, LocalidadSalta.LasJuntas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Iruya).Value.Key, new Dictionary<long, string>
             {
                 { 3143, LocalidadSalta.Colanzuli },
@@ -151,7 +151,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3145, LocalidadSalta.RodeoColorado },
                 { 3146, LocalidadSalta.SanJuan },
                 { 3147, LocalidadSalta.VolcanHigueras }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.LaCaldera).Value.Key, new Dictionary<long, string>
             {
                 { 3148, LocalidadSalta.LaCaldera },
@@ -159,13 +159,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3150, LocalidadSalta.LaCalderilla },
                 { 3151, LocalidadSalta.LosYacones },
                 { 3152, LocalidadSalta.PotreroDeCastilla }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.LaCandelaria).Value.Key, new Dictionary<long, string>
             {
                 { 3153, LocalidadSalta.ElJardin },
                 { 3154, LocalidadSalta.ElTala },
                 { 3155, LocalidadSalta.LaCandelaria }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.LaPoma).Value.Key, new Dictionary<long, string>
             {
                 { 3156, LocalidadSalta.EsquinaDeGuardia },
@@ -179,7 +179,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3164, LocalidadSalta.Tipan },
                 { 3165, LocalidadSalta.CerroNegro },
                 { 3166, LocalidadSalta.ElRodeo }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.LaVina).Value.Key, new Dictionary<long, string>
             {
                 { 3167, LocalidadSalta.CoronelMoldes },
@@ -191,7 +191,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3173, LocalidadSalta.Osma },
                 { 3174, LocalidadSalta.VeinteDeFebrero },
                 { 3175, LocalidadSalta.Saladillo }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.LosAndes).Value.Key, new Dictionary<long, string>
             {
                 { 3176, LocalidadSalta.SanAntonioDeLosCobres },
@@ -210,7 +210,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3189, LocalidadSalta.TacaTaca },
                 { 3190, LocalidadSalta.Unquillar },
                 { 3191, LocalidadSalta.VegaDeArizaro }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Metan).Value.Key, new Dictionary<long, string>
             {
                 { 3192, LocalidadSalta.SanJoseDeMetan },
@@ -222,7 +222,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3198, LocalidadSalta.MetanViejo },
                 { 3199, LocalidadSalta.SanJoseDeLaOrquera },
                 { 3200, LocalidadSalta.PresaElTunal }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Molinos).Value.Key, new Dictionary<long, string>
             {
                 { 3201, LocalidadSalta.Molinos },
@@ -237,7 +237,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3210, LocalidadSalta.LaAguadita },
                 { 3211, LocalidadSalta.Amaicha },
                 { 3212, LocalidadSalta.ElRefugio }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Oran).Value.Key, new Dictionary<long, string>
             {
                 { 3213, LocalidadSalta.SanRamonDeLaNuevaOran },
@@ -246,7 +246,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3216, LocalidadSalta.HipolitoYrigoyen },
                 { 3217, LocalidadSalta.Urundel },
                 { 3218, LocalidadSalta.AguasBlancas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.Rivadavia).Value.Key, new Dictionary<long, string>
             {
                 { 3219, LocalidadSalta.CoronelJuanSola },
@@ -259,7 +259,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3226, LocalidadSalta.SantaRosa },
                 { 3227, LocalidadSalta.CapitanJuanPage },
                 { 3228, LocalidadSalta.PlumaDePato }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.RosarioDeLaFrontera).Value.Key, new Dictionary<long, string>
             {
                 { 3229, LocalidadSalta.RosarioDeLaFrontera },
@@ -268,7 +268,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3232, LocalidadSalta.ElPotrero },
                 { 3233, LocalidadSalta.ElNaranjo },
                 { 3234, LocalidadSalta.SanFelipe }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.RosarioDeLerma).Value.Key, new Dictionary<long, string>
             {
                 { 3235, LocalidadSalta.CampoQuijano },
@@ -276,7 +276,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3237, LocalidadSalta.LaSilleta },
                 { 3238, LocalidadSalta.PuertaTastil },
                 { 3239, LocalidadSalta.SantaRosaDeTastil }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.SanCarlos).Value.Key, new Dictionary<long, string>
             {
                 { 3240, LocalidadSalta.Angastaco },
@@ -293,7 +293,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3251, LocalidadSalta.ParajeCorralito },
                 { 3252, LocalidadSalta.ParajeSanAntonio },
                 { 3253, LocalidadSalta.Payogastilla }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSalta.SantaVictoria).Value.Key, new Dictionary<long, string>
             {
                 { 3254, LocalidadSalta.SantaVictoriaOeste },

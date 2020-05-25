@@ -29,14 +29,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 941, LocalidadCatamarca.LosTalas },
                 { 942, LocalidadCatamarca.LosVarela },
                 { 943, LocalidadCatamarca.Singuil }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Ancasti).Value.Key, new Dictionary<long, string>
             {
                 { 944, LocalidadCatamarca.VillaDeAncasti },
                 { 945, LocalidadCatamarca.Anquincila },
                 { 946, LocalidadCatamarca.LaCandelaria },
                 { 947, LocalidadCatamarca.LaMajada }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Andalgala).Value.Key, new Dictionary<long, string>
             {
                 { 948, LocalidadCatamarca.Aconquija },
@@ -52,14 +52,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 958, LocalidadCatamarca.LaAguada },
                 { 959, LocalidadCatamarca.LaMesada },
                 { 960, LocalidadCatamarca.MinasCapillitas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.AntofagastaDeLaSierra).Value.Key, new Dictionary<long, string>
             {
                 { 961, LocalidadCatamarca.AntofagastaDeLaSierra },
                 { 962, LocalidadCatamarca.ElPenon },
                 { 963, LocalidadCatamarca.LosNacimientos },
                 { 964, LocalidadCatamarca.Antofalla }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Belen).Value.Key, new Dictionary<long, string>
             {
                 { 965, LocalidadCatamarca.BarrancaLarga },
@@ -78,7 +78,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 978, LocalidadCatamarca.PuertaDeCorralQuemado },
                 { 979, LocalidadCatamarca.PuertaDeSanJose },
                 { 980, LocalidadCatamarca.VillaVil }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Capayan).Value.Key, new Dictionary<long, string>
             {
                 { 981, LocalidadCatamarca.AdolfoECarranza },
@@ -97,13 +97,13 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 994, LocalidadCatamarca.SanMartin },
                 { 995, LocalidadCatamarca.SanPablo },
                 { 996, LocalidadCatamarca.SanPedro }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Capital).Value.Key, new Dictionary<long, string>
             {
                 { 997, LocalidadCatamarca.BarrioBancario },
                 { 998, LocalidadCatamarca.SanFernandoDelValleDeCatamarca },
                 { 999, LocalidadCatamarca.ElPantanillo }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.ElAlto).Value.Key, new Dictionary<long, string>
             {
                 { 1000, LocalidadCatamarca.ElAlto },
@@ -112,7 +112,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1003, LocalidadCatamarca.LosCorrales },
                 { 1004, LocalidadCatamarca.Tapso },
                 { 1005, LocalidadCatamarca.Vilisman }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.FrayMamertoEsquiu).Value.Key, new Dictionary<long, string>
             {
                 { 1006, LocalidadCatamarca.Collagasta },
@@ -125,7 +125,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1013, LocalidadCatamarca.SanAntonio },
                 { 1014, LocalidadCatamarca.SanJoseDePiedraBlanca },
                 { 1015, LocalidadCatamarca.VillaLasPirquitas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.LaPaz).Value.Key, new Dictionary<long, string>
             {
                 { 1016, LocalidadCatamarca.CasaDePiedra },
@@ -143,7 +143,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1028, LocalidadCatamarca.Ramblones },
                 { 1029, LocalidadCatamarca.Recreo },
                 { 1030, LocalidadCatamarca.SanAntonio }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Paclin).Value.Key, new Dictionary<long, string>
             {
                 { 1031, LocalidadCatamarca.Amadores },
@@ -157,7 +157,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1039, LocalidadCatamarca.PaloLabrado },
                 { 1040, LocalidadCatamarca.SanAntonio },
                 { 1041, LocalidadCatamarca.VillaDeBalcozna }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Poman).Value.Key, new Dictionary<long, string>
             {
                 { 1042, LocalidadCatamarca.Saujil },
@@ -175,7 +175,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1054, LocalidadCatamarca.RosarioDeColana },
                 { 1055, LocalidadCatamarca.RetiroDeColana },
                 { 1056, LocalidadCatamarca.ElPajonal }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.SantaMaria).Value.Key, new Dictionary<long, string>
             {
                 { 1057, LocalidadCatamarca.Andalhuala },
@@ -204,7 +204,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1080, LocalidadCatamarca.SanJoseVilla },
                 { 1081, LocalidadCatamarca.SantaMaria },
                 { 1082, LocalidadCatamarca.Yapes }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.SantaRosa).Value.Key, new Dictionary<long, string>
             {
                 { 1083, LocalidadCatamarca.Alijilan },
@@ -215,7 +215,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1088, LocalidadCatamarca.Manantiales },
                 { 1089, LocalidadCatamarca.MonteRedondo },
                 { 1090, LocalidadCatamarca.SanPedro }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.Tinogasta).Value.Key, new Dictionary<long, string>
             {
                 { 1091, LocalidadCatamarca.Anillaco },
@@ -240,7 +240,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 1110, LocalidadCatamarca.Saujil },
                 { 1111, LocalidadCatamarca.Taton },
                 { 1112, LocalidadCatamarca.Tinogasta }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoCatamarca.ValleViejo).Value.Key, new Dictionary<long, string>
             {
                 { 1113, LocalidadCatamarca.ElPortezuelo },

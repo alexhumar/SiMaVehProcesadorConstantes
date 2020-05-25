@@ -1448,7 +1448,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// San Javier/Yacanto
         /// </summary>
-        public const string SanJavier/Yacanto = "San Javier/Yacanto";
+        public const string SanJavierYacanto = "San Javier/Yacanto";
 
         /// <summary>
         /// San José

@@ -128,7 +128,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Barrio Militar - Aeropuerto
         /// </summary>
-        public const string BarrioMilitar-Aeropuerto = "Barrio Militar - Aeropuerto";
+        public const string BarrioMilitarAeropuerto = "Barrio Militar - Aeropuerto";
 
         /// <summary>
         /// Caleta Córdova

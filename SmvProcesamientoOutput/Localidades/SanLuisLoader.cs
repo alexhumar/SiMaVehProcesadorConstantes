@@ -22,14 +22,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3376, LocalidadSanLuis.Quines },
                 { 3377, LocalidadSanLuis.SanFranciscoDelMonteDeOro },
                 { 3378, LocalidadSanLuis.LeandroNAlem }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.Belgrano).Value.Key, new Dictionary<long, string>
             {
                 { 3379, LocalidadSanLuis.VillaGeneralRoca },
                 { 3380, LocalidadSanLuis.LaCalera },
                 { 3381, LocalidadSanLuis.Nogoli },
                 { 3382, LocalidadSanLuis.VillaDeLaQuebrada }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.Chacabuco).Value.Key, new Dictionary<long, string>
             {
                 { 3383, LocalidadSanLuis.Concaran },
@@ -41,14 +41,14 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3389, LocalidadSanLuis.SanPablo },
                 { 3390, LocalidadSanLuis.VillaDelCarmen },
                 { 3391, LocalidadSanLuis.VillaLarca }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.CoronelPringles).Value.Key, new Dictionary<long, string>
             {
                 { 3392, LocalidadSanLuis.LaToma },
                 { 3393, LocalidadSanLuis.Carolina },
                 { 3394, LocalidadSanLuis.ElTrapiche },
                 { 3395, LocalidadSanLuis.EstanciaGrande }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.GeneralPedernera).Value.Key, new Dictionary<long, string>
             {
                 { 3396, LocalidadSanLuis.VillaMercedes },
@@ -59,7 +59,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3401, LocalidadSanLuis.LaPunilla },
                 { 3402, LocalidadSanLuis.Lavaisse },
                 { 3403, LocalidadSanLuis.VillaReynolds }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.GobernadorDupuy).Value.Key, new Dictionary<long, string>
             {
                 { 3404, LocalidadSanLuis.BuenaEsperanza },
@@ -72,7 +72,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3411, LocalidadSanLuis.Fortuna },
                 { 3412, LocalidadSanLuis.Navia },
                 { 3413, LocalidadSanLuis.NuevaGalia }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.Junin).Value.Key, new Dictionary<long, string>
             {
                 { 3414, LocalidadSanLuis.Merlo },
@@ -81,7 +81,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3417, LocalidadSanLuis.Lafinur },
                 { 3418, LocalidadSanLuis.LosMolles },
                 { 3419, LocalidadSanLuis.Talita }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.JuanMartinDePueyrredon).Value.Key, new Dictionary<long, string>
             {
                 { 3420, LocalidadSanLuis.SanLuis },
@@ -95,7 +95,7 @@ namespace SiMaVeh.Domain.DataSeed.Fixtures.Localidad.Loaders
                 { 3428, LocalidadSanLuis.PotreroDeLosFunes },
                 { 3429, LocalidadSanLuis.SanGeronimo },
                 { 3430, LocalidadSanLuis.Zanjitas }
-            },
+            });
             dictionary.Add(fixturePartido.FindByNombre(PartidoSanLuis.LibertadorGeneralSanMartin).Value.Key, new Dictionary<long, string>
             {
                 { 3431, LocalidadSanLuis.SanMartin },

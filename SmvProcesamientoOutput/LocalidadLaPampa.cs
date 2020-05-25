@@ -243,7 +243,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Cuchillo-Có
         /// </summary>
-        public const string Cuchillo-Co = "Cuchillo-Có";
+        public const string CuchilloCo = "Cuchillo-Có";
 
         /// <summary>
         /// Gobernador Duval

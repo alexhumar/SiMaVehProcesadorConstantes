@@ -1043,7 +1043,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Balneario Pehuen-Có
         /// </summary>
-        public const string BalnearioPehuen-Co = "Balneario Pehuen-Có";
+        public const string BalnearioPehuenCo = "Balneario Pehuen-Có";
 
         /// <summary>
         /// Villa del Mar
@@ -1323,7 +1323,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         /// <summary>
         /// Parada La Lata - La Loma
         /// </summary>
-        public const string ParadaLaLata-LaLoma = "Parada La Lata - La Loma";
+        public const string ParadaLaLataLaLoma = "Parada La Lata - La Loma";
 
         /// <summary>
         /// Diego Gaynor
