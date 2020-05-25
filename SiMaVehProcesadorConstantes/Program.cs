@@ -29,6 +29,8 @@ namespace SiMaVehProcesadorConstantes
 
             #endregion
 
+            //TODO: agregar en la generacion de constantes, antes de agregar una, el chequeo de que no exista.
+
             #region procesamiento
 
             var currentPartidoId = startID;

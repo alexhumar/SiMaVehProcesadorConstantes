@@ -30,9 +30,11 @@ namespace SiMaVehProcesadorConstantes.Procesadores
                 .Replace('Ü', 'U')
                 .Replace('ñ', 'n')
                 .Replace('Ñ', 'N')
-                .Replace(".", "")
-                .Replace("'", "")
-                .Replace("º", "");
+                .Replace(".", string.Empty)
+                .Replace("'", string.Empty)
+                .Replace("º", string.Empty)
+                .Replace("-", string.Empty)
+                .Replace("/", string.Empty);
         }
 
         public string ProcesarNombreConstante(string linea)
