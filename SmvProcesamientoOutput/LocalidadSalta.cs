@@ -381,9 +381,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         public const string Embarcacion = "Embarcación";
 
         /// <summary>
-        /// Salvador Mazza (Pocitos)
+        /// Salvador Mazza
         /// </summary>
-        public const string SalvadorMazza(Pocitos) = "Salvador Mazza (Pocitos)";
+        public const string SalvadorMazza = "Salvador Mazza";
 
         /// <summary>
         /// General Mosconi
@@ -1021,9 +1021,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         public const string ElBarrial = "El Barrial";
 
         /// <summary>
-        /// Jasimaná (3.842 msnm)
+        /// Jasimaná
         /// </summary>
-        public const string Jasimana(3842Msnm) = "Jasimaná (3.842 msnm)";
+        public const string Jasimana = "Jasimaná";
 
         /// <summary>
         /// La Angostura

@@ -9,11 +9,11 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         {
         }
 
-        public override ResultadoGeneracionCuerpoLoader GenerarCuerpo(InfoSubseccion infoEstructura, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad)
+        public override ResultadoGeneracionCuerpoLoader GenerarCuerpo(InfoSubseccion infoEstructura, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad)
         {
             return new ResultadoGeneracionCuerpoLoader
             {
-                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, infoEstructura.Cabecera.NombreConstante, tipoSuperEntidad, nombreSuperEntidad),
+                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, descripcionEntidad, infoEstructura.Cabecera.NombreConstante, tipoSuperEntidad, descripcionSuperEntidad, nombreSuperEntidad),
                 FinishId = CurrentId
             };
         }

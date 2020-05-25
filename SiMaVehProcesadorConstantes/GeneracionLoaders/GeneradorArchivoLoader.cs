@@ -16,11 +16,11 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             generadorCuerpoLoadersFactory = new GeneradorCuerpoLoadersFactory<T, S>();
         }
 
-        public ResultadoGeneracionLoader GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad, long startId)
+        public ResultadoGeneracionLoader GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad, long startId)
         {
-            string nombreClase = string.Concat(infoEstructura.Cabecera.NombreConstante, "Loader");
+            string nombreClase = string.Concat(descripcionEntidad, infoEstructura.Cabecera.NombreConstante, "Loader");
             string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, GetSubdirectorioOutput(), $"{nombreClase}.cs");
-            string templateFilePath = Path.Combine(directorioBase, Procesamiento.SubdirectorioTemplates, "TemplateLoader.txt");
+            string templateFilePath = Path.Combine(directorioBase, Procesamiento.SubdirectorioTemplates, GetTemplateLoaderName());
 
             if (File.Exists(outputLoadersPath))
             {
@@ -41,11 +41,11 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             var template = sbTemplate.ToString();
             var resultadoGeneracionCuerpo = generadorCuerpoLoadersFactory
                 .Get(infoEstructura, startId)
-                .GenerarCuerpo(infoEstructura, tipoEntidad, tipoSuperEntidad, nombreSuperEntidad);
+                .GenerarCuerpo(infoEstructura, tipoEntidad, descripcionEntidad, tipoSuperEntidad, descripcionSuperEntidad, nombreSuperEntidad);
 
             using (StreamWriter sw = File.CreateText(outputLoadersPath))
             {
-                sw.Write(string.Format(template, tipoEntidad, nombreClase, tipoSuperEntidad, resultadoGeneracionCuerpo.Cuerpo));
+                sw.Write(GetContenidoArchivo(template, tipoEntidad, nombreClase, tipoSuperEntidad, resultadoGeneracionCuerpo.Cuerpo));
             }
 
             return new ResultadoGeneracionLoader
@@ -55,5 +55,9 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         }
 
         protected abstract string GetSubdirectorioOutput();
+
+        protected abstract string GetTemplateLoaderName();
+
+        protected abstract string GetContenidoArchivo(string template, string tipoEntidad, string nombreClase, string tipoSuperEntidad, string cuerpo);
     }
 }

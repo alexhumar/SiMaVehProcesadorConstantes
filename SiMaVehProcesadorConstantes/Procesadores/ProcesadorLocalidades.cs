@@ -26,7 +26,7 @@ namespace SiMaVehProcesadorConstantes.Procesadores
             var infoLocalidadesPartido = infoSeccionLoader.LoadInfo(directorioBase, nombreProvincia);
             seccionGeneradorArchivoConstantes.GenerarArchivo(directorioBase, "Localidad", "Localidades", "SubSubdivisionesPais", infoLocalidadesPartido);
 
-            return seccionGeneradorArchivoLoader.GenerarArchivo(infoLocalidadesPartido, directorioBase, "Localidad", "Partido", nombreProvincia, startId);
+            return seccionGeneradorArchivoLoader.GenerarArchivo(infoLocalidadesPartido, directorioBase, "Localidad", "Localidades", "Partido", "Partidos", nombreProvincia, startId);
         }
     }
 }

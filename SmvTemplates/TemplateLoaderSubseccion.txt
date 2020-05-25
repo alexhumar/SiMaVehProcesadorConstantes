@@ -1,0 +1,21 @@
+using SiMaVeh.Domain.DataSeed.Constants.DivisionesPais;
+using SiMaVeh.Domain.DataSeed.Constants.SubdivisionesPais;
+using SiMaVeh.Domain.DataSeed.Fixtures.Interfaces;
+using SiMaVeh.Domain.DataSeed.Fixtures.Provincia.Loaders.Base;
+using System.Collections.Generic;
+
+namespace SiMaVeh.Domain.DataSeed.Fixtures.Partido.Loaders.Argentina
+{{
+    class {0} : PartidosLoader
+    {{
+        public {0}(IProvinciasLoader<long, long, string> provinciasLoader)
+            : base(provinciasLoader)
+        {{
+        }}
+
+        protected override void Initialize()
+        {{
+{1}
+        }}
+    }}
+}}

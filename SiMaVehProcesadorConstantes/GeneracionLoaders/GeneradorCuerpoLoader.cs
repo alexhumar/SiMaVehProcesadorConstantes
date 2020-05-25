@@ -35,6 +35,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
                 {
                     indent = string.Empty.PadLeft(12);
                 }
+
                 return indent;
             }
         }
@@ -48,6 +49,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
                 {
                     subIndent = string.Empty.PadLeft(16);
                 }
+
                 return subIndent;
             }
         }
@@ -57,13 +59,13 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             CurrentId = currentId;
         }
 
-        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string valorEntidad, string tipoSuperEntidad, string valorSuperEntidad)
+        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string descripcionEntidad, string valorEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string valorSuperEntidad)
         {
             var sbLoaders = new StringBuilder();
             var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
             var lineasPendientesProcesar = infoEstructura.GetLineas().Count();
 
-            sbLoaders.AppendLine(string.Concat(Indent, $"dictionary.Add(fixture{tipoSuperEntidad}.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Value.Key, new Dictionary<long, string>"));
+            sbLoaders.AppendLine(string.Concat(Indent, $"{descripcionEntidad.ToLower()}.Add({descripcionSuperEntidad.ToLower()}Loader.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Key, new Dictionary<long, string>"));
             sbLoaders.AppendLine(string.Concat(Indent, "{"));
 
             foreach (var linea in infoEstructura.GetLineas())
@@ -78,6 +80,6 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             return sbLoaders.ToString().TrimEnd();
         }
 
-        public abstract ResultadoGeneracionCuerpoLoader GenerarCuerpo(T infoEstructura, string tipoEntidad, string tipoSuperEntidad, string nombreSuperEntidad);
+        public abstract ResultadoGeneracionCuerpoLoader GenerarCuerpo(T infoEstructura, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad);
     }
 }

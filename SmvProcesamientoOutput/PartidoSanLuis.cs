@@ -6,14 +6,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubdivisionesPais
     public class PartidoSanLuis
     {
         /// <summary>
-        /// Pueyrredón
+        /// Juan Martín de Pueyrredón
         /// </summary>
-        public const string Pueyrredon = "Pueyrredón";
+        public const string JuanMartinDePueyrredon = "Juan Martín de Pueyrredón";
 
         /// <summary>
-        /// Pedernera
+        /// General Pedernera
         /// </summary>
-        public const string Pedernera = "Pedernera";
+        public const string GeneralPedernera = "General Pedernera";
 
         /// <summary>
         /// Junín

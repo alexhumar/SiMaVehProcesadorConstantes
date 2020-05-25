@@ -2081,9 +2081,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         public const string AltoAlegre = "Alto Alegre";
 
         /// <summary>
-        /// Ballesteros (Córdoba)
+        /// Ballesteros
         /// </summary>
-        public const string Ballesteros(Cordoba) = "Ballesteros (Córdoba)";
+        public const string Ballesteros = "Ballesteros";
 
         /// <summary>
         /// Ballesteros Sud

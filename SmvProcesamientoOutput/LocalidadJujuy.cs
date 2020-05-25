@@ -306,9 +306,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.SubSubdivisionesPais
         public const string ElCeibal = "El Ceibal";
 
         /// <summary>
-        /// Loteo Navea (Los Alisos)
+        /// Loteo Navea
         /// </summary>
-        public const string LoteoNavea(LosAlisos) = "Loteo Navea (Los Alisos)";
+        public const string LoteoNavea = "Loteo Navea";
 
         /// <summary>
         /// San Antonio
