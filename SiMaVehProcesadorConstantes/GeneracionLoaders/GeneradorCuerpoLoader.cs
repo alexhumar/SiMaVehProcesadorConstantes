@@ -65,13 +65,13 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
             var lineasPendientesProcesar = infoEstructura.GetLineas().Count();
 
-            sbLoaders.AppendLine(string.Concat(Indent, $"{descripcionEntidad.ToLower()}.Add({descripcionSuperEntidad.ToLower()}Loader.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Key, new Dictionary<long, string>"));
+            sbLoaders.AppendLine(string.Concat(Indent, $"{descripcionEntidad.ToLower()}.Add({tipoSuperEntidad.ToLower()}FixtureGetter.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Id, new List<DatosEntidad>"));
             sbLoaders.AppendLine(string.Concat(Indent, "{"));
 
             foreach (var linea in infoEstructura.GetLineas())
             {
                 lineasPendientesProcesar--;
-                var stringToWrite = string.Format("{{ {0}, {1}.{2} }}{3}", CurrentId, nombreClaseConstante, linea.NombreConstante, lineasPendientesProcesar > 0 ? "," : string.Empty);
+                var stringToWrite = string.Format("datosEntidadBuilder.Build({0}, {1}.{2}){3}", CurrentId, nombreClaseConstante, linea.NombreConstante, lineasPendientesProcesar > 0 ? "," : string.Empty);
                 sbLoaders.AppendLine(string.Concat(SubIndent, stringToWrite));
             }
 

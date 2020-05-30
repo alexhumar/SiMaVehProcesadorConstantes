@@ -18,7 +18,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 
         public ResultadoGeneracionLoader GenerarArchivo(T infoEstructura, string directorioBase, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad, long startId)
         {
-            string nombreClase = string.Concat(descripcionEntidad, infoEstructura.Cabecera.NombreConstante, "Loader");
+            string nombreClase = string.Concat(tipoEntidad, infoEstructura.Cabecera.NombreConstante, "FixtureGetter");
             string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, GetSubdirectorioOutput(), $"{nombreClase}.cs");
             string templateFilePath = Path.Combine(directorioBase, Procesamiento.SubdirectorioTemplates, GetTemplateLoaderName());
 
