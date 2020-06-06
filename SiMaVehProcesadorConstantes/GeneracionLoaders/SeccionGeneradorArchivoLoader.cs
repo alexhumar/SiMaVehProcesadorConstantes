@@ -5,10 +5,6 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 {
     public class SeccionGeneradorArchivoLoader : GeneradorArchivoLoader<InfoSeccion, InfoSubseccion>
     {
-        public SeccionGeneradorArchivoLoader()
-        {
-        }
-
         protected override string GetContenidoArchivo(string template, string tipoEntidad, string nombreClase, string tipoSuperEntidad, string cuerpo)
         {
             return string.Format(template, nombreClase, cuerpo);

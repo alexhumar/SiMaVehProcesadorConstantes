@@ -3,6 +3,7 @@ using SiMaVehProcesadorConstantes.Loaders.Interfaces;
 using SiMaVehProcesadorConstantes.Models;
 using SiMaVehProcesadorConstantes.Models.Interfaces;
 using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
+using System.Globalization;
 using System.IO;
 
 namespace SiMaVehProcesadorConstantes.Loaders
@@ -45,10 +46,13 @@ namespace SiMaVehProcesadorConstantes.Loaders
 
         protected InfoLinea CrearInfoLinea(string linea)
         {
+            var textInfo = CultureInfo.InvariantCulture.TextInfo;
+            var lineaTitleCase = textInfo.ToTitleCase(linea);
+
             return new InfoLinea
             {
-                NombreConstante = procesadorConstante.ProcesarNombreConstante(linea),
-                NombreOriginal = linea
+                NombreConstante = procesadorConstante.ProcesarNombreConstante(lineaTitleCase),
+                NombreOriginal = lineaTitleCase
             };
         }
 

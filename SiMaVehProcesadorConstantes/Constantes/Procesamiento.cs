@@ -10,6 +10,8 @@
 
         public const string NombreArchivoSubseccion = "Input.txt";
 
+        public const string NombreArchivoMoneda = "Input_Moneda.txt";
+
         public const string SubdirectorioTemplates = "SmvTemplates";
 
         public const string SubdirectorioOutput = "SmvProcesamientoOutput";
@@ -19,5 +21,7 @@
         public const string SubdirectorioSeccion = "Localidades";
 
         public const string SubdirectorioSubseccion = "Partidos";
+
+        public const string SubdirectorioMoneda = "Monedas";
     }
 }
