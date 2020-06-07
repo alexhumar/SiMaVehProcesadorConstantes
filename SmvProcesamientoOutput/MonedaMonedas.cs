@@ -6,6 +6,11 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
     public class MonedaMonedas
     {
         /// <summary>
+        /// Dírham De Los Emiratos Árabes Unidos
+        /// </summary>
+        public const string DirhamDeLosEmiratosArabesUnidos = "Dírham De Los Emiratos Árabes Unidos";
+
+        /// <summary>
         /// Afgani
         /// </summary>
         public const string Afgani = "Afgani";
@@ -16,24 +21,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Lek = "Lek";
 
         /// <summary>
-        /// Libra Esterlina
+        /// Dram Armenio
         /// </summary>
-        public const string LibraEsterlina = "Libra Esterlina";
+        public const string DramArmenio = "Dram Armenio";
 
         /// <summary>
-        /// Dinar
+        /// Florín Antillano Neerlandés
         /// </summary>
-        public const string Dinar = "Dinar";
+        public const string FlorinAntillanoNeerlandes = "Florín Antillano Neerlandés";
 
         /// <summary>
-        /// Euro
+        /// Kwanza
         /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Kuanza De Angola
-        /// </summary>
-        public const string KuanzaDeAngola = "Kuanza De Angola";
+        public const string Kwanza = "Kwanza";
 
         /// <summary>
         /// Peso Argentino
@@ -41,69 +41,59 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PesoArgentino = "Peso Argentino";
 
         /// <summary>
-        /// Dram Armenio
-        /// </summary>
-        public const string DramArmenio = "Dram Armenio";
-
-        /// <summary>
-        /// Florín Arubano
-        /// </summary>
-        public const string FlorinArubano = "Florín Arubano";
-
-        /// <summary>
         /// Dólar Australiano
         /// </summary>
         public const string DolarAustraliano = "Dólar Australiano";
 
         /// <summary>
-        /// Euro
+        /// Florín Arubeño
         /// </summary>
-        public const string Euro = "Euro";
+        public const string FlorinArubeno = "Florín Arubeño";
 
         /// <summary>
-        /// Manat Azerbayano
+        /// Manat Azerbaiyano
         /// </summary>
-        public const string ManatAzerbayano = "Manat Azerbayano";
+        public const string ManatAzerbaiyano = "Manat Azerbaiyano";
 
         /// <summary>
-        /// Dólar De Las Bahamas
+        /// Marco Convertible
         /// </summary>
-        public const string DolarDeLasBahamas = "Dólar De Las Bahamas";
+        public const string MarcoConvertible = "Marco Convertible";
 
         /// <summary>
-        /// Dinar De Baréin
+        /// Dólar De Barbados
         /// </summary>
-        public const string DinarDeBarein = "Dinar De Baréin";
+        public const string DolarDeBarbados = "Dólar De Barbados";
 
         /// <summary>
-        /// Taka De Bangladés
+        /// Taka
         /// </summary>
-        public const string TakaDeBanglades = "Taka De Bangladés";
+        public const string Taka = "Taka";
 
         /// <summary>
-        /// Dólar De Las Barbados
+        /// Lev Búlgaro
         /// </summary>
-        public const string DolarDeLasBarbados = "Dólar De Las Barbados";
+        public const string LevBulgaro = "Lev Búlgaro";
 
         /// <summary>
-        /// Rublo Bielorruso
+        /// Dinar Bareiní
         /// </summary>
-        public const string RubloBielorruso = "Rublo Bielorruso";
+        public const string DinarBareini = "Dinar Bareiní";
 
         /// <summary>
-        /// Euro
+        /// Franco De Burundi
         /// </summary>
-        public const string Euro = "Euro";
+        public const string FrancoDeBurundi = "Franco De Burundi";
 
         /// <summary>
-        /// Dólar Beliceño
+        /// Dólar Bermudeño
         /// </summary>
-        public const string DolarBeliceno = "Dólar Beliceño";
+        public const string DolarBermudeno = "Dólar Bermudeño";
 
         /// <summary>
-        /// Gultrum Butanés
+        /// Dólar De Brunéi
         /// </summary>
-        public const string GultrumButanes = "Gultrum Butanés";
+        public const string DolarDeBrunei = "Dólar De Brunéi";
 
         /// <summary>
         /// Boliviano
@@ -111,14 +101,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Boliviano = "Boliviano";
 
         /// <summary>
-        /// Marco Convertible De Bosnia Y Herzegovina
+        /// MVDOL
         /// </summary>
-        public const string MarcoConvertibleDeBosniaYHerzegovina = "Marco Convertible De Bosnia Y Herzegovina";
-
-        /// <summary>
-        /// Pula De Botsuana
-        /// </summary>
-        public const string PulaDeBotsuana = "Pula De Botsuana";
+        public const string MVDOL = "MVDOL";
 
         /// <summary>
         /// Real Brasileño
@@ -126,34 +111,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RealBrasileno = "Real Brasileño";
 
         /// <summary>
-        /// Dólar De Brunei
+        /// Dólar Bahameño
         /// </summary>
-        public const string DolarDeBrunei = "Dólar De Brunei";
+        public const string DolarBahameno = "Dólar Bahameño";
 
         /// <summary>
-        /// Leva Búlgaro
+        /// Ngultrum
         /// </summary>
-        public const string LevaBulgaro = "Leva Búlgaro";
+        public const string Ngultrum = "Ngultrum";
 
         /// <summary>
-        /// Franco CFA
+        /// Pula
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string Pula = "Pula";
 
         /// <summary>
-        /// Kiat De Birmania
+        /// Rublo Bielorruso
         /// </summary>
-        public const string KiatDeBirmania = "Kiat De Birmania";
+        public const string RubloBielorruso = "Rublo Bielorruso";
 
         /// <summary>
-        /// Franco Burundés
+        /// Dólar Beliceño
         /// </summary>
-        public const string FrancoBurundes = "Franco Burundés";
-
-        /// <summary>
-        /// Riel Camboyano
-        /// </summary>
-        public const string RielCamboyano = "Riel Camboyano";
+        public const string DolarBeliceno = "Dólar Beliceño";
 
         /// <summary>
         /// Dólar Canadiense
@@ -161,24 +141,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DolarCanadiense = "Dólar Canadiense";
 
         /// <summary>
-        /// Escudo De Cabo Verde
+        /// Franco Congoleño
         /// </summary>
-        public const string EscudoDeCaboVerde = "Escudo De Cabo Verde";
+        public const string FrancoCongoleno = "Franco Congoleño";
 
         /// <summary>
-        /// Dólar De Las Islas Caimán
+        /// Euro WIR
         /// </summary>
-        public const string DolarDeLasIslasCaiman = "Dólar De Las Islas Caimán";
+        public const string EuroWIR = "Euro WIR";
 
         /// <summary>
-        /// Franco CFA
+        /// Franco Suizo
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string FrancoSuizo = "Franco Suizo";
 
         /// <summary>
-        /// Franco CFA
+        /// Franco WIR
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string FrancoWIR = "Franco WIR";
+
+        /// <summary>
+        /// Unidad De Fomento
+        /// </summary>
+        public const string UnidadDeFomento = "Unidad De Fomento";
 
         /// <summary>
         /// Peso Chileno
@@ -186,9 +171,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PesoChileno = "Peso Chileno";
 
         /// <summary>
-        /// Yuan, Renminbi
+        /// Yuan Chino
         /// </summary>
-        public const string Yuan,Renminbi = "Yuan, Renminbi";
+        public const string YuanChino = "Yuan Chino";
 
         /// <summary>
         /// Peso Colombiano
@@ -196,19 +181,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PesoColombiano = "Peso Colombiano";
 
         /// <summary>
-        /// Franco Comorano
+        /// Unidad De Valor Real
         /// </summary>
-        public const string FrancoComorano = "Franco Comorano";
-
-        /// <summary>
-        /// Franco Congoleño
-        /// </summary>
-        public const string FrancoCongoleno = "Franco Congoleño";
-
-        /// <summary>
-        /// Franco CFA
-        /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string UnidadDeValorReal = "Unidad De Valor Real";
 
         /// <summary>
         /// Colón Costarricense
@@ -216,14 +191,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string ColonCostarricense = "Colón Costarricense";
 
         /// <summary>
-        /// Franco CFA
+        /// Peso Convertible
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Kuna Croata
-        /// </summary>
-        public const string KunaCroata = "Kuna Croata";
+        public const string PesoConvertible = "Peso Convertible";
 
         /// <summary>
         /// Peso Cubano
@@ -231,14 +201,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PesoCubano = "Peso Cubano";
 
         /// <summary>
-        /// Florín De Las Antillas Neerlandesas
+        /// Escudo Caboverdiano
         /// </summary>
-        public const string FlorinDeLasAntillasNeerlandesas = "Florín De Las Antillas Neerlandesas";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
+        public const string EscudoCaboverdiano = "Escudo Caboverdiano";
 
         /// <summary>
         /// Corona Checa
@@ -246,14 +211,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CoronaCheca = "Corona Checa";
 
         /// <summary>
-        /// Corona Danesa
-        /// </summary>
-        public const string CoronaDanesa = "Corona Danesa";
-
-        /// <summary>
         /// Franco Yibutiano
         /// </summary>
         public const string FrancoYibutiano = "Franco Yibutiano";
+
+        /// <summary>
+        /// Corona Danesa
+        /// </summary>
+        public const string CoronaDanesa = "Corona Danesa";
 
         /// <summary>
         /// Peso Dominicano
@@ -261,9 +226,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PesoDominicano = "Peso Dominicano";
 
         /// <summary>
-        /// Dólar Estadounidense
+        /// Dinar Argelino
         /// </summary>
-        public const string DolarEstadounidense = "Dólar Estadounidense";
+        public const string DinarArgelino = "Dinar Argelino";
 
         /// <summary>
         /// Libra Egipcia
@@ -271,19 +236,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LibraEgipcia = "Libra Egipcia";
 
         /// <summary>
-        /// Colón Salvadoreño
+        /// Nakfa
         /// </summary>
-        public const string ColonSalvadoreno = "Colón Salvadoreño";
+        public const string Nakfa = "Nakfa";
 
         /// <summary>
-        /// Franco CFA
+        /// Birr Etíope
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Nakfa De Eritrea
-        /// </summary>
-        public const string NakfaDeEritrea = "Nakfa De Eritrea";
+        public const string BirrEtiope = "Birr Etíope";
 
         /// <summary>
         /// Euro
@@ -291,49 +251,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Euro = "Euro";
 
         /// <summary>
-        /// Bir
+        /// Dólar Fiyiano
         /// </summary>
-        public const string Bir = "Bir";
+        public const string DolarFiyiano = "Dólar Fiyiano";
 
         /// <summary>
-        /// Euro
+        /// Libra Malvinense
         /// </summary>
-        public const string Euro = "Euro";
+        public const string LibraMalvinense = "Libra Malvinense";
 
         /// <summary>
-        /// Euro
+        /// Libra Esterlina
         /// </summary>
-        public const string Euro = "Euro";
+        public const string LibraEsterlina = "Libra Esterlina";
 
         /// <summary>
-        /// Franco CFP
+        /// Lari
         /// </summary>
-        public const string FrancoCFP = "Franco CFP";
+        public const string Lari = "Lari";
 
         /// <summary>
-        /// Franco CFA
+        /// Cedi Ghanés
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Dalasi Gambiano
-        /// </summary>
-        public const string DalasiGambiano = "Dalasi Gambiano";
-
-        /// <summary>
-        /// Lari Georgiano
-        /// </summary>
-        public const string LariGeorgiano = "Lari Georgiano";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Cedi De Gana
-        /// </summary>
-        public const string CediDeGana = "Cedi De Gana";
+        public const string CediGhanes = "Cedi Ghanés";
 
         /// <summary>
         /// Libra De Gibraltar
@@ -341,14 +281,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LibraDeGibraltar = "Libra De Gibraltar";
 
         /// <summary>
-        /// Euro
+        /// Dalasi
         /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Quetzal
-        /// </summary>
-        public const string Quetzal = "Quetzal";
+        public const string Dalasi = "Dalasi";
 
         /// <summary>
         /// Franco Guineano
@@ -356,14 +291,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string FrancoGuineano = "Franco Guineano";
 
         /// <summary>
-        /// Franco CFA
+        /// Quetzal
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string Quetzal = "Quetzal";
 
         /// <summary>
-        /// Gurde
+        /// Dólar Guyanés
         /// </summary>
-        public const string Gurde = "Gurde";
+        public const string DolarGuyanes = "Dólar Guyanés";
+
+        /// <summary>
+        /// Dólar De Hong Kong
+        /// </summary>
+        public const string DolarDeHongKong = "Dólar De Hong Kong";
 
         /// <summary>
         /// Lempira
@@ -371,19 +311,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Lempira = "Lempira";
 
         /// <summary>
+        /// Kuna
+        /// </summary>
+        public const string Kuna = "Kuna";
+
+        /// <summary>
+        /// Gourde
+        /// </summary>
+        public const string Gourde = "Gourde";
+
+        /// <summary>
         /// Forinto
         /// </summary>
         public const string Forinto = "Forinto";
-
-        /// <summary>
-        /// Corona Islandesa
-        /// </summary>
-        public const string CoronaIslandesa = "Corona Islandesa";
-
-        /// <summary>
-        /// Rupia India
-        /// </summary>
-        public const string RupiaIndia = "Rupia India";
 
         /// <summary>
         /// Rupia Indonesia
@@ -391,39 +331,34 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RupiaIndonesia = "Rupia Indonesia";
 
         /// <summary>
+        /// Nuevo Shéquel Israelí
+        /// </summary>
+        public const string NuevoShequelIsraeli = "Nuevo Shéquel Israelí";
+
+        /// <summary>
+        /// Rupia India
+        /// </summary>
+        public const string RupiaIndia = "Rupia India";
+
+        /// <summary>
+        /// Dinar Iraquí
+        /// </summary>
+        public const string DinarIraqui = "Dinar Iraquí";
+
+        /// <summary>
         /// Rial Iraní
         /// </summary>
         public const string RialIrani = "Rial Iraní";
 
         /// <summary>
-        /// Dinar Irakí
+        /// Corona Islandesa
         /// </summary>
-        public const string DinarIraki = "Dinar Irakí";
+        public const string CoronaIslandesa = "Corona Islandesa";
 
         /// <summary>
-        /// Euro
+        /// Dólar Jamaiquino
         /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Nuevo Séquel
-        /// </summary>
-        public const string NuevoSequel = "Nuevo Séquel";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Dólar Jamaicano
-        /// </summary>
-        public const string DolarJamaicano = "Dólar Jamaicano";
-
-        /// <summary>
-        /// Yen
-        /// </summary>
-        public const string Yen = "Yen";
+        public const string DolarJamaiquino = "Dólar Jamaiquino";
 
         /// <summary>
         /// Dinar Jordano
@@ -431,9 +366,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DinarJordano = "Dinar Jordano";
 
         /// <summary>
-        /// Tengue Kazajo
+        /// Yen
         /// </summary>
-        public const string TengueKazajo = "Tengue Kazajo";
+        public const string Yen = "Yen";
 
         /// <summary>
         /// Chelín Keniano
@@ -441,14 +376,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string ChelinKeniano = "Chelín Keniano";
 
         /// <summary>
+        /// Som
+        /// </summary>
+        public const string Som = "Som";
+
+        /// <summary>
+        /// Riel
+        /// </summary>
+        public const string Riel = "Riel";
+
+        /// <summary>
+        /// Franco Comorense
+        /// </summary>
+        public const string FrancoComorense = "Franco Comorense";
+
+        /// <summary>
         /// Won Norcoreano
         /// </summary>
         public const string WonNorcoreano = "Won Norcoreano";
 
         /// <summary>
-        /// Won Surcoreano
+        /// Won
         /// </summary>
-        public const string WonSurcoreano = "Won Surcoreano";
+        public const string Won = "Won";
 
         /// <summary>
         /// Dinar Kuwaití
@@ -456,9 +406,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DinarKuwaiti = "Dinar Kuwaití";
 
         /// <summary>
-        /// Som Kirguís
+        /// Dólar De Las Islas Caimán
         /// </summary>
-        public const string SomKirguis = "Som Kirguís";
+        public const string DolarDeLasIslasCaiman = "Dólar De Las Islas Caimán";
+
+        /// <summary>
+        /// Tenge
+        /// </summary>
+        public const string Tenge = "Tenge";
 
         /// <summary>
         /// Kip
@@ -466,19 +421,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Kip = "Kip";
 
         /// <summary>
-        /// Lats
-        /// </summary>
-        public const string Lats = "Lats";
-
-        /// <summary>
         /// Libra Libanesa
         /// </summary>
         public const string LibraLibanesa = "Libra Libanesa";
 
         /// <summary>
-        /// Loti De Lesoto
+        /// Rupia De Sri Lanka
         /// </summary>
-        public const string LotiDeLesoto = "Loti De Lesoto";
+        public const string RupiaDeSriLanka = "Rupia De Sri Lanka";
 
         /// <summary>
         /// Dólar Liberiano
@@ -486,24 +436,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DolarLiberiano = "Dólar Liberiano";
 
         /// <summary>
+        /// Loti
+        /// </summary>
+        public const string Loti = "Loti";
+
+        /// <summary>
         /// Dinar Libio
         /// </summary>
         public const string DinarLibio = "Dinar Libio";
 
         /// <summary>
-        /// Litas
+        /// Dírham Marroquí
         /// </summary>
-        public const string Litas = "Litas";
+        public const string DirhamMarroqui = "Dírham Marroquí";
 
         /// <summary>
-        /// Euro
+        /// Leu Moldavo
         /// </summary>
-        public const string Euro = "Euro";
+        public const string LeuMoldavo = "Leu Moldavo";
 
         /// <summary>
-        /// Pataca De Macao
+        /// Ariary Malgache
         /// </summary>
-        public const string PatacaDeMacao = "Pataca De Macao";
+        public const string AriaryMalgache = "Ariary Malgache";
 
         /// <summary>
         /// Denar
@@ -511,34 +466,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Denar = "Denar";
 
         /// <summary>
-        /// Ariari
+        /// Kyat
         /// </summary>
-        public const string Ariari = "Ariari";
+        public const string Kyat = "Kyat";
 
         /// <summary>
-        /// Kuacha De Malaui
+        /// Tugrik
         /// </summary>
-        public const string KuachaDeMalaui = "Kuacha De Malaui";
+        public const string Tugrik = "Tugrik";
 
         /// <summary>
-        /// Ringit
+        /// Pataca
         /// </summary>
-        public const string Ringit = "Ringit";
-
-        /// <summary>
-        /// Rufiya
-        /// </summary>
-        public const string Rufiya = "Rufiya";
-
-        /// <summary>
-        /// Franco CFA
-        /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
+        public const string Pataca = "Pataca";
 
         /// <summary>
         /// Uguiya
@@ -551,89 +491,49 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RupiaDeMauricio = "Rupia De Mauricio";
 
         /// <summary>
+        /// Rufiyaa
+        /// </summary>
+        public const string Rufiyaa = "Rufiyaa";
+
+        /// <summary>
+        /// Kwacha
+        /// </summary>
+        public const string Kwacha = "Kwacha";
+
+        /// <summary>
         /// Peso Mexicano
         /// </summary>
         public const string PesoMexicano = "Peso Mexicano";
 
         /// <summary>
-        /// Dólar Micronesio
+        /// Unidad De Inversión (UDI) Mexicana
         /// </summary>
-        public const string DolarMicronesio = "Dólar Micronesio";
+        public const string UnidadDeInversion(UDI)Mexicana = "Unidad De Inversión (UDI) Mexicana";
 
         /// <summary>
-        /// Leu Moldavo
+        /// Ringgit Malayo
         /// </summary>
-        public const string LeuMoldavo = "Leu Moldavo";
+        public const string RinggitMalayo = "Ringgit Malayo";
 
         /// <summary>
-        /// Euro
+        /// Metical Mozambiqueño
         /// </summary>
-        public const string Euro = "Euro";
+        public const string MeticalMozambiqueno = "Metical Mozambiqueño";
 
         /// <summary>
-        /// Tugrik Mongol
+        /// Dólar Namibio
         /// </summary>
-        public const string TugrikMongol = "Tugrik Mongol";
+        public const string DolarNamibio = "Dólar Namibio";
 
         /// <summary>
-        /// Euro
+        /// Naira
         /// </summary>
-        public const string Euro = "Euro";
+        public const string Naira = "Naira";
 
         /// <summary>
-        /// Dírham
+        /// Córdoba
         /// </summary>
-        public const string Dirham = "Dírham";
-
-        /// <summary>
-        /// Metical
-        /// </summary>
-        public const string Metical = "Metical";
-
-        /// <summary>
-        /// Dólar De Namibia
-        /// </summary>
-        public const string DolarDeNamibia = "Dólar De Namibia";
-
-        /// <summary>
-        /// Dólar Nauruano
-        /// </summary>
-        public const string DolarNauruano = "Dólar Nauruano";
-
-        /// <summary>
-        /// Rupia Nepalí
-        /// </summary>
-        public const string RupiaNepali = "Rupia Nepalí";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Franco CFP
-        /// </summary>
-        public const string FrancoCFP = "Franco CFP";
-
-        /// <summary>
-        /// Dólar De Nueva Zelanda
-        /// </summary>
-        public const string DolarDeNuevaZelanda = "Dólar De Nueva Zelanda";
-
-        /// <summary>
-        /// Córdoba Nicaragüense
-        /// </summary>
-        public const string CordobaNicaraguense = "Córdoba Nicaragüense";
-
-        /// <summary>
-        /// Franco CFA
-        /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Naira Nigeriano
-        /// </summary>
-        public const string NairaNigeriano = "Naira Nigeriano";
+        public const string Cordoba = "Córdoba";
 
         /// <summary>
         /// Corona Noruega
@@ -641,29 +541,24 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CoronaNoruega = "Corona Noruega";
 
         /// <summary>
-        /// Rial De Omán
+        /// Rupia Nepalí
         /// </summary>
-        public const string RialDeOman = "Rial De Omán";
+        public const string RupiaNepali = "Rupia Nepalí";
 
         /// <summary>
-        /// Rupia Pakistaní
+        /// Dólar Neozelandés
         /// </summary>
-        public const string RupiaPakistani = "Rupia Pakistaní";
+        public const string DolarNeozelandes = "Dólar Neozelandés";
 
         /// <summary>
-        /// Balboa Panameño
+        /// Rial Omaní
         /// </summary>
-        public const string BalboaPanameno = "Balboa Panameño";
+        public const string RialOmani = "Rial Omaní";
 
         /// <summary>
-        /// Kina
+        /// Balboa
         /// </summary>
-        public const string Kina = "Kina";
-
-        /// <summary>
-        /// Guaraní Paraguayo
-        /// </summary>
-        public const string GuaraniParaguayo = "Guaraní Paraguayo";
+        public const string Balboa = "Balboa";
 
         /// <summary>
         /// Sol
@@ -671,19 +566,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Sol = "Sol";
 
         /// <summary>
+        /// Kina
+        /// </summary>
+        public const string Kina = "Kina";
+
+        /// <summary>
         /// Peso Filipino
         /// </summary>
         public const string PesoFilipino = "Peso Filipino";
 
         /// <summary>
-        /// Złóti
+        /// Rupia Pakistaní
         /// </summary>
-        public const string Złoti = "Złóti";
+        public const string RupiaPakistani = "Rupia Pakistaní";
 
         /// <summary>
-        /// Euro
+        /// Złoty
         /// </summary>
-        public const string Euro = "Euro";
+        public const string Złoty = "Złoty";
+
+        /// <summary>
+        /// Guaraní
+        /// </summary>
+        public const string Guarani = "Guaraní";
 
         /// <summary>
         /// Rial Catarí
@@ -696,9 +601,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LeuRumano = "Leu Rumano";
 
         /// <summary>
-        /// Rublo
+        /// Dinar Serbio
         /// </summary>
-        public const string Rublo = "Rublo";
+        public const string DinarSerbio = "Dinar Serbio";
+
+        /// <summary>
+        /// Rublo Ruso
+        /// </summary>
+        public const string RubloRuso = "Rublo Ruso";
 
         /// <summary>
         /// Franco Ruandés
@@ -706,104 +616,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string FrancoRuandes = "Franco Ruandés";
 
         /// <summary>
-        /// Dólar Del Caribe Oriental
-        /// </summary>
-        public const string DolarDelCaribeOriental = "Dólar Del Caribe Oriental";
-
-        /// <summary>
-        /// Dólar Del Caribe Oriental
-        /// </summary>
-        public const string DolarDelCaribeOriental = "Dólar Del Caribe Oriental";
-
-        /// <summary>
-        /// Dólar Del Caribe Oriental
-        /// </summary>
-        public const string DolarDelCaribeOriental = "Dólar Del Caribe Oriental";
-
-        /// <summary>
-        /// Tala
-        /// </summary>
-        public const string Tala = "Tala";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Dobra
-        /// </summary>
-        public const string Dobra = "Dobra";
-
-        /// <summary>
         /// Rial Saudí
         /// </summary>
         public const string RialSaudi = "Rial Saudí";
 
         /// <summary>
-        /// Franco CFA
+        /// Dólar De Las Islas Salomón
         /// </summary>
-        public const string FrancoCFA = "Franco CFA";
+        public const string DolarDeLasIslasSalomon = "Dólar De Las Islas Salomón";
 
         /// <summary>
-        /// Dinar Serbio
+        /// Rupia Seychelense
         /// </summary>
-        public const string DinarSerbio = "Dinar Serbio";
-
-        /// <summary>
-        /// Rupia Seychellense
-        /// </summary>
-        public const string RupiaSeychellense = "Rupia Seychellense";
-
-        /// <summary>
-        /// Leona
-        /// </summary>
-        public const string Leona = "Leona";
-
-        /// <summary>
-        /// Dólar Singapurense
-        /// </summary>
-        public const string DolarSingapurense = "Dólar Singapurense";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Dólar Salomonense
-        /// </summary>
-        public const string DolarSalomonense = "Dólar Salomonense";
-
-        /// <summary>
-        /// Chelín Somalí
-        /// </summary>
-        public const string ChelinSomali = "Chelín Somalí";
-
-        /// <summary>
-        /// Rand
-        /// </summary>
-        public const string Rand = "Rand";
-
-        /// <summary>
-        /// Euro
-        /// </summary>
-        public const string Euro = "Euro";
-
-        /// <summary>
-        /// Libra Sursudanesa
-        /// </summary>
-        public const string LibraSursudanesa = "Libra Sursudanesa";
-
-        /// <summary>
-        /// Rupia Ceilandesa
-        /// </summary>
-        public const string RupiaCeilandesa = "Rupia Ceilandesa";
+        public const string RupiaSeychelense = "Rupia Seychelense";
 
         /// <summary>
         /// Libra Sudanesa
@@ -811,24 +636,49 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LibraSudanesa = "Libra Sudanesa";
 
         /// <summary>
-        /// Dólar Surinamés
-        /// </summary>
-        public const string DolarSurinames = "Dólar Surinamés";
-
-        /// <summary>
-        /// Lilangeni
-        /// </summary>
-        public const string Lilangeni = "Lilangeni";
-
-        /// <summary>
         /// Corona Sueca
         /// </summary>
         public const string CoronaSueca = "Corona Sueca";
 
         /// <summary>
-        /// Franco Suizo
+        /// Dólar De Singapur
         /// </summary>
-        public const string FrancoSuizo = "Franco Suizo";
+        public const string DolarDeSingapur = "Dólar De Singapur";
+
+        /// <summary>
+        /// Libra De Santa Elena
+        /// </summary>
+        public const string LibraDeSantaElena = "Libra De Santa Elena";
+
+        /// <summary>
+        /// Leone
+        /// </summary>
+        public const string Leone = "Leone";
+
+        /// <summary>
+        /// Chelín Somalí
+        /// </summary>
+        public const string ChelinSomali = "Chelín Somalí";
+
+        /// <summary>
+        /// Dólar Surinamés
+        /// </summary>
+        public const string DolarSurinames = "Dólar Surinamés";
+
+        /// <summary>
+        /// Libra Sursudanesa
+        /// </summary>
+        public const string LibraSursudanesa = "Libra Sursudanesa";
+
+        /// <summary>
+        /// Dobra
+        /// </summary>
+        public const string Dobra = "Dobra";
+
+        /// <summary>
+        /// Colón Salvadoreño
+        /// </summary>
+        public const string ColonSalvadoreno = "Colón Salvadoreño";
 
         /// <summary>
         /// Libra Siria
@@ -836,49 +686,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LibraSiria = "Libra Siria";
 
         /// <summary>
-        /// Nuevo Dólar De Taiwán
+        /// Lilangeni
         /// </summary>
-        public const string NuevoDolarDeTaiwan = "Nuevo Dólar De Taiwán";
+        public const string Lilangeni = "Lilangeni";
 
         /// <summary>
-        /// Somoni
+        /// Baht
         /// </summary>
-        public const string Somoni = "Somoni";
+        public const string Baht = "Baht";
 
         /// <summary>
-        /// Chelín Tanzaniano
+        /// Somoni Tayiko
         /// </summary>
-        public const string ChelinTanzaniano = "Chelín Tanzaniano";
-
-        /// <summary>
-        /// Bat
-        /// </summary>
-        public const string Bat = "Bat";
-
-        /// <summary>
-        /// Franco CFA
-        /// </summary>
-        public const string FrancoCFA = "Franco CFA";
-
-        /// <summary>
-        /// Paanga
-        /// </summary>
-        public const string Paanga = "Paanga";
-
-        /// <summary>
-        /// Dólar Trinitense
-        /// </summary>
-        public const string DolarTrinitense = "Dólar Trinitense";
-
-        /// <summary>
-        /// Dinar Tunecino
-        /// </summary>
-        public const string DinarTunecino = "Dinar Tunecino";
-
-        /// <summary>
-        /// Lira Turca
-        /// </summary>
-        public const string LiraTurca = "Lira Turca";
+        public const string SomoniTayiko = "Somoni Tayiko";
 
         /// <summary>
         /// Manat Turcomano
@@ -886,9 +706,34 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string ManatTurcomano = "Manat Turcomano";
 
         /// <summary>
-        /// Chelín Ugandés
+        /// Dinar Tunecino
         /// </summary>
-        public const string ChelinUgandes = "Chelín Ugandés";
+        public const string DinarTunecino = "Dinar Tunecino";
+
+        /// <summary>
+        /// Paʻanga
+        /// </summary>
+        public const string Paʻanga = "Paʻanga";
+
+        /// <summary>
+        /// Lira Turca
+        /// </summary>
+        public const string LiraTurca = "Lira Turca";
+
+        /// <summary>
+        /// Dólar De Trinidad Y Tobago
+        /// </summary>
+        public const string DolarDeTrinidadYTobago = "Dólar De Trinidad Y Tobago";
+
+        /// <summary>
+        /// Nuevo Dólar Taiwanés
+        /// </summary>
+        public const string NuevoDolarTaiwanes = "Nuevo Dólar Taiwanés";
+
+        /// <summary>
+        /// Chelín Tanzano
+        /// </summary>
+        public const string ChelinTanzano = "Chelín Tanzano";
 
         /// <summary>
         /// Grivna
@@ -896,9 +741,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string Grivna = "Grivna";
 
         /// <summary>
-        /// Dírham
+        /// Chelín Ugandés
         /// </summary>
-        public const string Dirham = "Dírham";
+        public const string ChelinUgandes = "Chelín Ugandés";
 
         /// <summary>
         /// Dólar Estadounidense
@@ -906,34 +751,134 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DolarEstadounidense = "Dólar Estadounidense";
 
         /// <summary>
+        /// Dólar Estadounidense (Siguiente Día)
+        /// </summary>
+        public const string DolarEstadounidense(SiguienteDia) = "Dólar Estadounidense (Siguiente Día)";
+
+        /// <summary>
+        /// Peso En Unidades Indexadas (Uruguay)
+        /// </summary>
+        public const string PesoEnUnidadesIndexadas(Uruguay) = "Peso En Unidades Indexadas (Uruguay)";
+
+        /// <summary>
         /// Peso Uruguayo
         /// </summary>
         public const string PesoUruguayo = "Peso Uruguayo";
 
         /// <summary>
-        /// Sum
+        /// Unidad Previsional
         /// </summary>
-        public const string Sum = "Sum";
+        public const string UnidadPrevisional = "Unidad Previsional";
 
         /// <summary>
-        /// Vatu Do Vanuatu
+        /// Som Uzbeko
         /// </summary>
-        public const string VatuDoVanuatu = "Vatu Do Vanuatu";
+        public const string SomUzbeko = "Som Uzbeko";
 
         /// <summary>
-        /// Euro
+        /// Bolívar Soberano
         /// </summary>
-        public const string Euro = "Euro";
+        public const string BolivarSoberano = "Bolívar Soberano";
 
         /// <summary>
-        /// Bolívar Fuerte
+        /// Dong Vietnamita
         /// </summary>
-        public const string BolivarFuerte = "Bolívar Fuerte";
+        public const string DongVietnamita = "Dong Vietnamita";
 
         /// <summary>
-        /// Dong
+        /// Vatu
         /// </summary>
-        public const string Dong = "Dong";
+        public const string Vatu = "Vatu";
+
+        /// <summary>
+        /// Tala
+        /// </summary>
+        public const string Tala = "Tala";
+
+        /// <summary>
+        /// Franco CFA De África Central
+        /// </summary>
+        public const string FrancoCFADeAfricaCentral = "Franco CFA De África Central";
+
+        /// <summary>
+        /// Plata (Una Onza Troy)
+        /// </summary>
+        public const string Plata(UnaOnzaTroy) = "Plata (Una Onza Troy)";
+
+        /// <summary>
+        /// Oro (Una Onza Troy)
+        /// </summary>
+        public const string Oro(UnaOnzaTroy) = "Oro (Una Onza Troy)";
+
+        /// <summary>
+        /// Unidad Compuesta Europea (EURCO) (Unidad Del Mercados De Bonos)
+        /// </summary>
+        public const string UnidadCompuestaEuropea(EURCO)(UnidadDelMercadosDeBonos) = "Unidad Compuesta Europea (EURCO) (Unidad Del Mercados De Bonos)";
+
+        /// <summary>
+        /// Unidad Monetaria Europea (E.M.U.-6) (Unidad Del Mercado De Bonos)
+        /// </summary>
+        public const string UnidadMonetariaEuropea(EMU6)(UnidadDelMercadoDeBonos) = "Unidad Monetaria Europea (E.M.U.-6) (Unidad Del Mercado De Bonos)";
+
+        /// <summary>
+        /// Unidad Europea De Cuenta 9 (E.U.A.-9) (Unidad Del Mercado De Bonos)
+        /// </summary>
+        public const string UnidadEuropeaDeCuenta9(EUA9)(UnidadDelMercadoDeBonos) = "Unidad Europea De Cuenta 9 (E.U.A.-9) (Unidad Del Mercado De Bonos)";
+
+        /// <summary>
+        /// Unidad Europea De Cuenta 17 (E.U.A.-17) (Unidad Del Mercado De Bonos)
+        /// </summary>
+        public const string UnidadEuropeaDeCuenta17(EUA17)(UnidadDelMercadoDeBonos) = "Unidad Europea De Cuenta 17 (E.U.A.-17) (Unidad Del Mercado De Bonos)";
+
+        /// <summary>
+        /// Dólar Del Caribe Oriental
+        /// </summary>
+        public const string DolarDelCaribeOriental = "Dólar Del Caribe Oriental";
+
+        /// <summary>
+        /// Derechos Especiales De Giro
+        /// </summary>
+        public const string DerechosEspecialesDeGiro = "Derechos Especiales De Giro";
+
+        /// <summary>
+        /// Franco CFA De África Occidental
+        /// </summary>
+        public const string FrancoCFADeAfricaOccidental = "Franco CFA De África Occidental";
+
+        /// <summary>
+        /// Paladio (Una Onza Troy)
+        /// </summary>
+        public const string Paladio(UnaOnzaTroy) = "Paladio (Una Onza Troy)";
+
+        /// <summary>
+        /// Franco CFP
+        /// </summary>
+        public const string FrancoCFP = "Franco CFP";
+
+        /// <summary>
+        /// Platino (Una Onza Troy)
+        /// </summary>
+        public const string Platino(UnaOnzaTroy) = "Platino (Una Onza Troy)";
+
+        /// <summary>
+        /// SUCRE
+        /// </summary>
+        public const string SUCRE = "SUCRE";
+
+        /// <summary>
+        /// Reservado Para Pruebas
+        /// </summary>
+        public const string ReservadoParaPruebas = "Reservado Para Pruebas";
+
+        /// <summary>
+        /// Unidad De Cuenta BAD
+        /// </summary>
+        public const string UnidadDeCuentaBAD = "Unidad De Cuenta BAD";
+
+        /// <summary>
+        /// Sin Divisa
+        /// </summary>
+        public const string SinDivisa = "Sin Divisa";
 
         /// <summary>
         /// Rial Yemení
@@ -941,9 +886,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RialYemeni = "Rial Yemení";
 
         /// <summary>
-        /// Kuacha Zambiano
+        /// Rand
         /// </summary>
-        public const string KuachaZambiano = "Kuacha Zambiano";
+        public const string Rand = "Rand";
+
+        /// <summary>
+        /// Kwacha Zambiano
+        /// </summary>
+        public const string KwachaZambiano = "Kwacha Zambiano";
 
         /// <summary>
         /// Dólar Zimbabuense

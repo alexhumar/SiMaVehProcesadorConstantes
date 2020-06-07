@@ -1,189 +1,179 @@
-afgani
-lek
-libra esterlina
-dinar
-euro
-kuanza de Angola
-peso argentino
-dram armenio
-florín arubano
-dólar australiano
-euro
-manat azerbayano
-dólar de las Bahamas
-dinar de Baréin
-taka de Bangladés
-dólar de las Barbados
-rublo bielorruso
-euro
-dólar beliceño
-gultrum butanés
-boliviano
-marco convertible de Bosnia y Herzegovina
-pula de Botsuana
-real brasileño
-dólar de Brunei
-leva búlgaro
-franco CFA
-kiat de Birmania
-franco burundés
-riel camboyano
-dólar canadiense
-escudo de Cabo Verde
-dólar de las Islas Caimán
-franco CFA
-franco CFA
-peso chileno
-yuan, renminbi
-peso colombiano
-franco comorano
-franco congoleño
-franco CFA
-colón costarricense
-franco CFA
-kuna croata
-peso cubano
-florín de las Antillas Neerlandesas
-euro
-corona checa
-corona danesa
-franco yibutiano
-peso dominicano
-dólar estadounidense
-libra egipcia
-colón salvadoreño
-franco CFA
-nakfa de Eritrea
-euro
-bir
-euro
-euro
-franco CFP
-franco CFA
-dalasi gambiano
-lari georgiano
-euro
-cedi de Gana
-libra de Gibraltar
-euro
-quetzal
-franco guineano
-franco CFA
-gurde
-lempira
-forinto
-corona islandesa
-rupia india
-rupia indonesia
-rial iraní
-dinar irakí
-euro
-nuevo séquel
-euro
-dólar jamaicano
-yen
-dinar jordano
-tengue kazajo
-chelín keniano
-won norcoreano
-won surcoreano
-dinar kuwaití
-som kirguís
-kip
-lats
-libra libanesa
-loti de Lesoto
-dólar liberiano
-dinar libio
-litas
-euro
-pataca de Macao
-denar
-ariari
-kuacha de Malaui
-ringit
-rufiya
-franco CFA
-euro
-uguiya
-rupia de Mauricio
-peso mexicano
-dólar micronesio
-leu moldavo
-euro
-tugrik mongol
-euro
-dírham
-metical
-dólar de Namibia
-dólar nauruano
-rupia nepalí
-euro
-franco CFP
-dólar de Nueva Zelanda
-córdoba nicaragüense
-franco CFA
-naira nigeriano
-corona noruega
-rial de Omán
-rupia pakistaní
-balboa panameño
-kina
-guaraní paraguayo
-sol
-peso filipino
-złóti
-euro
-rial catarí
-leu rumano
-rublo
-franco ruandés
-dólar del Caribe Oriental
-dólar del Caribe Oriental
-dólar del Caribe Oriental
-tala
-euro
-dobra
-rial saudí
-franco CFA
-dinar serbio
-rupia seychellense
-leona
-dólar singapurense
-euro
-euro
-dólar salomonense
-chelín somalí
-rand
-euro
-libra sursudanesa
-rupia ceilandesa
-libra sudanesa
-dólar surinamés
-lilangeni
-corona sueca
-franco suizo
-libra siria
-nuevo dólar de Taiwán
-somoni
-chelín tanzaniano
-bat
-franco CFA
-paanga
-dólar trinitense
-dinar tunecino
-lira turca
-manat turcomano
-chelín ugandés
-grivna
-dírham
-dólar estadounidense
-peso uruguayo
-sum
-vatu do Vanuatu
-euro
-bolívar fuerte
-dong
-rial yemení
-kuacha zambiano
-dólar zimbabuense
+Dírham de los Emiratos Árabes Unidos
+Afgani
+Lek
+Dram armenio
+Florín antillano neerlandés
+Kwanza
+Peso argentino
+Dólar australiano
+Florín arubeño
+Manat azerbaiyano
+Marco convertible
+Dólar de Barbados
+Taka
+Lev búlgaro
+Dinar bareiní
+Franco de Burundi
+Dólar bermudeño
+Dólar de Brunéi
+Boliviano
+MVDOL
+Real brasileño
+Dólar bahameño
+Ngultrum
+Pula
+Rublo bielorruso
+Dólar beliceño
+Dólar canadiense
+Franco congoleño
+Euro WIR
+Franco suizo
+Franco WIR
+Unidad de fomento
+Peso chileno
+Yuan chino
+Peso colombiano
+Unidad de valor real
+Colón costarricense
+Peso convertible
+Peso cubano
+Escudo caboverdiano
+Corona checa
+Franco yibutiano
+Corona danesa
+Peso dominicano
+Dinar argelino
+Libra egipcia
+Nakfa
+Birr etíope
+Euro
+Dólar fiyiano
+Libra malvinense
+Libra esterlina
+Lari
+Cedi ghanés
+Libra de Gibraltar
+Dalasi
+Franco guineano
+Quetzal
+Dólar guyanés
+Dólar de Hong Kong
+Lempira
+Kuna
+Gourde
+Forinto
+Rupia indonesia
+Nuevo shéquel israelí
+Rupia india
+Dinar iraquí
+Rial iraní
+Corona islandesa
+Dólar jamaiquino
+Dinar jordano
+Yen
+Chelín keniano
+Som
+Riel
+Franco comorense
+Won norcoreano
+Won
+Dinar kuwaití
+Dólar de las Islas Caimán
+Tenge
+Kip
+Libra libanesa
+Rupia de Sri Lanka
+Dólar liberiano
+Loti
+Dinar libio
+Dírham marroquí
+Leu moldavo
+Ariary malgache
+Denar
+Kyat
+Tugrik
+Pataca
+Uguiya
+Rupia de Mauricio
+Rufiyaa
+Kwacha
+Peso mexicano
+Unidad de Inversión (UDI) mexicana
+Ringgit malayo
+Metical mozambiqueño
+Dólar namibio
+Naira
+Córdoba
+Corona noruega
+Rupia nepalí
+Dólar neozelandés
+Rial omaní
+Balboa
+Sol
+Kina
+Peso filipino
+Rupia pakistaní
+Złoty
+Guaraní
+Rial catarí
+Leu rumano
+Dinar serbio
+Rublo ruso
+Franco ruandés
+Rial saudí
+Dólar de las Islas Salomón
+Rupia seychelense
+Libra sudanesa
+Corona sueca
+Dólar de Singapur
+Libra de Santa Elena
+Leone
+Chelín somalí
+Dólar surinamés
+Libra sursudanesa
+Dobra
+Colón Salvadoreño
+Libra siria
+Lilangeni
+Baht
+Somoni tayiko
+Manat turcomano
+Dinar tunecino
+Paʻanga
+Lira turca
+Dólar de Trinidad y Tobago
+Nuevo dólar taiwanés
+Chelín tanzano
+Grivna
+Chelín ugandés
+Dólar estadounidense
+Dólar estadounidense (Siguiente día)
+Peso en Unidades Indexadas (Uruguay)
+Peso uruguayo
+Unidad Previsional
+Som uzbeko
+Bolívar soberano
+Dong vietnamita
+Vatu
+Tala
+Franco CFA de África Central
+Plata (una onza troy)
+Oro (una onza troy)
+Unidad compuesta europea (EURCO) (Unidad del mercados de bonos)
+Unidad Monetaria europea (E.M.U.-6) (Unidad del mercado de bonos)
+Unidad europea de cuenta 9 (E.U.A.-9) (Unidad del mercado de bonos)
+Unidad europea de cuenta 17 (E.U.A.-17) (Unidad del mercado de bonos)
+Dólar del Caribe Oriental
+Derechos especiales de giro
+Franco CFA de África Occidental
+Paladio (una onza troy)
+Franco CFP
+Platino (una onza troy)
+SUCRE
+Reservado para pruebas
+Unidad de cuenta BAD
+Sin divisa
+Rial yemení
+Rand
+Kwacha zambiano
+Dólar zimbabuense

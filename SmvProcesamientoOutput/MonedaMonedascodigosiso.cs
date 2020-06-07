@@ -6,6 +6,11 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
     public class MonedaMonedascodigosiso
     {
         /// <summary>
+        /// AED
+        /// </summary>
+        public const string AED = "AED";
+
+        /// <summary>
         /// AFN
         /// </summary>
         public const string AFN = "AFN";
@@ -16,19 +21,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string ALL = "ALL";
 
         /// <summary>
-        /// GBP
+        /// AMD
         /// </summary>
-        public const string GBP = "GBP";
+        public const string AMD = "AMD";
 
         /// <summary>
-        /// DZD
+        /// ANG
         /// </summary>
-        public const string DZD = "DZD";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
+        public const string ANG = "ANG";
 
         /// <summary>
         /// AOA
@@ -41,9 +41,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string ARS = "ARS";
 
         /// <summary>
-        /// AMD
+        /// AUD
         /// </summary>
-        public const string AMD = "AMD";
+        public const string AUD = "AUD";
 
         /// <summary>
         /// AWG
@@ -51,64 +51,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string AWG = "AWG";
 
         /// <summary>
-        /// AUD
-        /// </summary>
-        public const string AUD = "AUD";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
         /// AZN
         /// </summary>
         public const string AZN = "AZN";
-
-        /// <summary>
-        /// BSD
-        /// </summary>
-        public const string BSD = "BSD";
-
-        /// <summary>
-        /// BHD
-        /// </summary>
-        public const string BHD = "BHD";
-
-        /// <summary>
-        /// BDT
-        /// </summary>
-        public const string BDT = "BDT";
-
-        /// <summary>
-        /// BBD
-        /// </summary>
-        public const string BBD = "BBD";
-
-        /// <summary>
-        /// BYR
-        /// </summary>
-        public const string BYR = "BYR";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// BZD
-        /// </summary>
-        public const string BZD = "BZD";
-
-        /// <summary>
-        /// BTN
-        /// </summary>
-        public const string BTN = "BTN";
-
-        /// <summary>
-        /// BOB
-        /// </summary>
-        public const string BOB = "BOB";
 
         /// <summary>
         /// BAM
@@ -116,19 +61,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string BAM = "BAM";
 
         /// <summary>
-        /// BWP
+        /// BBD
         /// </summary>
-        public const string BWP = "BWP";
+        public const string BBD = "BBD";
 
         /// <summary>
-        /// BRL
+        /// BDT
         /// </summary>
-        public const string BRL = "BRL";
-
-        /// <summary>
-        /// BND
-        /// </summary>
-        public const string BND = "BND";
+        public const string BDT = "BDT";
 
         /// <summary>
         /// BGN
@@ -136,14 +76,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string BGN = "BGN";
 
         /// <summary>
-        /// XOF
+        /// BHD
         /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// MMK
-        /// </summary>
-        public const string MMK = "MMK";
+        public const string BHD = "BHD";
 
         /// <summary>
         /// BIF
@@ -151,9 +86,54 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string BIF = "BIF";
 
         /// <summary>
-        /// KHR
+        /// BMD
         /// </summary>
-        public const string KHR = "KHR";
+        public const string BMD = "BMD";
+
+        /// <summary>
+        /// BND
+        /// </summary>
+        public const string BND = "BND";
+
+        /// <summary>
+        /// BOB
+        /// </summary>
+        public const string BOB = "BOB";
+
+        /// <summary>
+        /// BOV
+        /// </summary>
+        public const string BOV = "BOV";
+
+        /// <summary>
+        /// BRL
+        /// </summary>
+        public const string BRL = "BRL";
+
+        /// <summary>
+        /// BSD
+        /// </summary>
+        public const string BSD = "BSD";
+
+        /// <summary>
+        /// BTN
+        /// </summary>
+        public const string BTN = "BTN";
+
+        /// <summary>
+        /// BWP
+        /// </summary>
+        public const string BWP = "BWP";
+
+        /// <summary>
+        /// BYN
+        /// </summary>
+        public const string BYN = "BYN";
+
+        /// <summary>
+        /// BZD
+        /// </summary>
+        public const string BZD = "BZD";
 
         /// <summary>
         /// CAD
@@ -161,24 +141,29 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CAD = "CAD";
 
         /// <summary>
-        /// CVE
+        /// CDF
         /// </summary>
-        public const string CVE = "CVE";
+        public const string CDF = "CDF";
 
         /// <summary>
-        /// KYD
+        /// CHE
         /// </summary>
-        public const string KYD = "KYD";
+        public const string CHE = "CHE";
 
         /// <summary>
-        /// XAF
+        /// CHF
         /// </summary>
-        public const string XAF = "XAF";
+        public const string CHF = "CHF";
 
         /// <summary>
-        /// XAF
+        /// CHW
         /// </summary>
-        public const string XAF = "XAF";
+        public const string CHW = "CHW";
+
+        /// <summary>
+        /// CLF
+        /// </summary>
+        public const string CLF = "CLF";
 
         /// <summary>
         /// CLP
@@ -196,19 +181,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string COP = "COP";
 
         /// <summary>
-        /// KMF
+        /// COU
         /// </summary>
-        public const string KMF = "KMF";
-
-        /// <summary>
-        /// CDF
-        /// </summary>
-        public const string CDF = "CDF";
-
-        /// <summary>
-        /// XAF
-        /// </summary>
-        public const string XAF = "XAF";
+        public const string COU = "COU";
 
         /// <summary>
         /// CRC
@@ -216,14 +191,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CRC = "CRC";
 
         /// <summary>
-        /// XOF
+        /// CUC
         /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// HRK
-        /// </summary>
-        public const string HRK = "HRK";
+        public const string CUC = "CUC";
 
         /// <summary>
         /// CUP
@@ -231,14 +201,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CUP = "CUP";
 
         /// <summary>
-        /// ANG
+        /// CVE
         /// </summary>
-        public const string ANG = "ANG";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
+        public const string CVE = "CVE";
 
         /// <summary>
         /// CZK
@@ -246,14 +211,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string CZK = "CZK";
 
         /// <summary>
-        /// DKK
-        /// </summary>
-        public const string DKK = "DKK";
-
-        /// <summary>
         /// DJF
         /// </summary>
         public const string DJF = "DJF";
+
+        /// <summary>
+        /// DKK
+        /// </summary>
+        public const string DKK = "DKK";
 
         /// <summary>
         /// DOP
@@ -261,9 +226,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string DOP = "DOP";
 
         /// <summary>
-        /// USD
+        /// DZD
         /// </summary>
-        public const string USD = "USD";
+        public const string DZD = "DZD";
 
         /// <summary>
         /// EGP
@@ -271,24 +236,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string EGP = "EGP";
 
         /// <summary>
-        /// SVC
-        /// </summary>
-        public const string SVC = "SVC";
-
-        /// <summary>
-        /// XAF
-        /// </summary>
-        public const string XAF = "XAF";
-
-        /// <summary>
         /// ERN
         /// </summary>
         public const string ERN = "ERN";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
 
         /// <summary>
         /// ETB
@@ -301,34 +251,24 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string EUR = "EUR";
 
         /// <summary>
-        /// EUR
+        /// FJD
         /// </summary>
-        public const string EUR = "EUR";
+        public const string FJD = "FJD";
 
         /// <summary>
-        /// XPF
+        /// FKP
         /// </summary>
-        public const string XPF = "XPF";
+        public const string FKP = "FKP";
 
         /// <summary>
-        /// XAF
+        /// GBP
         /// </summary>
-        public const string XAF = "XAF";
-
-        /// <summary>
-        /// GMD
-        /// </summary>
-        public const string GMD = "GMD";
+        public const string GBP = "GBP";
 
         /// <summary>
         /// GEL
         /// </summary>
         public const string GEL = "GEL";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
 
         /// <summary>
         /// GHS
@@ -341,14 +281,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string GIP = "GIP";
 
         /// <summary>
-        /// EUR
+        /// GMD
         /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// GTQ
-        /// </summary>
-        public const string GTQ = "GTQ";
+        public const string GMD = "GMD";
 
         /// <summary>
         /// GNF
@@ -356,14 +291,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string GNF = "GNF";
 
         /// <summary>
-        /// XOF
+        /// GTQ
         /// </summary>
-        public const string XOF = "XOF";
+        public const string GTQ = "GTQ";
 
         /// <summary>
-        /// HTG
+        /// GYD
         /// </summary>
-        public const string HTG = "HTG";
+        public const string GYD = "GYD";
+
+        /// <summary>
+        /// HKD
+        /// </summary>
+        public const string HKD = "HKD";
 
         /// <summary>
         /// HNL
@@ -371,19 +311,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string HNL = "HNL";
 
         /// <summary>
+        /// HRK
+        /// </summary>
+        public const string HRK = "HRK";
+
+        /// <summary>
+        /// HTG
+        /// </summary>
+        public const string HTG = "HTG";
+
+        /// <summary>
         /// HUF
         /// </summary>
         public const string HUF = "HUF";
-
-        /// <summary>
-        /// ISK
-        /// </summary>
-        public const string ISK = "ISK";
-
-        /// <summary>
-        /// INR
-        /// </summary>
-        public const string INR = "INR";
 
         /// <summary>
         /// IDR
@@ -391,9 +331,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string IDR = "IDR";
 
         /// <summary>
-        /// IRR
+        /// ILS
         /// </summary>
-        public const string IRR = "IRR";
+        public const string ILS = "ILS";
+
+        /// <summary>
+        /// INR
+        /// </summary>
+        public const string INR = "INR";
 
         /// <summary>
         /// IQD
@@ -401,19 +346,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string IQD = "IQD";
 
         /// <summary>
-        /// EUR
+        /// IRR
         /// </summary>
-        public const string EUR = "EUR";
+        public const string IRR = "IRR";
 
         /// <summary>
-        /// ILS
+        /// ISK
         /// </summary>
-        public const string ILS = "ILS";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
+        public const string ISK = "ISK";
 
         /// <summary>
         /// JMD
@@ -421,24 +361,34 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string JMD = "JMD";
 
         /// <summary>
-        /// JPY
-        /// </summary>
-        public const string JPY = "JPY";
-
-        /// <summary>
         /// JOD
         /// </summary>
         public const string JOD = "JOD";
 
         /// <summary>
-        /// KZT
+        /// JPY
         /// </summary>
-        public const string KZT = "KZT";
+        public const string JPY = "JPY";
 
         /// <summary>
         /// KES
         /// </summary>
         public const string KES = "KES";
+
+        /// <summary>
+        /// KGS
+        /// </summary>
+        public const string KGS = "KGS";
+
+        /// <summary>
+        /// KHR
+        /// </summary>
+        public const string KHR = "KHR";
+
+        /// <summary>
+        /// KMF
+        /// </summary>
+        public const string KMF = "KMF";
 
         /// <summary>
         /// KPW
@@ -456,9 +406,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string KWD = "KWD";
 
         /// <summary>
-        /// KGS
+        /// KYD
         /// </summary>
-        public const string KGS = "KGS";
+        public const string KYD = "KYD";
+
+        /// <summary>
+        /// KZT
+        /// </summary>
+        public const string KZT = "KZT";
 
         /// <summary>
         /// LAK
@@ -466,19 +421,14 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LAK = "LAK";
 
         /// <summary>
-        /// LVL
-        /// </summary>
-        public const string LVL = "LVL";
-
-        /// <summary>
         /// LBP
         /// </summary>
         public const string LBP = "LBP";
 
         /// <summary>
-        /// LSL
+        /// LKR
         /// </summary>
-        public const string LSL = "LSL";
+        public const string LKR = "LKR";
 
         /// <summary>
         /// LRD
@@ -486,79 +436,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string LRD = "LRD";
 
         /// <summary>
+        /// LSL
+        /// </summary>
+        public const string LSL = "LSL";
+
+        /// <summary>
         /// LYD
         /// </summary>
         public const string LYD = "LYD";
 
         /// <summary>
-        /// LTL
+        /// MAD
         /// </summary>
-        public const string LTL = "LTL";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// MOP
-        /// </summary>
-        public const string MOP = "MOP";
-
-        /// <summary>
-        /// MKD
-        /// </summary>
-        public const string MKD = "MKD";
-
-        /// <summary>
-        /// MGA
-        /// </summary>
-        public const string MGA = "MGA";
-
-        /// <summary>
-        /// MWK
-        /// </summary>
-        public const string MWK = "MWK";
-
-        /// <summary>
-        /// MYR
-        /// </summary>
-        public const string MYR = "MYR";
-
-        /// <summary>
-        /// MVR
-        /// </summary>
-        public const string MVR = "MVR";
-
-        /// <summary>
-        /// XOF
-        /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// MRO
-        /// </summary>
-        public const string MRO = "MRO";
-
-        /// <summary>
-        /// MUR
-        /// </summary>
-        public const string MUR = "MUR";
-
-        /// <summary>
-        /// MXN
-        /// </summary>
-        public const string MXN = "MXN";
-
-        /// <summary>
-        /// nenhum
-        /// </summary>
-        public const string Nenhum = "nenhum";
+        public const string MAD = "MAD";
 
         /// <summary>
         /// MDL
@@ -566,9 +456,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string MDL = "MDL";
 
         /// <summary>
-        /// EUR
+        /// MGA
         /// </summary>
-        public const string EUR = "EUR";
+        public const string MGA = "MGA";
+
+        /// <summary>
+        /// MKD
+        /// </summary>
+        public const string MKD = "MKD";
+
+        /// <summary>
+        /// MMK
+        /// </summary>
+        public const string MMK = "MMK";
 
         /// <summary>
         /// MNT
@@ -576,14 +476,44 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string MNT = "MNT";
 
         /// <summary>
-        /// EUR
+        /// MOP
         /// </summary>
-        public const string EUR = "EUR";
+        public const string MOP = "MOP";
 
         /// <summary>
-        /// MAD
+        /// MRU
         /// </summary>
-        public const string MAD = "MAD";
+        public const string MRU = "MRU";
+
+        /// <summary>
+        /// MUR
+        /// </summary>
+        public const string MUR = "MUR";
+
+        /// <summary>
+        /// MVR
+        /// </summary>
+        public const string MVR = "MVR";
+
+        /// <summary>
+        /// MWK
+        /// </summary>
+        public const string MWK = "MWK";
+
+        /// <summary>
+        /// MXN
+        /// </summary>
+        public const string MXN = "MXN";
+
+        /// <summary>
+        /// MXV
+        /// </summary>
+        public const string MXV = "MXV";
+
+        /// <summary>
+        /// MYR
+        /// </summary>
+        public const string MYR = "MYR";
 
         /// <summary>
         /// MZN
@@ -596,29 +526,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string NAD = "NAD";
 
         /// <summary>
-        /// Nenhum
+        /// NGN
         /// </summary>
-        public const string Nenhum = "Nenhum";
-
-        /// <summary>
-        /// NPR
-        /// </summary>
-        public const string NPR = "NPR";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// XPF
-        /// </summary>
-        public const string XPF = "XPF";
-
-        /// <summary>
-        /// NZD
-        /// </summary>
-        public const string NZD = "NZD";
+        public const string NGN = "NGN";
 
         /// <summary>
         /// NIO
@@ -626,19 +536,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string NIO = "NIO";
 
         /// <summary>
-        /// XOF
-        /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// NGN
-        /// </summary>
-        public const string NGN = "NGN";
-
-        /// <summary>
         /// NOK
         /// </summary>
         public const string NOK = "NOK";
+
+        /// <summary>
+        /// NPR
+        /// </summary>
+        public const string NPR = "NPR";
+
+        /// <summary>
+        /// NZD
+        /// </summary>
+        public const string NZD = "NZD";
 
         /// <summary>
         /// OMR
@@ -646,24 +556,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string OMR = "OMR";
 
         /// <summary>
-        /// PKR
-        /// </summary>
-        public const string PKR = "PKR";
-
-        /// <summary>
         /// PAB
         /// </summary>
         public const string PAB = "PAB";
-
-        /// <summary>
-        /// PGK
-        /// </summary>
-        public const string PGK = "PGK";
-
-        /// <summary>
-        /// PYG
-        /// </summary>
-        public const string PYG = "PYG";
 
         /// <summary>
         /// PEN
@@ -671,9 +566,19 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PEN = "PEN";
 
         /// <summary>
+        /// PGK
+        /// </summary>
+        public const string PGK = "PGK";
+
+        /// <summary>
         /// PHP
         /// </summary>
         public const string PHP = "PHP";
+
+        /// <summary>
+        /// PKR
+        /// </summary>
+        public const string PKR = "PKR";
 
         /// <summary>
         /// PLN
@@ -681,9 +586,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string PLN = "PLN";
 
         /// <summary>
-        /// EUR
+        /// PYG
         /// </summary>
-        public const string EUR = "EUR";
+        public const string PYG = "PYG";
 
         /// <summary>
         /// QAR
@@ -696,6 +601,11 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RON = "RON";
 
         /// <summary>
+        /// RSD
+        /// </summary>
+        public const string RSD = "RSD";
+
+        /// <summary>
         /// RUB
         /// </summary>
         public const string RUB = "RUB";
@@ -706,74 +616,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string RWF = "RWF";
 
         /// <summary>
-        /// XCD
-        /// </summary>
-        public const string XCD = "XCD";
-
-        /// <summary>
-        /// XCD
-        /// </summary>
-        public const string XCD = "XCD";
-
-        /// <summary>
-        /// XCD
-        /// </summary>
-        public const string XCD = "XCD";
-
-        /// <summary>
-        /// WST
-        /// </summary>
-        public const string WST = "WST";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// STD
-        /// </summary>
-        public const string STD = "STD";
-
-        /// <summary>
         /// SAR
         /// </summary>
         public const string SAR = "SAR";
-
-        /// <summary>
-        /// XOF
-        /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// RSD
-        /// </summary>
-        public const string RSD = "RSD";
-
-        /// <summary>
-        /// SCR
-        /// </summary>
-        public const string SCR = "SCR";
-
-        /// <summary>
-        /// SLL
-        /// </summary>
-        public const string SLL = "SLL";
-
-        /// <summary>
-        /// SGD
-        /// </summary>
-        public const string SGD = "SGD";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
 
         /// <summary>
         /// SBD
@@ -781,29 +626,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string SBD = "SBD";
 
         /// <summary>
-        /// SOS
+        /// SCR
         /// </summary>
-        public const string SOS = "SOS";
-
-        /// <summary>
-        /// ZAR
-        /// </summary>
-        public const string ZAR = "ZAR";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// SSP
-        /// </summary>
-        public const string SSP = "SSP";
-
-        /// <summary>
-        /// LKR
-        /// </summary>
-        public const string LKR = "LKR";
+        public const string SCR = "SCR";
 
         /// <summary>
         /// SDG
@@ -811,24 +636,49 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string SDG = "SDG";
 
         /// <summary>
-        /// SRD
-        /// </summary>
-        public const string SRD = "SRD";
-
-        /// <summary>
-        /// SZL
-        /// </summary>
-        public const string SZL = "SZL";
-
-        /// <summary>
         /// SEK
         /// </summary>
         public const string SEK = "SEK";
 
         /// <summary>
-        /// CHF
+        /// SGD
         /// </summary>
-        public const string CHF = "CHF";
+        public const string SGD = "SGD";
+
+        /// <summary>
+        /// SHP
+        /// </summary>
+        public const string SHP = "SHP";
+
+        /// <summary>
+        /// SLL
+        /// </summary>
+        public const string SLL = "SLL";
+
+        /// <summary>
+        /// SOS
+        /// </summary>
+        public const string SOS = "SOS";
+
+        /// <summary>
+        /// SRD
+        /// </summary>
+        public const string SRD = "SRD";
+
+        /// <summary>
+        /// SSP
+        /// </summary>
+        public const string SSP = "SSP";
+
+        /// <summary>
+        /// STN
+        /// </summary>
+        public const string STN = "STN";
+
+        /// <summary>
+        /// SVC
+        /// </summary>
+        public const string SVC = "SVC";
 
         /// <summary>
         /// SYP
@@ -836,19 +686,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string SYP = "SYP";
 
         /// <summary>
-        /// TWD
+        /// SZL
         /// </summary>
-        public const string TWD = "TWD";
-
-        /// <summary>
-        /// TJS
-        /// </summary>
-        public const string TJS = "TJS";
-
-        /// <summary>
-        /// TZS
-        /// </summary>
-        public const string TZS = "TZS";
+        public const string SZL = "SZL";
 
         /// <summary>
         /// THB
@@ -856,29 +696,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string THB = "THB";
 
         /// <summary>
-        /// XOF
+        /// TJS
         /// </summary>
-        public const string XOF = "XOF";
-
-        /// <summary>
-        /// TOP
-        /// </summary>
-        public const string TOP = "TOP";
-
-        /// <summary>
-        /// TTD
-        /// </summary>
-        public const string TTD = "TTD";
-
-        /// <summary>
-        /// TND
-        /// </summary>
-        public const string TND = "TND";
-
-        /// <summary>
-        /// TRY
-        /// </summary>
-        public const string TRY = "TRY";
+        public const string TJS = "TJS";
 
         /// <summary>
         /// TMT
@@ -886,9 +706,34 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string TMT = "TMT";
 
         /// <summary>
-        /// UGX
+        /// TND
         /// </summary>
-        public const string UGX = "UGX";
+        public const string TND = "TND";
+
+        /// <summary>
+        /// TOP
+        /// </summary>
+        public const string TOP = "TOP";
+
+        /// <summary>
+        /// TRY
+        /// </summary>
+        public const string TRY = "TRY";
+
+        /// <summary>
+        /// TTD
+        /// </summary>
+        public const string TTD = "TTD";
+
+        /// <summary>
+        /// TWD
+        /// </summary>
+        public const string TWD = "TWD";
+
+        /// <summary>
+        /// TZS
+        /// </summary>
+        public const string TZS = "TZS";
 
         /// <summary>
         /// UAH
@@ -896,9 +741,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string UAH = "UAH";
 
         /// <summary>
-        /// AED
+        /// UGX
         /// </summary>
-        public const string AED = "AED";
+        public const string UGX = "UGX";
 
         /// <summary>
         /// USD
@@ -906,9 +751,24 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string USD = "USD";
 
         /// <summary>
+        /// USN
+        /// </summary>
+        public const string USN = "USN";
+
+        /// <summary>
+        /// UYI
+        /// </summary>
+        public const string UYI = "UYI";
+
+        /// <summary>
         /// UYU
         /// </summary>
         public const string UYU = "UYU";
+
+        /// <summary>
+        /// UYW
+        /// </summary>
+        public const string UYW = "UYW";
 
         /// <summary>
         /// UZS
@@ -916,19 +776,9 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string UZS = "UZS";
 
         /// <summary>
-        /// VUV
+        /// VES7​
         /// </summary>
-        public const string VUV = "VUV";
-
-        /// <summary>
-        /// EUR
-        /// </summary>
-        public const string EUR = "EUR";
-
-        /// <summary>
-        /// VEF
-        /// </summary>
-        public const string VEF = "VEF";
+        public const string VES7​ = "VES7​";
 
         /// <summary>
         /// VND
@@ -936,14 +786,114 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         public const string VND = "VND";
 
         /// <summary>
+        /// VUV
+        /// </summary>
+        public const string VUV = "VUV";
+
+        /// <summary>
+        /// WST
+        /// </summary>
+        public const string WST = "WST";
+
+        /// <summary>
+        /// XAF
+        /// </summary>
+        public const string XAF = "XAF";
+
+        /// <summary>
+        /// XAG
+        /// </summary>
+        public const string XAG = "XAG";
+
+        /// <summary>
+        /// XAU
+        /// </summary>
+        public const string XAU = "XAU";
+
+        /// <summary>
+        /// XBA
+        /// </summary>
+        public const string XBA = "XBA";
+
+        /// <summary>
+        /// XBB
+        /// </summary>
+        public const string XBB = "XBB";
+
+        /// <summary>
+        /// XBC
+        /// </summary>
+        public const string XBC = "XBC";
+
+        /// <summary>
+        /// XBD
+        /// </summary>
+        public const string XBD = "XBD";
+
+        /// <summary>
+        /// XCD
+        /// </summary>
+        public const string XCD = "XCD";
+
+        /// <summary>
+        /// XDR
+        /// </summary>
+        public const string XDR = "XDR";
+
+        /// <summary>
+        /// XOF
+        /// </summary>
+        public const string XOF = "XOF";
+
+        /// <summary>
+        /// XPD
+        /// </summary>
+        public const string XPD = "XPD";
+
+        /// <summary>
+        /// XPF
+        /// </summary>
+        public const string XPF = "XPF";
+
+        /// <summary>
+        /// XPT
+        /// </summary>
+        public const string XPT = "XPT";
+
+        /// <summary>
+        /// XSU
+        /// </summary>
+        public const string XSU = "XSU";
+
+        /// <summary>
+        /// XTS
+        /// </summary>
+        public const string XTS = "XTS";
+
+        /// <summary>
+        /// XUA
+        /// </summary>
+        public const string XUA = "XUA";
+
+        /// <summary>
+        /// XXX
+        /// </summary>
+        public const string XXX = "XXX";
+
+        /// <summary>
         /// YER
         /// </summary>
         public const string YER = "YER";
 
         /// <summary>
-        /// ZMK
+        /// ZAR
         /// </summary>
-        public const string ZMK = "ZMK";
+        public const string ZAR = "ZAR";
+
+        /// <summary>
+        /// ZMW
+        /// </summary>
+        public const string ZMW = "ZMW";
 
         /// <summary>
         /// ZWL
