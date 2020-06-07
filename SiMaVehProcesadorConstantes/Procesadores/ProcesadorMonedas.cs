@@ -23,7 +23,7 @@ namespace SiMaVehProcesadorConstantes.Procesadores
 
         public ResultadoGeneracionLoader ProcesarMonedas(string directorioBase)
         {
-            var infoMonedas = infoMonedaLoader.LoadInfo(directorioBase, string.Empty, true);
+            var infoMonedas = infoMonedaLoader.LoadInfo(directorioBase, "Monedas", true);
             monedaGeneradorArchivoConstantes.GenerarArchivo(directorioBase, "Moneda", "Monedas", "Monedas", infoMonedas);
             var infoCodsMonedas = infoMonedaLoader.LoadInfo(directorioBase, "MonedasCodigosISO");
             monedaGeneradorArchivoConstantes.GenerarArchivo(directorioBase, "Moneda", "Monedas", "Monedas", infoCodsMonedas);

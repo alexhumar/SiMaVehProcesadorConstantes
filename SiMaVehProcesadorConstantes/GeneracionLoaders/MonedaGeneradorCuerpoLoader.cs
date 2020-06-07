@@ -22,7 +22,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         protected string GenerarEntradaCuerpo(InfoMoneda infoMoneda, string tipoEntidad, string descripcionEntidad)
         {
             var sbLoaders = new StringBuilder();
-            var templateLineaCuerpo = "monedas.Add(datosEntidadBuilder.Build(Constants.Monedas.Moneda.{ 0}, Constants.Monedas.MonedaCodigosISO.{1}));";
+            var templateLineaCuerpo = "monedas.Add(datosEntidadBuilder.Build(Constants.Monedas.Moneda.{0}, Constants.Monedas.MonedaCodigosISO.{1}));";
             var lineasInfoMoneda = infoMoneda.InfoMonedas.GetLineas();
             var lineasInfoCodMoneda = infoMoneda.InfoCodsMonedas.GetLineas();
 

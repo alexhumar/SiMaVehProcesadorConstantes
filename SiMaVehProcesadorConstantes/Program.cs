@@ -38,14 +38,14 @@ namespace SiMaVehProcesadorConstantes
             var currentPartidoId = startID;
             var currentLocalidadId = startID;
 
-            foreach (var subdirectorio in Directory.GetDirectories(inputDirectory))
-            {
-                var nombreProvincia = Path.GetFileName(subdirectorio);
-                var resultadoPartidos = procesadorPartidos.ProcesarPartidos(baseDirectory, nombreProvincia, currentPartidoId);
-                currentPartidoId = resultadoPartidos.FinishId;
-                var resultadoLocalidades = procesadorLocalidades.ProcesarLocalidades(baseDirectory, nombreProvincia, currentLocalidadId);
-                currentLocalidadId = resultadoLocalidades.FinishId;
-            }
+            //foreach (var subdirectorio in Directory.GetDirectories(inputDirectory))
+            //{
+            //    var nombreProvincia = Path.GetFileName(subdirectorio);
+            //    var resultadoPartidos = procesadorPartidos.ProcesarPartidos(baseDirectory, nombreProvincia, currentPartidoId);
+            //    currentPartidoId = resultadoPartidos.FinishId;
+            //    var resultadoLocalidades = procesadorLocalidades.ProcesarLocalidades(baseDirectory, nombreProvincia, currentLocalidadId);
+            //    currentLocalidadId = resultadoLocalidades.FinishId;
+            //}
 
             procesadorMonedas.ProcesarMonedas(baseDirectory);
 
