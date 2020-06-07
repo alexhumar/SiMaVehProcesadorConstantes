@@ -2,6 +2,6 @@
 {
     public interface IInfoLoader<T>
     {
-        T LoadInfo(string directorioBase, string nombreCabecera);
+        T LoadInfo(string directorioBase, string nombreCabecera, bool capitalize = false);
     }
 }

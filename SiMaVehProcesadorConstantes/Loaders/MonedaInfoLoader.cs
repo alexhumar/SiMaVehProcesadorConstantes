@@ -12,9 +12,9 @@ namespace SiMaVehProcesadorConstantes.Loaders
         {
         }
 
-        protected override InfoLinea CrearUnidadInfoEstructura(StreamReader sr, string linea)
+        protected override InfoLinea CrearUnidadInfoEstructura(StreamReader sr, string linea, bool capitalize = false)
         {
-            return CrearInfoLinea(linea);
+            return CrearInfoLinea(linea, capitalize);
         }
 
         protected override string GetNombreInputFile()

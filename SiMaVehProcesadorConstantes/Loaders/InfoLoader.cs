@@ -17,7 +17,7 @@ namespace SiMaVehProcesadorConstantes.Loaders
             this.procesadorConstante = procesadorConstante;
         }
 
-        public T LoadInfo(string directorioBase, string nombreCabecera)
+        public T LoadInfo(string directorioBase, string nombreCabecera, bool capitalize = false)
         {
             var result = new T
             {
@@ -37,27 +37,27 @@ namespace SiMaVehProcesadorConstantes.Loaders
             {
                 while ((linea = sr.ReadLine()) != null)
                 {
-                    result.AgregarUnidad(CrearUnidadInfoEstructura(sr, linea));
+                    result.AgregarUnidad(CrearUnidadInfoEstructura(sr, linea, capitalize));
                 }
             }
 
             return result;
         }
 
-        protected InfoLinea CrearInfoLinea(string linea)
+        protected InfoLinea CrearInfoLinea(string lineaOriginal, bool capitalize = false)
         {
             var textInfo = CultureInfo.InvariantCulture.TextInfo;
-            var lineaTitleCase = textInfo.ToTitleCase(linea);
+            var linea = capitalize ? textInfo.ToTitleCase(lineaOriginal) : lineaOriginal;
 
             return new InfoLinea
             {
-                NombreConstante = procesadorConstante.ProcesarNombreConstante(lineaTitleCase),
-                NombreOriginal = lineaTitleCase
+                NombreConstante = procesadorConstante.ProcesarNombreConstante(linea),
+                NombreOriginal = linea
             };
         }
 
         //TODO: ver si se puede pasar a una nueva estructura de clases
-        protected abstract S CrearUnidadInfoEstructura(StreamReader sr, string linea);
+        protected abstract S CrearUnidadInfoEstructura(StreamReader sr, string linea, bool capitalize = false);
 
         protected abstract string GetNombreInputFile();
     }

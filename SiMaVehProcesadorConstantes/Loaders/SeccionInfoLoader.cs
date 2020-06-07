@@ -12,16 +12,16 @@ namespace SiMaVehProcesadorConstantes.Loaders
         {
         }
 
-        protected override InfoSubseccion CrearUnidadInfoEstructura(StreamReader sr, string linea)
+        protected override InfoSubseccion CrearUnidadInfoEstructura(StreamReader sr, string linea, bool capitalize = false)
         {
             InfoSubseccion result = new InfoSubseccion();
-            result.AgregarUnidad(CrearInfoLinea(linea));
+            result.AgregarUnidad(CrearInfoLinea(linea, capitalize));
 
             string lineaLocal;
 
             while (((lineaLocal = sr.ReadLine()) != null) && !lineaLocal.Contains(Procesamiento.MarcadorCorteControl))
             {
-                result.AgregarUnidad(CrearInfoLinea(lineaLocal));
+                result.AgregarUnidad(CrearInfoLinea(lineaLocal, capitalize));
             }
 
             string nombreCorte = lineaLocal.Replace(Procesamiento.MarcadorCorteControl, string.Empty).Trim();
