@@ -33,7 +33,12 @@ namespace SiMaVehProcesadorConstantes.Procesadores
                 .Replace(".", string.Empty)
                 .Replace("'", string.Empty)
                 .Replace("º", string.Empty)
+                .Replace("(", string.Empty)
+                .Replace(")", string.Empty)
+                .Replace("&", string.Empty)
+                .Replace("+", string.Empty)
                 .Replace("-", string.Empty)
+                .Replace("*", string.Empty)
                 .Replace("/", string.Empty);
         }
 
