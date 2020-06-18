@@ -1,7 +1,9 @@
-﻿using SiMaVehProcesadorConstantes.Constantes;
+﻿using SiMaVehProcesadorConstantes.Comparers;
+using SiMaVehProcesadorConstantes.Constantes;
 using SiMaVehProcesadorConstantes.GeneracionConstantes.Interfaces;
 using SiMaVehProcesadorConstantes.Models.Interfaces;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace SiMaVehProcesadorConstantes.GeneracionConstantes
@@ -9,10 +11,12 @@ namespace SiMaVehProcesadorConstantes.GeneracionConstantes
     public abstract class GeneradorArchivoConstantes<T, S> : IGeneradorArchivoContantes<T> where T : IInfoEstructura<S>
     {
         private readonly GeneradorCuerpoConstantes generadorCuerpoConstantes;
+        private readonly bool filtraOcurrenciasRepetidas;
 
-        public GeneradorArchivoConstantes()
+        public GeneradorArchivoConstantes(bool filtraOcurrenciasRepetidas = false)
         {
             generadorCuerpoConstantes = new GeneradorCuerpoConstantes();
+            this.filtraOcurrenciasRepetidas = filtraOcurrenciasRepetidas;
         }
 
         public void GenerarArchivo(string directorioBase, string tipoEntidad,
@@ -38,8 +42,15 @@ namespace SiMaVehProcesadorConstantes.GeneracionConstantes
                 }
             }
 
+            var lineas = infoEstructura.GetLineas();
+
+            if (filtraOcurrenciasRepetidas)
+            {
+                lineas = lineas.Distinct(new DistinctInfoLineaComparer()).ToList();
+            }
+
             var template = sbTemplate.ToString();
-            var contenido = generadorCuerpoConstantes.Generar(infoEstructura.GetLineas());
+            var contenido = generadorCuerpoConstantes.Generar(lineas);
 
             // Create a file to write to.
             using (StreamWriter sw = File.CreateText(outputConstantesPath))

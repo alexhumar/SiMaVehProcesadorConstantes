@@ -5,18 +5,18 @@ using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
 
 namespace SiMaVehProcesadorConstantes.Procesadores.Builders
 {
-    public class ProcesadorLocalidadesBuilder : IProcesadorBuilder<ProcesadorLocalidades>
+    public class ProcesadorMarcasBuilder : IProcesadorBuilder<ProcesadorMarcas>
     {
         private readonly IProcesadorNombreConstante procesadorConstante;
 
-        public ProcesadorLocalidadesBuilder(IProcesadorNombreConstante procesadorConstante)
+        public ProcesadorMarcasBuilder(IProcesadorNombreConstante procesadorConstante)
         {
             this.procesadorConstante = procesadorConstante;
         }
 
-        public ProcesadorLocalidades BuildProcesador()
+        public ProcesadorMarcas BuildProcesador()
         {
-            return new ProcesadorLocalidades(new LocalidadInfoLoader(procesadorConstante), new SeccionGeneradorArchivoConstantes(), new SeccionGeneradorArchivoLoader());
+            return new ProcesadorMarcas(new MarcaInfoLoader(procesadorConstante), new MarcaGeneradorArchivoConstantes(), new MonedaGeneradorArchivoLoader());
         }
     }
 }

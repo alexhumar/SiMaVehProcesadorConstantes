@@ -1,11 +1,10 @@
-﻿using SiMaVehProcesadorConstantes.Constantes;
-using SiMaVehProcesadorConstantes.Models;
+﻿using SiMaVehProcesadorConstantes.Models;
 using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
 using System.IO;
 
 namespace SiMaVehProcesadorConstantes.Loaders
 {
-    public class SeccionInfoLoader : InfoLoader<InfoSeccion, InfoSubseccion>
+    public abstract class SeccionInfoLoader : InfoLoader<InfoSeccion, InfoSubseccion>
     {
         public SeccionInfoLoader(IProcesadorNombreConstante procesadorConstante)
             : base(procesadorConstante)
@@ -15,16 +14,17 @@ namespace SiMaVehProcesadorConstantes.Loaders
         protected override InfoSubseccion CrearUnidadInfoEstructura(StreamReader sr, string linea, bool capitalize = false)
         {
             InfoSubseccion result = new InfoSubseccion();
+            var marcadorCorteControl = GetMarcadorCorteControl();
             result.AgregarUnidad(CrearInfoLinea(linea, capitalize));
 
             string lineaLocal;
 
-            while (((lineaLocal = sr.ReadLine()) != null) && !lineaLocal.Contains(Procesamiento.MarcadorCorteControl))
+            while (((lineaLocal = sr.ReadLine()) != null) && !lineaLocal.Contains(marcadorCorteControl))
             {
                 result.AgregarUnidad(CrearInfoLinea(lineaLocal, capitalize));
             }
 
-            string nombreCorte = lineaLocal.Replace(Procesamiento.MarcadorCorteControl, string.Empty).Trim();
+            string nombreCorte = lineaLocal.Replace(marcadorCorteControl, string.Empty).Trim();
 
             result.Cabecera = new InfoLinea
             {
@@ -35,9 +35,6 @@ namespace SiMaVehProcesadorConstantes.Loaders
             return result;
         }
 
-        protected override string GetNombreInputFile()
-        {
-            return Procesamiento.NombreArchivoSeccion;
-        }
+        protected abstract string GetMarcadorCorteControl();
     }
 }

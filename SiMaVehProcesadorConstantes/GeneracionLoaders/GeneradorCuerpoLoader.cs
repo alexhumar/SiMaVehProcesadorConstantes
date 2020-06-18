@@ -59,7 +59,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             CurrentId = currentId;
         }
 
-        protected string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string descripcionEntidad, string valorEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string valorSuperEntidad)
+        protected virtual string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string descripcionEntidad, string valorEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string valorSuperEntidad)
         {
             var sbLoaders = new StringBuilder();
             var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);

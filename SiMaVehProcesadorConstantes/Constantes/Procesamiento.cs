@@ -2,7 +2,9 @@
 {
     public class Procesamiento
     {
-        public const string MarcadorCorteControl = "-FIN PARTIDO";
+        public const string MarcadorCorteControlLocalidades = "-FIN PARTIDO";
+
+        public const string MarcadorCorteControlMarcas = "-FIN CATEGORIA";
 
         public const string SubdirectorioProcesamiento = "SmvConstantesProcesadas";
 
@@ -11,6 +13,8 @@
         public const string NombreArchivoSubseccion = "Input.txt";
 
         public const string NombreArchivoMoneda = "Input_Moneda.txt";
+
+        public const string NombreArchivoMarca = "Input_Marca.txt";
 
         public const string SubdirectorioTemplates = "SmvTemplates";
 

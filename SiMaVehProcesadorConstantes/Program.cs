@@ -24,10 +24,12 @@ namespace SiMaVehProcesadorConstantes
             IProcesadorBuilder<ProcesadorLocalidades> procesadorLocalidadesBuilder = new ProcesadorLocalidadesBuilder(procesadorConstante);
             IProcesadorBuilder<ProcesadorPartidos> procesadorPartidosBuilder = new ProcesadorPartidosBuilder(procesadorConstante);
             IProcesadorBuilder<ProcesadorMonedas> procesadorMonedasBuilder = new ProcesadorMonedasBuilder(procesadorConstante);
+            IProcesadorBuilder<ProcesadorMarcas> procesadorMarcasBuilder = new ProcesadorMarcasBuilder(procesadorConstante);
 
             var procesadorLocalidades = procesadorLocalidadesBuilder.BuildProcesador();
             var procesadorPartidos = procesadorPartidosBuilder.BuildProcesador();
             var procesadorMonedas = procesadorMonedasBuilder.BuildProcesador();
+            var procesadorMarcas = procesadorMarcasBuilder.BuildProcesador();
 
             #endregion
 
@@ -47,7 +49,9 @@ namespace SiMaVehProcesadorConstantes
             //    currentLocalidadId = resultadoLocalidades.FinishId;
             //}
 
-            procesadorMonedas.ProcesarMonedas(baseDirectory);
+            //procesadorMonedas.ProcesarMonedas(baseDirectory);
+
+            procesadorMarcas.ProcesarMarcas(baseDirectory);
 
             #endregion
         }
