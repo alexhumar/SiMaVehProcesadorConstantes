@@ -1,0 +1,32 @@
+AISIN
+AMSOIL
+Castrol
+CEPSA
+CHAMPION
+CHAMPOIL
+COMMA
+Contact
+DYNAMAX
+elf
+febj
+Feu Vert
+Ford
+K2
+LIQUI MOLY
+MEYLE
+Mobil
+MOTUL
+ORLEN
+Pennzoil
+RAVENOL
+REPSOL
+Shell
+SWAG
+TOTAL
+VAG
+VAICO
+Valvoline
+VATOIL
+YPF
+ZF
+--CATEGORIA categoriaLubricante
