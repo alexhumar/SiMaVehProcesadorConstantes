@@ -8,13 +8,12 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders.Factories
     {
         public IGeneradorCuerpoLoader<T> Get(T infoEstructura, long startId)
         {
-            if (infoEstructura is InfoSeccion)
+            switch (infoEstructura)
             {
-                return new SeccionGeneradorCuerpoLoader(startId) as IGeneradorCuerpoLoader<T>;
-            }
-            else
-            {
-                return new SubseccionGeneradorCuerpoLoader(startId) as IGeneradorCuerpoLoader<T>;
+                case InfoSeccion _:
+                    return new SeccionGeneradorCuerpoLoader(startId) as IGeneradorCuerpoLoader<T>;
+                default:
+                    return new SubseccionGeneradorCuerpoLoader(startId) as IGeneradorCuerpoLoader<T>;
             }
         }
     }

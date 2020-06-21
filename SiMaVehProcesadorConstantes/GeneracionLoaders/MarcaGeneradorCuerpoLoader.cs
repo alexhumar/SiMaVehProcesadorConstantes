@@ -1,38 +1,48 @@
-﻿using SiMaVehProcesadorConstantes.Models;
-using SiMaVehProcesadorConstantes.Models.Interfaces;
+﻿using SiMaVehProcesadorConstantes.GeneracionLoaders.Interfaces;
+using SiMaVehProcesadorConstantes.Models;
 using System.Linq;
 using System.Text;
 
 namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 {
-    public class MarcaGeneradorCuerpoLoader : SeccionGeneradorCuerpoLoader
+    public class MarcaGeneradorCuerpoLoader : IGeneradorCuerpoLoader<InfoMarca>
     {
-        public MarcaGeneradorCuerpoLoader(long currentId)
-            : base(currentId)
+        private string indent;
+        protected string Indent
         {
+            get
+            {
+                if (string.IsNullOrEmpty(indent))
+                {
+                    indent = string.Empty.PadLeft(12);
+                }
+
+                return indent;
+            }
         }
 
-        protected override string GenerarEntradaCuerpo(IInfoEstructura<InfoLinea> infoEstructura, string tipoEntidad, string descripcionEntidad, string valorEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string valorSuperEntidad)
+        protected string GenerarEntradaCuerpo(InfoMarca marcas, string tipoEntidad, string descripcionEntidad)
         {
-            //TODO: ESTO HAY QUE IMPLEMENTARLO BIEN, CON LA LOGICA NECESARIA PARA MARCA...
-
             var sbLoaders = new StringBuilder();
-            var nombreClaseConstante = string.Concat(tipoEntidad, valorEntidad);
-            var lineasPendientesProcesar = infoEstructura.GetLineas().Count();
+            var marcaId = 1;
+            var templateLineaCuerpo = "marcas.Add(datosEntidadBuilder.Build({0}, Constants.Marcas.Marca.{1}, new List<DatosEntidad> {{ {2} }}));";
 
-            sbLoaders.AppendLine(string.Concat(Indent, $"{descripcionEntidad.ToLower()}.Add({tipoSuperEntidad.ToLower()}FixtureGetter.FindByNombre({tipoSuperEntidad}{valorSuperEntidad}.{infoEstructura.Cabecera.NombreConstante}).Id, new List<DatosEntidad>"));
-            sbLoaders.AppendLine(string.Concat(Indent, "{"));
-
-            foreach (var linea in infoEstructura.GetLineas())
+            foreach (var infoMarca in marcas.InfoMarcas)
             {
-                lineasPendientesProcesar--;
-                var stringToWrite = string.Format("datosEntidadBuilder.Build({0}, {1}.{2}){3}", CurrentId, nombreClaseConstante, linea.NombreConstante, lineasPendientesProcesar > 0 ? "," : string.Empty);
-                sbLoaders.AppendLine(string.Concat(SubIndent, stringToWrite));
+                var stringToWrite = string.Format(templateLineaCuerpo, marcaId, infoMarca.Cabecera.NombreConstante, string.Join(", ", infoMarca.Unidades.Select(u => u.NombreOriginal)));
+                sbLoaders.AppendLine(string.Concat(Indent, stringToWrite));
+                marcaId++;
             }
 
-            sbLoaders.AppendLine(string.Concat(Indent, "});"));
-
             return sbLoaders.ToString().TrimEnd();
+        }
+
+        public ResultadoGeneracionCuerpoLoader GenerarCuerpo(InfoMarca infoEstructura, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad)
+        {
+            return new ResultadoGeneracionCuerpoLoader
+            {
+                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, descripcionEntidad)
+            };
         }
     }
 }

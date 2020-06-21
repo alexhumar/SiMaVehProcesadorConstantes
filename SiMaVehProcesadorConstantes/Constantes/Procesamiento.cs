@@ -27,5 +27,7 @@
         public const string SubdirectorioSubseccion = "Partidos";
 
         public const string SubdirectorioMoneda = "Monedas";
+
+        public const string SubdirectorioMarca = "Marcas";
     }
 }

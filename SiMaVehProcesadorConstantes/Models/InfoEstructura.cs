@@ -62,5 +62,14 @@ namespace SiMaVehProcesadorConstantes.Models
                 }
             }
         }
+
+        /// <summary>
+        /// GetHashCode
+        /// </summary>
+        /// <returns></returns>
+        public override int GetHashCode()
+        {
+            return System.HashCode.Combine(base.GetHashCode());
+        }
     }
 }

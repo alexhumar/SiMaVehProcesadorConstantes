@@ -6,18 +6,16 @@ using System.Text;
 
 namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 {
-    //TODO: de este generador de archivo y del de marcas, se puede sacar uno que sirva de clase base, donde se parametrice el tipo que usan (en este caso InfoMoneda)
-    //y creo que tambien se puede generalizar la declaracion del generador cuerpo loader...
-    public class MonedaGeneradorArchivoLoader : IGeneradorArchivoLoader<InfoMoneda>
+    public class MarcaGeneradorArchivoLoader : IGeneradorArchivoLoader<InfoMarca>
     {
-        private readonly MonedaGeneradorCuerpoLoader monedaGeneradorCuerpoLoader;
+        private readonly MarcaGeneradorCuerpoLoader marcaGeneradorCuerpoLoader;
 
-        public MonedaGeneradorArchivoLoader()
+        public MarcaGeneradorArchivoLoader()
         {
-            monedaGeneradorCuerpoLoader = new MonedaGeneradorCuerpoLoader();
+            marcaGeneradorCuerpoLoader = new MarcaGeneradorCuerpoLoader();
         }
 
-        public ResultadoGeneracionLoader GenerarArchivo(InfoMoneda infoEstructura, string directorioBase, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad = null, string descripcionSuperEntidad = null, string nombreSuperEntidad = null, long startId = 0)
+        public ResultadoGeneracionLoader GenerarArchivo(InfoMarca infoEstructura, string directorioBase, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad = null, string descripcionSuperEntidad = null, string nombreSuperEntidad = null, long startId = 0)
         {
             string nombreClase = string.Concat(tipoEntidad, "FixtureGetter");
             string outputLoadersPath = Path.Combine(directorioBase, Procesamiento.SubdirectorioOutput, GetSubdirectorioOutput(), $"{nombreClase}.cs");
@@ -40,7 +38,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             }
 
             var template = sbTemplate.ToString();
-            var resultadoGeneracionCuerpo = monedaGeneradorCuerpoLoader.GenerarCuerpo(infoEstructura, tipoEntidad, descripcionEntidad, null, null, null);
+            var resultadoGeneracionCuerpo = marcaGeneradorCuerpoLoader.GenerarCuerpo(infoEstructura, tipoEntidad, descripcionEntidad, null, null, null);
 
             using (StreamWriter sw = File.CreateText(outputLoadersPath))
             {
@@ -60,12 +58,12 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 
         protected string GetSubdirectorioOutput()
         {
-            return Procesamiento.SubdirectorioMoneda;
+            return Procesamiento.SubdirectorioMarca;
         }
 
         protected string GetTemplateLoaderName()
         {
-            return "TemplateLoaderMoneda.txt";
+            return "TemplateLoaderMarca.txt";
         }
     }
 }

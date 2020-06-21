@@ -1,9 +1,10 @@
-﻿using SiMaVehProcesadorConstantes.Models;
+﻿using SiMaVehProcesadorConstantes.GeneracionLoaders.Interfaces;
+using SiMaVehProcesadorConstantes.Models;
 using System.Text;
 
 namespace SiMaVehProcesadorConstantes.GeneracionLoaders
 {
-    public class MonedaGeneradorCuerpoLoader
+    public class MonedaGeneradorCuerpoLoader : IGeneradorCuerpoLoader<InfoMoneda>
     {
         private string indent;
         protected string Indent
@@ -37,11 +38,11 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             return sbLoaders.ToString().TrimEnd();
         }
 
-        public ResultadoGeneracionCuerpoLoader GenerarCuerpo(InfoMoneda infoMoneda, string tipoEntidad, string descripcionEntidad)
+        public ResultadoGeneracionCuerpoLoader GenerarCuerpo(InfoMoneda infoEstructura, string tipoEntidad, string descripcionEntidad, string tipoSuperEntidad, string descripcionSuperEntidad, string nombreSuperEntidad)
         {
             return new ResultadoGeneracionCuerpoLoader
             {
-                Cuerpo = GenerarEntradaCuerpo(infoMoneda, tipoEntidad, descripcionEntidad)
+                Cuerpo = GenerarEntradaCuerpo(infoEstructura, tipoEntidad, descripcionEntidad)
             };
         }
     }

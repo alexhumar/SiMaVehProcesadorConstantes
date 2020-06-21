@@ -1,4 +1,5 @@
-﻿using SiMaVehProcesadorConstantes.GeneracionConstantes;
+﻿using SiMaVehProcesadorConstantes.Builders;
+using SiMaVehProcesadorConstantes.GeneracionConstantes;
 using SiMaVehProcesadorConstantes.GeneracionLoaders;
 using SiMaVehProcesadorConstantes.Loaders;
 using SiMaVehProcesadorConstantes.Procesadores.Interfaces;
@@ -16,7 +17,7 @@ namespace SiMaVehProcesadorConstantes.Procesadores.Builders
 
         public ProcesadorMarcas BuildProcesador()
         {
-            return new ProcesadorMarcas(new MarcaInfoLoader(procesadorConstante), new MarcaGeneradorArchivoConstantes(), new MonedaGeneradorArchivoLoader());
+            return new ProcesadorMarcas(new MarcaInfoLoader(procesadorConstante), new MarcaGeneradorArchivoConstantes(), new InfoMarcaBuilder(), new MarcaGeneradorArchivoLoader());
         }
     }
 }

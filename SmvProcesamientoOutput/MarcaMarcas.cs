@@ -848,7 +848,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// BORG & BECK
         /// </summary>
-        public const string BORG&BECK = "BORG & BECK";
+        public const string BORGBECK = "BORG & BECK";
 
         /// <summary>
         /// Borsehung
@@ -988,7 +988,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// DRIVE+
         /// </summary>
-        public const string DRIVE+ = "DRIVE+";
+        public const string DRIVE = "DRIVE+";
 
         /// <summary>
         /// DT
@@ -1068,7 +1068,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// FA (Fischer Automotive)
         /// </summary>
-        public const string FA(FischerAutomotive) = "FA (Fischer Automotive)";
+        public const string FAFischerAutomotive = "FA (Fischer Automotive)";
 
         /// <summary>
         /// FACET
@@ -1178,7 +1178,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// H&R
         /// </summary>
-        public const string H&R = "H&R";
+        public const string HR = "H&R";
 
         /// <summary>
         /// HASTINGS
@@ -1208,7 +1208,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// HERTH+BUSS
         /// </summary>
-        public const string HERTH+BUSS = "HERTH+BUSS";
+        public const string HERTHBUSS = "HERTH+BUSS";
 
         /// <summary>
         /// HITACHI
@@ -1278,7 +1278,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// K&N
         /// </summary>
-        public const string K&N = "K&N";
+        public const string KN = "K&N";
 
         /// <summary>
         /// KAMOKA
@@ -1593,7 +1593,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// RH (roadhouse)
         /// </summary>
-        public const string RH(Roadhouse) = "RH (roadhouse)";
+        public const string RHRoadhouse = "RH (roadhouse)";
 
         /// <summary>
         /// RIDEX
@@ -2003,7 +2003,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
         /// <summary>
         /// Buick (SGM)
         /// </summary>
-        public const string Buick(SGM) = "Buick (SGM)";
+        public const string BuickSGM = "Buick (SGM)";
 
         /// <summary>
         /// Cadillac
