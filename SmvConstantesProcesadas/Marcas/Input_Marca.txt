@@ -1,3 +1,4 @@
+No especificada
 AISIN
 AMSOIL
 Castrol
@@ -30,6 +31,7 @@ VATOIL
 YPF
 ZF
 -FIN CATEGORIA categoriaLubricante
+No especificada
 Accelera
 Achilles
 Aeolus
@@ -138,6 +140,7 @@ Yokohama
 Zenises
 Zeta
 -FIN CATEGORIA categoriaNeumatico
+No especificada
 ABAKUS
 ABE
 ABS
@@ -385,6 +388,7 @@ YATO
 ZF
 Zimmermann
 -FIN CATEGORIA categoriaRepuesto
+No especificada
 Abarth
 AC
 Acura
@@ -557,6 +561,7 @@ Wiesmann
 Zastava
 Zuendapp
 -FIN CATEGORIA categoriaAutomovil
+No especificada
 ABS
 AISIN
 Ate
@@ -587,6 +592,7 @@ VATOIL
 YPF
 ZF
 -FIN CATEGORIA categoriaFluido
+No especificada
 Agira
 APE
 Aspro

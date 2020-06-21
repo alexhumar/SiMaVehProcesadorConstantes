@@ -6,6 +6,11 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Marcas
     public class MarcaMarcas
     {
         /// <summary>
+        /// No especificada
+        /// </summary>
+        public const string NoEspecificada = "No especificada";
+
+        /// <summary>
         /// AISIN
         /// </summary>
         public const string AISIN = "AISIN";
