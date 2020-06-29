@@ -508,7 +508,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         /// <summary>
         /// Unidad De Inversión (UDI) Mexicana
         /// </summary>
-        public const string UnidadDeInversion(UDI)Mexicana = "Unidad De Inversión (UDI) Mexicana";
+        public const string UnidadDeInversionUDIMexicana = "Unidad De Inversión (UDI) Mexicana";
 
         /// <summary>
         /// Ringgit Malayo
@@ -753,12 +753,12 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         /// <summary>
         /// Dólar Estadounidense (Siguiente Día)
         /// </summary>
-        public const string DolarEstadounidense(SiguienteDia) = "Dólar Estadounidense (Siguiente Día)";
+        public const string DolarEstadounidenseSiguienteDia = "Dólar Estadounidense (Siguiente Día)";
 
         /// <summary>
         /// Peso En Unidades Indexadas (Uruguay)
         /// </summary>
-        public const string PesoEnUnidadesIndexadas(Uruguay) = "Peso En Unidades Indexadas (Uruguay)";
+        public const string PesoEnUnidadesIndexadasUruguay = "Peso En Unidades Indexadas (Uruguay)";
 
         /// <summary>
         /// Peso Uruguayo
@@ -803,32 +803,32 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         /// <summary>
         /// Plata (Una Onza Troy)
         /// </summary>
-        public const string Plata(UnaOnzaTroy) = "Plata (Una Onza Troy)";
+        public const string PlataUnaOnzaTroy = "Plata (Una Onza Troy)";
 
         /// <summary>
         /// Oro (Una Onza Troy)
         /// </summary>
-        public const string Oro(UnaOnzaTroy) = "Oro (Una Onza Troy)";
+        public const string OroUnaOnzaTroy = "Oro (Una Onza Troy)";
 
         /// <summary>
         /// Unidad Compuesta Europea (EURCO) (Unidad Del Mercados De Bonos)
         /// </summary>
-        public const string UnidadCompuestaEuropea(EURCO)(UnidadDelMercadosDeBonos) = "Unidad Compuesta Europea (EURCO) (Unidad Del Mercados De Bonos)";
+        public const string UnidadCompuestaEuropeaEURCOUnidadDelMercadosDeBonos = "Unidad Compuesta Europea (EURCO) (Unidad Del Mercados De Bonos)";
 
         /// <summary>
         /// Unidad Monetaria Europea (E.M.U.-6) (Unidad Del Mercado De Bonos)
         /// </summary>
-        public const string UnidadMonetariaEuropea(EMU6)(UnidadDelMercadoDeBonos) = "Unidad Monetaria Europea (E.M.U.-6) (Unidad Del Mercado De Bonos)";
+        public const string UnidadMonetariaEuropeaEMU6UnidadDelMercadoDeBonos = "Unidad Monetaria Europea (E.M.U.-6) (Unidad Del Mercado De Bonos)";
 
         /// <summary>
         /// Unidad Europea De Cuenta 9 (E.U.A.-9) (Unidad Del Mercado De Bonos)
         /// </summary>
-        public const string UnidadEuropeaDeCuenta9(EUA9)(UnidadDelMercadoDeBonos) = "Unidad Europea De Cuenta 9 (E.U.A.-9) (Unidad Del Mercado De Bonos)";
+        public const string UnidadEuropeaDeCuenta9EUA9UnidadDelMercadoDeBonos = "Unidad Europea De Cuenta 9 (E.U.A.-9) (Unidad Del Mercado De Bonos)";
 
         /// <summary>
         /// Unidad Europea De Cuenta 17 (E.U.A.-17) (Unidad Del Mercado De Bonos)
         /// </summary>
-        public const string UnidadEuropeaDeCuenta17(EUA17)(UnidadDelMercadoDeBonos) = "Unidad Europea De Cuenta 17 (E.U.A.-17) (Unidad Del Mercado De Bonos)";
+        public const string UnidadEuropeaDeCuenta17EUA17UnidadDelMercadoDeBonos = "Unidad Europea De Cuenta 17 (E.U.A.-17) (Unidad Del Mercado De Bonos)";
 
         /// <summary>
         /// Dólar Del Caribe Oriental
@@ -848,7 +848,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         /// <summary>
         /// Paladio (Una Onza Troy)
         /// </summary>
-        public const string Paladio(UnaOnzaTroy) = "Paladio (Una Onza Troy)";
+        public const string PaladioUnaOnzaTroy = "Paladio (Una Onza Troy)";
 
         /// <summary>
         /// Franco CFP
@@ -858,7 +858,7 @@ namespace SiMaVeh.Domain.DataSeed.Constants.Monedas
         /// <summary>
         /// Platino (Una Onza Troy)
         /// </summary>
-        public const string Platino(UnaOnzaTroy) = "Platino (Una Onza Troy)";
+        public const string PlatinoUnaOnzaTroy = "Platino (Una Onza Troy)";
 
         /// <summary>
         /// SUCRE

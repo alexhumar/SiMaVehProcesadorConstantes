@@ -23,7 +23,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
         protected string GenerarEntradaCuerpo(InfoMoneda infoMoneda, string tipoEntidad, string descripcionEntidad)
         {
             var sbLoaders = new StringBuilder();
-            var templateLineaCuerpo = "monedas.Add(datosEntidadBuilder.Build(Constants.Monedas.Moneda.{0}, Constants.Monedas.MonedaCodigosISO.{1}));";
+            var templateLineaCuerpo = "monedas.Add(datosEntidadBuilder.Build(Constants.Monedas.CodigoISOMoneda.{0}, Constants.Monedas.Moneda.{1}));";
             var lineasInfoMoneda = infoMoneda.InfoMonedas.GetLineas();
             var lineasInfoCodMoneda = infoMoneda.InfoCodsMonedas.GetLineas();
 
@@ -31,7 +31,7 @@ namespace SiMaVehProcesadorConstantes.GeneracionLoaders
             {
                 //Asocio los elementos de las colecciones por su orden...
                 var lineaInfoCodMoneda = lineasInfoCodMoneda[lineasInfoMoneda.IndexOf(lineaInfoMoneda)];
-                var stringToWrite = string.Format(templateLineaCuerpo, lineaInfoMoneda.NombreConstante, lineaInfoCodMoneda.NombreConstante);
+                var stringToWrite = string.Format(templateLineaCuerpo, lineaInfoCodMoneda.NombreConstante, lineaInfoMoneda.NombreConstante);
                 sbLoaders.AppendLine(string.Concat(Indent, stringToWrite));
             }
 
